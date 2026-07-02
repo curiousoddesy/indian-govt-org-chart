@@ -47,7 +47,11 @@ These power the **Geography** dashboard's state selector.
 
 ## AI context
 
-A condensed summary (`ai-context.json`) is generated at build time and injected into the AI agent's system prompt. This gives the chat assistant accurate numbers without sending the entire dataset.
+A retrieval index (`ai-context.json`) is generated at build time. For each
+question, the Netlify Function selects a bounded set of relevant records and
+adds them to the AI agent's evidence-first system prompt. This grounds answers
+without sending the entire dataset on every request. See [[ai-agent]] for the
+request flow, response formatting, and safety rules.
 
 ## Related
 

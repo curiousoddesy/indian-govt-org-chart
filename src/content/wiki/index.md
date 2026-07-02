@@ -8,7 +8,7 @@ Open-source dashboards, search, and an AI agent built on the **Accountable India
 - **Explore** — full-text search across offices, people, jurisdictions, and topics
 - **Geography** — state and district breakdowns with DM coverage
 - **Data Quality** — verification status, confidence scores, collection audit trail
-- **AI Agent** — natural-language Q&A grounded in the dataset (DeepSeek via Netlify function)
+- **[[ai-agent|AI Agent]]** — natural-language Q&A grounded in the dataset, with safe Markdown rendering
 - **Wiki** — documentation for the data model and contribution workflow
 
 ## The dataset

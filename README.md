@@ -1,11 +1,11 @@
 # Indian Government Org Chart
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1f0c3e4-757b-4bbf-bf8d-55e05343a793/deploy-status)](https://app.netlify.com/projects/kisko-bolun-up/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1f0c3e4-757b-4bbf-bf8d-55e05343a793/deploy-status)](https://app.netlify.com/projects/indianorgchart/deploys)
 
 Open-source dashboards, search, geography views, data-quality metrics, wiki docs, and an AI agent — built on the **Accountable India** dataset of every government office in India.
 
 **Live:** https://indianorgchart.netlify.app  
-**Repo:** https://github.com/Djay96/indian-govt-org-chart
+**Repo:** https://github.com/curiousoddesy/indian-govt-org-chart
 
 ---
 
@@ -17,7 +17,7 @@ Open-source dashboards, search, geography views, data-quality metrics, wiki docs
 | **Explore** | Full-text search across 6,600+ records |
 | **Geography** | State/district breakdowns, DM coverage |
 | **Data Quality** | Verification status, confidence scores, audit trail |
-| **AI Agent** | Natural-language Q&A (DeepSeek via Netlify function) |
+| **AI Agent** | Dataset-grounded Q&A with safe, readable Markdown responses (DeepSeek via Netlify function) |
 | **Wiki** | In-app documentation for the data model |
 
 ## Dataset (Accountable India)
@@ -40,7 +40,7 @@ See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the application, data pip
 ## Quick start
 
 ```bash
-git clone https://github.com/Djay96/indian-govt-org-chart.git
+git clone https://github.com/curiousoddesy/indian-govt-org-chart.git
 cd indian-govt-org-chart
 npm install
 cp .env.example .env        # add DEEPSEEK_API_KEY for the AI agent
@@ -59,9 +59,21 @@ npm run deploy              # build + deploy to Netlify prod
 
 | Variable | Required | Purpose |
 |----------|----------|---------|
-| `DEEPSEEK_API_KEY` | For AI Agent | DeepSeek API key — set in [Netlify env vars](https://app.netlify.com/projects/kisko-bolun-up/configuration/env) and local `.env` |
+| `DEEPSEEK_API_KEY` | For AI Agent | DeepSeek API key — set in [Netlify env vars](https://app.netlify.com/projects/indianorgchart/configuration/env) and local `.env` |
 
 **Never commit `.env` or API keys to git.**
+
+## AI Agent response rendering
+
+Assistant responses support GitHub-flavored Markdown, including headings, lists,
+tables, blockquotes, emphasis, links, and code. The browser uses a dedicated
+renderer that escapes raw HTML, rejects unsafe link protocols, and does not load
+remote images from model output.
+
+```bash
+npm run test:chat:coverage         # request validation, retrieval, and API behavior
+npm run test:chat-format:coverage  # Markdown output and safety rules
+```
 
 ## Project structure
 
@@ -76,7 +88,7 @@ npm run deploy              # build + deploy to Netlify prod
 
 ## Related project
 
-**[Kisko Bolun UP](https://indianorgchart.netlify.app)** — a separate civic tool for Uttar Pradesh that maps citizen complaints to responsible officers. Same maintainer, different scope.
+**[Kisko Bolun UP](https://kisko-bolun-up.netlify.app)** — a separate civic tool for Uttar Pradesh that maps citizen complaints to responsible officers. Same maintainer, different scope.
 
 ## License
 

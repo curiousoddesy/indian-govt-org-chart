@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import type { ChatMessage } from "../lib/types";
+import { renderChatMarkdown } from "../lib/chat-markdown.mjs";
 
 const STARTERS = [
   "Who is the DM of Lucknow?",
@@ -90,13 +91,20 @@ export default function Chat() {
               className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
             >
               <div
-                className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
+                className={`max-w-[92%] rounded-2xl px-4 py-3 text-sm leading-relaxed sm:max-w-[85%] ${
                   msg.role === "user"
-                    ? "bg-ink-950 text-white"
-                    : "bg-ink-100 text-ink-800"
+                    ? "rounded-tr-md bg-ink-950 text-white"
+                    : "rounded-tl-md border border-ink-200/80 bg-ink-50 text-ink-800"
                 }`}
               >
-                <p className="whitespace-pre-wrap">{msg.content}</p>
+                {msg.role === "assistant" ? (
+                  <div
+                    className="chat-markdown"
+                    dangerouslySetInnerHTML={{ __html: renderChatMarkdown(msg.content) }}
+                  />
+                ) : (
+                  <p className="whitespace-pre-wrap">{msg.content}</p>
+                )}
               </div>
             </div>
           ))}

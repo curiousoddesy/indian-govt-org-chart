@@ -28,6 +28,7 @@ flowchart TB
     Search["Fuse.js full-text search"]
     Charts["Recharts visualizations"]
     Wiki["Markdown wiki compiler"]
+    ChatRenderer["Safe chat Markdown renderer<br/>GFM · escaped HTML · allowed links"]
   end
 
   subgraph ChatBackend["Netlify chat function"]
@@ -67,6 +68,8 @@ flowchart TB
   ContextCache --> Retrieval --> Prompt
   Prompt --> DeepSeek
   DeepSeek -->|grounded answer| Endpoint
+  Endpoint -->|Markdown response| ChatRenderer
+  ChatRenderer --> Pages
 
   Validator --> Vite
   Builder --> Vite
@@ -83,7 +86,7 @@ flowchart TB
 |---|---|
 | CSV dataset | Canonical government entities, relationships, contacts, provenance, and collection history |
 | Build pipeline | Reject malformed or inconsistent data, enrich relationships, and generate optimized runtime artifacts |
-| Browser | Load the static dataset once, search locally, render dashboards, and display documentation |
+| Browser | Load the static dataset once, search locally, render dashboards and documentation, and safely format AI Markdown |
 | Netlify Function | Validate chat requests, retrieve relevant dataset evidence, and call DeepSeek without exposing the API key |
 | DeepSeek | Generate a response from the system instructions and retrieved records; it does not receive the complete raw dataset |
 | PostgreSQL schema | Optional deployment target for consumers that need a queryable database; it is not used by the hosted application |
@@ -99,6 +102,9 @@ flowchart TB
    together with the `/api/chat` function.
 5. Chat requests retrieve only the most relevant records before contacting
    DeepSeek, keeping prompts bounded and reducing unsupported answers.
+6. Assistant text is parsed as GitHub-flavored Markdown in the browser. Raw HTML
+   is escaped, unsafe link protocols are rejected, and remote images are not
+   loaded from model output.
 
 ## Quality gates
 
@@ -108,7 +114,10 @@ provides:
 - `npm run typecheck`
 - `npm test`
 - `npm run test:chat:coverage`
+- `npm run test:chat-format:coverage`
 - `npm run build`
 
 The chat core is covered across successful responses, missing configuration,
 input rejection, grounding retrieval, upstream failures, and malformed requests.
+The chat formatter is covered across supported Markdown structures, safe and
+unsafe links, raw HTML, image suppression, and non-string fallback behavior.

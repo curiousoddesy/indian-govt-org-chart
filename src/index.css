@@ -102,4 +102,107 @@
   .wiki-content th {
     @apply bg-ink-50 font-semibold;
   }
+
+  .chat-markdown {
+    @apply min-w-0 text-[0.925rem] leading-7 text-ink-800;
+  }
+
+  .chat-markdown > :first-child {
+    @apply mt-0;
+  }
+
+  .chat-markdown > :last-child {
+    @apply mb-0;
+  }
+
+  .chat-markdown h1 {
+    @apply mb-3 mt-5 font-display text-xl font-bold leading-tight text-ink-950;
+  }
+
+  .chat-markdown h2 {
+    @apply mb-2 mt-5 border-b border-ink-200 pb-1.5 font-display text-lg font-semibold leading-snug text-ink-950;
+  }
+
+  .chat-markdown h3,
+  .chat-markdown h4 {
+    @apply mb-2 mt-4 text-base font-semibold leading-snug text-ink-900;
+  }
+
+  .chat-markdown p {
+    @apply mb-3;
+  }
+
+  .chat-markdown ul,
+  .chat-markdown ol {
+    @apply mb-3 ml-5 space-y-1.5;
+  }
+
+  .chat-markdown ul {
+    @apply list-disc;
+  }
+
+  .chat-markdown ol {
+    @apply list-decimal;
+  }
+
+  .chat-markdown li {
+    @apply pl-1;
+  }
+
+  .chat-markdown li::marker {
+    @apply font-semibold text-saffron-600;
+  }
+
+  .chat-markdown strong {
+    @apply font-semibold text-ink-950;
+  }
+
+  .chat-markdown a {
+    @apply font-medium text-saffron-600 underline decoration-saffron-400/50 underline-offset-2 transition hover:decoration-saffron-600;
+  }
+
+  .chat-markdown blockquote {
+    @apply mb-3 border-l-2 border-saffron-400 bg-white/70 py-2 pl-3 pr-2 text-ink-600;
+  }
+
+  .chat-markdown code {
+    @apply rounded bg-ink-200/70 px-1.5 py-0.5 font-mono text-[0.825rem] text-ink-900;
+  }
+
+  .chat-markdown pre {
+    @apply mb-3 max-w-full overflow-x-auto rounded-xl bg-ink-950 p-3 text-sm leading-6 text-ink-100;
+  }
+
+  .chat-markdown pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+
+  .chat-markdown table {
+    @apply mb-3 block max-w-full overflow-x-auto border-separate border-spacing-0 text-left text-sm;
+  }
+
+  .chat-markdown th,
+  .chat-markdown td {
+    @apply border-b border-r border-ink-200 px-3 py-2 align-top first:border-l;
+  }
+
+  .chat-markdown th {
+    @apply border-t bg-white font-semibold text-ink-950;
+  }
+
+  .chat-markdown tr:first-child th:first-child {
+    @apply rounded-tl-lg;
+  }
+
+  .chat-markdown tr:first-child th:last-child {
+    @apply rounded-tr-lg;
+  }
+
+  .chat-markdown hr {
+    @apply my-4 border-0 border-t border-ink-200;
+  }
+
+  .chat-markdown__image-label {
+    @apply italic text-ink-500;
+  }
 }

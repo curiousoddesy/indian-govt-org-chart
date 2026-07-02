@@ -13,6 +13,7 @@
     "test": "node --test",
     "test:chat": "node --test test/chat-core.test.js",
     "test:chat:coverage": "node --experimental-test-coverage --test test/chat-core.test.js",
+    "test:chat-format:coverage": "node --experimental-test-coverage --test test/chat-markdown.test.js",
     "netlify:dev": "npx netlify dev",
     "deploy": "npm run build && npx netlify deploy --prod"
   },

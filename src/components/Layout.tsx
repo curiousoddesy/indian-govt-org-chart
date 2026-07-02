@@ -80,7 +80,7 @@ export default function Layout() {
             Data: ODC-By · Code: MIT · Official contacts only
           </p>
           <a
-            href="https://github.com/Djay96/indian-govt-org-chart"
+            href="https://github.com/curiousoddesy/indian-govt-org-chart"
             target="_blank"
             rel="noreferrer"
             className="hover:text-saffron-600 transition"

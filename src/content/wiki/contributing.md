@@ -16,7 +16,7 @@ See `Accountable India/jobs/progress.md` for current phase status.
 ## Running locally
 
 ```bash
-git clone https://github.com/Djay96/indian-govt-org-chart.git
+git clone https://github.com/curiousoddesy/indian-govt-org-chart.git
 cd indian-govt-org-chart
 npm install
 cp .env.example .env   # add DEEPSEEK_API_KEY for AI agent
