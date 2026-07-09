@@ -1,11 +1,18 @@
 # Indian Government Org Chart
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1f0c3e4-757b-4bbf-bf8d-55e05343a793/deploy-status)](https://app.netlify.com/projects/indianorgchart/deploys)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: ODC-By](https://img.shields.io/badge/data-ODC--By-green.svg)](https://opendatacommons.org/licenses/by/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Open-source dashboards, search, geography views, data-quality metrics, wiki docs, and an AI agent — built on the **Accountable India** dataset of every government office in India.
+**Describe a civic problem. Get the accountability chain — bottom to top.**
+
+Open-source civic tech for India: citizens enter what is going wrong and where; the app returns who is responsible (local office → escalation ladder), with holders and official contacts — grounded only in the **Accountable India** dataset.
 
 **Live:** https://indianorgchart.netlify.app  
-**Repo:** https://github.com/curiousoddesy/indian-govt-org-chart
+**Ask:** https://indianorgchart.netlify.app/ask  
+**Repo:** https://github.com/curiousoddesy/indian-govt-org-chart  
+**Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
@@ -13,11 +20,10 @@ Open-source dashboards, search, geography views, data-quality metrics, wiki docs
 
 | Section | Description |
 |---------|-------------|
-| **Dashboard** | Coverage metrics, charts, quick navigation |
+| **Home / Ask** | Problem + location → structured hierarchy (golden-source resolver + AI narration) |
 | **Explore** | Full-text search across 6,600+ records |
 | **Geography** | State/district breakdowns, DM coverage |
 | **Data Quality** | Verification status, confidence scores, audit trail |
-| **AI Agent** | Dataset-grounded Q&A with safe, readable Markdown responses (DeepSeek via Netlify function) |
 | **Wiki** | In-app documentation for the data model |
 
 ## Dataset (Accountable India)
@@ -99,4 +105,15 @@ All contacts are **official/public channels only** — no personal mobile number
 
 ## Contributing
 
-Verified corrections with source citations are welcome. See the in-app Wiki (`/docs`) or `Accountable India/jobs/` for collection runbooks.
+We want contributors — especially for **data corrections**, **coverage gaps**, and **good first issues**.
+
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for setup, PR checklist, and contribution paths.  
+In-app wiki: `/docs` · collection runbooks: `Accountable India/jobs/`.
+
+### Good first contributions
+
+1. Fix a wrong office-holder with a public source URL  
+2. Add missing public contacts for a Municipal Commissioner / DM / SP  
+3. Expand `responsibility_map.csv` for unmapped citizen topics  
+4. Improve empty states when location is unknown  
+5. Translate or clarify a wiki page
