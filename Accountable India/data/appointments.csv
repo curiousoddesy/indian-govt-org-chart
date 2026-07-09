@@ -2582,3 +2582,313 @@ id,person_id,position_id,start_date,end_date,is_current,appointment_type,notes,s
 2581,2577,1417,,,true,appointed,Superintendent of Police,https://tikamgarh.nic.in/en/whoswho/sp/,0.85,collected,2026-06-30
 2582,2578,1961,,,true,appointed,Superintendent of Police,https://wanaparthy.telangana.gov.in/divisions/police-department/,0.85,collected,2026-06-30
 2583,2579,1165,,,true,appointed,Superintendent of Police,https://haryanapolice.gov.in/Organization,0.85,collected,2026-06-30
+2584,2580,2873,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2585,2581,2874,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2586,2582,2875,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2587,2583,2876,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2588,2584,2877,,,true,appointed,"Secretary, Department of Social Justice & Empowerment",https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2589,2585,2878,,,true,appointed,"Generic ministry node mapped to Secretary, Department of Consumer Affairs",https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.85,collected,2026-07-03
+2590,2586,2879,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2591,2587,2880,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2592,2588,2881,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2593,2589,2882,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2594,2590,2883,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2595,2591,2884,,,true,appointed,"Generic ministry node mapped to Secretary, Department of Water Resources, River Development & Ganga Rejuvenation",https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.85,collected,2026-07-03
+2596,2592,2885,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2597,2593,2886,,,true,appointed,"Secretary, Department of Science & Technology",https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.85,collected,2026-07-03
+2598,2594,2887,,,true,appointed,"Generic ministry node mapped to Secretary, Department of Legal Affairs",https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.85,collected,2026-07-03
+2599,2595,2888,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2600,2596,2889,,,true,appointed,DoPT list as of 2026-07-01,https://documents.doptcirculars.nic.in/D2/D02eod/I-SecykDsyA.pdf,0.90,collected,2026-07-03
+2601,2597,803,,,true,appointed,Official Arunachal Pradesh Police contact directory,https://arunpol.nic.in/contactdir.html,0.80,collected,2026-07-03
+2602,2598,1242,,,true,appointed,Bengaluru North is the renamed Bengaluru Rural district,https://bangalorerural.nic.in/en/whos-who-en/,0.90,collected,2026-07-03
+2603,2599,1243,,,true,appointed,"SP, Bengaluru Rural/Bengaluru North",https://www.newindianexpress.com/states/karnataka/2026/Jan/01/karnataka-government-reshuffles-police-department-transfers-promotes-68-ips-officers,0.80,collected,2026-07-03
+2604,2600,1244,,,true,appointed,Official Bengaluru South district page,https://bengalurusouth.nic.in/en/deputy-commissioner/,0.90,collected,2026-07-03
+2605,2601,1245,,,true,appointed,Official Bengaluru South district page,https://bengalurusouth.nic.in/en/superdent-of-police/,0.90,collected,2026-07-03
+2606,2602,1413,,,true,appointed,Official district directory,https://niwari.nic.in/en/about-district/whos-who/,0.90,collected,2026-07-03
+2607,2603,1415,,,true,appointed,Official district directory,https://panna.nic.in/en/about-district/whos-who/,0.90,collected,2026-07-03
+2608,2604,1571,,,true,appointed,"Official Mizoram Police senior officers list, updated 2026-06-04",https://police.mizoram.gov.in/page/senior-police-officers,0.90,collected,2026-07-03
+2609,2605,1577,,,true,appointed,"Official Mizoram Police senior officers list, updated 2026-06-04",https://police.mizoram.gov.in/page/senior-police-officers,0.90,collected,2026-07-03
+2610,2606,1583,,,true,appointed,"Official Mizoram Police senior officers list, updated 2026-06-04",https://police.mizoram.gov.in/page/senior-police-officers,0.90,collected,2026-07-03
+2611,2607,1585,,,true,appointed,"Official Mizoram Police senior officers list, updated 2026-06-04",https://police.mizoram.gov.in/page/senior-police-officers,0.90,collected,2026-07-03
+2612,2608,1599,,,true,appointed,Official Nagaland Police SP/CO directory,https://police.nagaland.gov.in/sp-co/,0.85,collected,2026-07-03
+2613,2609,1927,,,true,appointed,District policing is headed by the listed Deputy Commissioner of Police,https://jangaon.telangana.gov.in/about-district/whos-who/,0.90,collected,2026-07-03
+2614,2610,1929,,,true,appointed,"District policing is under the Commissioner of Police, Warangal",https://hanumakonda.telangana.gov.in/divisions/important-officials-en/,0.90,collected,2026-07-03
+2615,2611,1947,,,true,appointed,District policing is under Malkajgiri Police Commissionerate,https://malkajgiripolice.telangana.gov.in/index.html,0.90,collected,2026-07-03
+2616,2612,1951,,,true,appointed,"Primary district policing mapped to Commissioner of Police, Cyberabad",https://www.cyberabadpolice.gov.in/,0.85,collected,2026-07-03
+2617,2613,2182,,,true,appointed,Collector of Kolkata (Stamp & Revenue); official page lists current DM,https://kolkatacollectorate.wb.gov.in/whos-who/,0.90,collected,2026-07-03
+2618,2614,2291,,,true,appointed,SP appointed when Zanskar district was operationalised,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-03
+2619,2615,2293,,,true,appointed,SP appointed when Drass district was operationalised,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-03
+2620,2616,2295,,,true,appointed,SP appointed when Sham district was operationalised,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-03
+2621,2617,2297,,,true,appointed,SP appointed when Nubra district was operationalised,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-03
+2622,2618,2299,,,true,appointed,SP appointed when Changthang district was operationalised,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-03
+2623,2619,2317,,,true,appointed,Current holder reported on Mangalagiri – Tadepalli Municipal Corporation,https://en.wikipedia.org/wiki/Mangalagiri_%E2%80%93_Tadepalli_Municipal_Corporation,0.65,collected,2026-07-03
+2624,2620,2322,,,true,appointed,Current holder reported on Eluru Municipal Corporation,https://en.wikipedia.org/wiki/Eluru_Municipal_Corporation,0.65,collected,2026-07-03
+2625,2621,2336,,,true,appointed,Current holder reported on Itanagar Municipal Corporation,https://en.wikipedia.org/wiki/Itanagar_Municipal_Corporation,0.65,collected,2026-07-03
+2626,2622,2337,,,true,appointed,Current holder reported on Itanagar Municipal Corporation,https://en.wikipedia.org/wiki/Itanagar_Municipal_Corporation,0.65,collected,2026-07-03
+2627,2623,2338,,,true,appointed,Current holder reported on Guwahati Municipal Corporation,https://en.wikipedia.org/wiki/Guwahati_Municipal_Corporation,0.65,collected,2026-07-03
+2628,2624,2339,,,true,appointed,Current holder reported on Guwahati Municipal Corporation,https://en.wikipedia.org/wiki/Guwahati_Municipal_Corporation,0.65,collected,2026-07-03
+2629,2625,2340,,,true,appointed,Current holder reported on Dibrugarh Municipal Corporation,https://en.wikipedia.org/wiki/Dibrugarh_Municipal_Corporation,0.65,collected,2026-07-03
+2630,2626,2341,,,true,appointed,Current holder reported on Dibrugarh Municipal Corporation,https://en.wikipedia.org/wiki/Dibrugarh_Municipal_Corporation,0.65,collected,2026-07-03
+2631,2627,2342,,,true,appointed,Current holder reported on Silchar,https://en.wikipedia.org/wiki/Silchar,0.65,collected,2026-07-03
+2632,2628,2345,,,true,appointed,Current holder reported on Arrah Municipal Corporation,https://en.wikipedia.org/wiki/Arrah_Municipal_Corporation,0.65,collected,2026-07-03
+2633,2629,2361,,,true,appointed,Current holder reported on Katihar Municipal Corporation,https://en.wikipedia.org/wiki/Katihar_Municipal_Corporation,0.65,collected,2026-07-03
+2634,2630,2382,,,true,appointed,Current holder reported on Chandigarh Municipal Corporation,https://en.wikipedia.org/wiki/Chandigarh_Municipal_Corporation,0.65,collected,2026-07-03
+2635,2631,2383,,,true,appointed,Current holder reported on Chandigarh Municipal Corporation,https://en.wikipedia.org/wiki/Chandigarh_Municipal_Corporation,0.65,collected,2026-07-03
+2636,2632,2384,,,true,appointed,Current holder reported on Raipur Municipal Corporation,https://en.wikipedia.org/wiki/Raipur_Municipal_Corporation,0.65,collected,2026-07-03
+2637,2633,2385,,,true,appointed,Current holder reported on Raipur Municipal Corporation,https://en.wikipedia.org/wiki/Raipur_Municipal_Corporation,0.65,collected,2026-07-03
+2638,2634,2386,,,true,appointed,Current holder reported on Bilaspur Municipal Corporation,https://en.wikipedia.org/wiki/Bilaspur_Municipal_Corporation,0.65,collected,2026-07-03
+2639,2635,2388,,,true,appointed,Current holder reported on Jagdalpur,https://en.wikipedia.org/wiki/Jagdalpur,0.65,collected,2026-07-03
+2640,2636,2390,,,true,appointed,Current holder reported on Durg,https://en.wikipedia.org/wiki/Durg,0.65,collected,2026-07-03
+2641,2637,2392,,,true,appointed,Current holder reported on Korba Municipal Corporation,https://en.wikipedia.org/wiki/Korba_Municipal_Corporation,0.65,collected,2026-07-03
+2642,2638,2393,,,true,appointed,Current holder reported on Korba Municipal Corporation,https://en.wikipedia.org/wiki/Korba_Municipal_Corporation,0.65,collected,2026-07-03
+2643,2639,2394,,,true,appointed,Current holder reported on Rajnandgaon,https://en.wikipedia.org/wiki/Rajnandgaon,0.65,collected,2026-07-03
+2644,2640,2398,,,true,appointed,"Current holder reported on Ambikapur, Chhattisgarh",https://en.wikipedia.org/wiki/Ambikapur%2C_Chhattisgarh,0.65,collected,2026-07-03
+2645,2641,2400,,,true,appointed,Current holder reported on Dhamtari,https://en.wikipedia.org/wiki/Dhamtari,0.65,collected,2026-07-03
+2646,2642,2402,,,true,appointed,Current holder reported on Bhilai,https://en.wikipedia.org/wiki/Bhilai,0.65,collected,2026-07-03
+2647,2643,2406,,,true,appointed,Current holder reported on Corporation of the City of Panaji,https://en.wikipedia.org/wiki/Corporation_of_the_City_of_Panaji,0.65,collected,2026-07-03
+2648,2644,2407,,,true,appointed,Current holder reported on Corporation of the City of Panaji,https://en.wikipedia.org/wiki/Corporation_of_the_City_of_Panaji,0.65,collected,2026-07-03
+2649,2645,2408,,,true,appointed,Current holder reported on Ahmedabad Municipal Corporation,https://en.wikipedia.org/wiki/Ahmedabad_Municipal_Corporation,0.65,collected,2026-07-03
+2650,2646,2409,,,true,appointed,Current holder reported on Ahmedabad Municipal Corporation,https://en.wikipedia.org/wiki/Ahmedabad_Municipal_Corporation,0.65,collected,2026-07-03
+2651,2647,2411,,,true,appointed,Current holder reported on Surat Municipal Corporation,https://en.wikipedia.org/wiki/Surat_Municipal_Corporation,0.65,collected,2026-07-03
+2652,2648,2412,,,true,appointed,Current holder reported on Gandhinagar Municipal Corporation,https://en.wikipedia.org/wiki/Gandhinagar_Municipal_Corporation,0.65,collected,2026-07-03
+2653,2649,2413,,,true,appointed,Current holder reported on Gandhinagar Municipal Corporation,https://en.wikipedia.org/wiki/Gandhinagar_Municipal_Corporation,0.65,collected,2026-07-03
+2654,2650,2414,,,true,appointed,Current holder reported on Vadodara Municipal Corporation,https://en.wikipedia.org/wiki/Vadodara_Municipal_Corporation,0.65,collected,2026-07-03
+2655,2651,2415,,,true,appointed,Current holder reported on Vadodara Municipal Corporation,https://en.wikipedia.org/wiki/Vadodara_Municipal_Corporation,0.65,collected,2026-07-03
+2656,2652,2417,,,true,appointed,Current holder reported on Rajkot Municipal Corporation,https://en.wikipedia.org/wiki/Rajkot_Municipal_Corporation,0.65,collected,2026-07-03
+2657,2653,2421,,,true,appointed,Current holder reported on Jamnagar Municipal Corporation,https://en.wikipedia.org/wiki/Jamnagar_Municipal_Corporation,0.65,collected,2026-07-03
+2658,2654,2422,,,true,appointed,Current holder reported on Junagadh Municipal Corporation,https://en.wikipedia.org/wiki/Junagadh_Municipal_Corporation,0.65,collected,2026-07-03
+2659,2655,2423,,,true,appointed,Current holder reported on Junagadh Municipal Corporation,https://en.wikipedia.org/wiki/Junagadh_Municipal_Corporation,0.65,collected,2026-07-03
+2660,2656,2438,,,true,appointed,Current holder reported on Faridabad Municipal Corporation,https://en.wikipedia.org/wiki/Faridabad_Municipal_Corporation,0.65,collected,2026-07-03
+2661,2657,2439,,,true,appointed,Current holder reported on Faridabad Municipal Corporation,https://en.wikipedia.org/wiki/Faridabad_Municipal_Corporation,0.65,collected,2026-07-03
+2662,2658,2440,,,true,appointed,Current holder reported on Sonipat Municipal Corporation,https://en.wikipedia.org/wiki/Sonipat_Municipal_Corporation,0.65,collected,2026-07-03
+2663,2659,2441,,,true,appointed,Current holder reported on Sonipat Municipal Corporation,https://en.wikipedia.org/wiki/Sonipat_Municipal_Corporation,0.65,collected,2026-07-03
+2664,2660,2442,,,true,appointed,Current holder reported on Panchkula Municipal Corporation,https://en.wikipedia.org/wiki/Panchkula_Municipal_Corporation,0.65,collected,2026-07-03
+2665,2661,2444,,,true,appointed,Current holder reported on Yamunanagar,https://en.wikipedia.org/wiki/Yamunanagar,0.65,collected,2026-07-03
+2666,2662,2445,,,true,appointed,Current holder reported on Yamunanagar,https://en.wikipedia.org/wiki/Yamunanagar,0.65,collected,2026-07-03
+2667,2663,2446,,,true,appointed,Current holder reported on Rohtak Municipal Corporation,https://en.wikipedia.org/wiki/Rohtak_Municipal_Corporation,0.65,collected,2026-07-03
+2668,2664,2447,,,true,appointed,Current holder reported on Rohtak Municipal Corporation,https://en.wikipedia.org/wiki/Rohtak_Municipal_Corporation,0.65,collected,2026-07-03
+2669,2665,2448,,,true,appointed,Current holder reported on Karnal Municipal Corporation,https://en.wikipedia.org/wiki/Karnal_Municipal_Corporation,0.65,collected,2026-07-03
+2670,2666,2449,,,true,appointed,Current holder reported on Karnal Municipal Corporation,https://en.wikipedia.org/wiki/Karnal_Municipal_Corporation,0.65,collected,2026-07-03
+2671,2667,2450,,,true,appointed,Current holder reported on Hisar Municipal Corporation,https://en.wikipedia.org/wiki/Hisar_Municipal_Corporation,0.65,collected,2026-07-03
+2672,2668,2451,,,true,appointed,Current holder reported on Hisar Municipal Corporation,https://en.wikipedia.org/wiki/Hisar_Municipal_Corporation,0.65,collected,2026-07-03
+2673,2669,2452,,,true,appointed,Current holder reported on Panipat Municipal Corporation,https://en.wikipedia.org/wiki/Panipat_Municipal_Corporation,0.65,collected,2026-07-03
+2674,2670,2453,,,true,appointed,Current holder reported on Panipat Municipal Corporation,https://en.wikipedia.org/wiki/Panipat_Municipal_Corporation,0.65,collected,2026-07-03
+2675,2671,2454,,,true,appointed,Current holder reported on Ambala Municipal Corporation,https://en.wikipedia.org/wiki/Ambala_Municipal_Corporation,0.65,collected,2026-07-03
+2676,2672,2455,,,true,appointed,Current holder reported on Ambala Municipal Corporation,https://en.wikipedia.org/wiki/Ambala_Municipal_Corporation,0.65,collected,2026-07-03
+2677,2673,2456,,,true,appointed,Current holder reported on Manesar Municipal Corporation,https://en.wikipedia.org/wiki/Manesar_Municipal_Corporation,0.65,collected,2026-07-03
+2678,2674,2457,,,true,appointed,Current holder reported on Manesar Municipal Corporation,https://en.wikipedia.org/wiki/Manesar_Municipal_Corporation,0.65,collected,2026-07-03
+2679,2675,2458,,,true,appointed,Current holder reported on Shimla Municipal Corporation,https://en.wikipedia.org/wiki/Shimla_Municipal_Corporation,0.65,collected,2026-07-03
+2680,2676,2459,,,true,appointed,Current holder reported on Shimla Municipal Corporation,https://en.wikipedia.org/wiki/Shimla_Municipal_Corporation,0.65,collected,2026-07-03
+2681,2677,2460,,,true,appointed,Current holder reported on Dharamshala Municipal Corporation,https://en.wikipedia.org/wiki/Dharamshala_Municipal_Corporation,0.65,collected,2026-07-03
+2682,2678,2461,,,true,appointed,Current holder reported on Dharamshala Municipal Corporation,https://en.wikipedia.org/wiki/Dharamshala_Municipal_Corporation,0.65,collected,2026-07-03
+2683,2679,2463,,,true,appointed,Current holder reported on Palampur Municipal Corporation,https://en.wikipedia.org/wiki/Palampur_Municipal_Corporation,0.65,collected,2026-07-03
+2684,2680,2465,,,true,appointed,Current holder reported on Solan Municipal Corporation,https://en.wikipedia.org/wiki/Solan_Municipal_Corporation,0.65,collected,2026-07-03
+2685,2681,2467,,,true,appointed,Current holder reported on Mandi Municipal Corporation,https://en.wikipedia.org/wiki/Mandi_Municipal_Corporation,0.65,collected,2026-07-03
+2686,2682,2469,,,true,appointed,Current holder reported on Srinagar Municipal Corporation,https://en.wikipedia.org/wiki/Srinagar_Municipal_Corporation,0.65,collected,2026-07-03
+2687,2683,2470,,,true,appointed,Current holder reported on Jammu Municipal Corporation,https://en.wikipedia.org/wiki/Jammu_Municipal_Corporation,0.65,collected,2026-07-03
+2688,2684,2471,,,true,appointed,Current holder reported on Jammu Municipal Corporation,https://en.wikipedia.org/wiki/Jammu_Municipal_Corporation,0.65,collected,2026-07-03
+2689,2685,2472,,,true,appointed,Current holder reported on Dhanbad Municipal Corporation,https://en.wikipedia.org/wiki/Dhanbad_Municipal_Corporation,0.65,collected,2026-07-03
+2690,2686,2473,,,true,appointed,Current holder reported on Dhanbad Municipal Corporation,https://en.wikipedia.org/wiki/Dhanbad_Municipal_Corporation,0.65,collected,2026-07-03
+2691,2687,2474,,,true,appointed,Current holder reported on Ranchi Municipal Corporation,https://en.wikipedia.org/wiki/Ranchi_Municipal_Corporation,0.65,collected,2026-07-03
+2692,2688,2475,,,true,appointed,Current holder reported on Ranchi Municipal Corporation,https://en.wikipedia.org/wiki/Ranchi_Municipal_Corporation,0.65,collected,2026-07-03
+2693,2689,2476,,,true,appointed,Current holder reported on Deoghar Municipal Corporation,https://en.wikipedia.org/wiki/Deoghar_Municipal_Corporation,0.65,collected,2026-07-03
+2694,2690,2477,,,true,appointed,Current holder reported on Deoghar Municipal Corporation,https://en.wikipedia.org/wiki/Deoghar_Municipal_Corporation,0.65,collected,2026-07-03
+2695,2691,2478,,,true,appointed,Current holder reported on Adityapur Municipal Corporation,https://en.wikipedia.org/wiki/Adityapur_Municipal_Corporation,0.65,collected,2026-07-03
+2696,2692,2479,,,true,appointed,Current holder reported on Adityapur Municipal Corporation,https://en.wikipedia.org/wiki/Adityapur_Municipal_Corporation,0.65,collected,2026-07-03
+2697,2693,2480,,,true,appointed,Current holder reported on Hazaribagh Municipal Corporation,https://en.wikipedia.org/wiki/Hazaribagh_Municipal_Corporation,0.65,collected,2026-07-03
+2698,2694,2481,,,true,appointed,Current holder reported on Hazaribagh Municipal Corporation,https://en.wikipedia.org/wiki/Hazaribagh_Municipal_Corporation,0.65,collected,2026-07-03
+2699,2695,2482,,,true,appointed,Current holder reported on Medininagar Municipal Corporation,https://en.wikipedia.org/wiki/Medininagar_Municipal_Corporation,0.65,collected,2026-07-03
+2700,2696,2483,,,true,appointed,Current holder reported on Medininagar Municipal Corporation,https://en.wikipedia.org/wiki/Medininagar_Municipal_Corporation,0.65,collected,2026-07-03
+2701,2697,2484,,,true,appointed,Current holder reported on Giridih Municipal Corporation,https://en.wikipedia.org/wiki/Giridih_Municipal_Corporation,0.65,collected,2026-07-03
+2702,2698,2485,,,true,appointed,Current holder reported on Giridih Municipal Corporation,https://en.wikipedia.org/wiki/Giridih_Municipal_Corporation,0.65,collected,2026-07-03
+2703,2699,2491,,,true,appointed,Current holder reported on Belagavi City Corporation,https://en.wikipedia.org/wiki/Belagavi_City_Corporation,0.65,collected,2026-07-03
+2704,2700,2492,,,true,appointed,Current holder reported on Kalaburagi City Corporation,https://en.wikipedia.org/wiki/Kalaburagi_City_Corporation,0.65,collected,2026-07-03
+2705,2701,2496,,,true,appointed,Current holder reported on Davanagere City Corporation,https://en.wikipedia.org/wiki/Davanagere_City_Corporation,0.65,collected,2026-07-03
+2706,2702,2497,,,true,appointed,Current holder reported on Davanagere City Corporation,https://en.wikipedia.org/wiki/Davanagere_City_Corporation,0.65,collected,2026-07-03
+2707,2703,2501,,,true,appointed,Current holder reported on Bijapur,https://en.wikipedia.org/wiki/Bijapur,0.65,collected,2026-07-03
+2708,2704,2504,,,true,appointed,Current holder reported on Tumkur,https://en.wikipedia.org/wiki/Tumkur,0.65,collected,2026-07-03
+2709,2705,2505,,,true,appointed,Current holder reported on Tumkur,https://en.wikipedia.org/wiki/Tumkur,0.65,collected,2026-07-03
+2710,2706,2508,,,true,appointed,Current holder reported on Thiruvananthapuram Corporation,https://en.wikipedia.org/wiki/Thiruvananthapuram_Corporation,0.65,collected,2026-07-03
+2711,2707,2510,,,true,appointed,Current holder reported on Kozhikode Municipal Corporation,https://en.wikipedia.org/wiki/Kozhikode_Municipal_Corporation,0.65,collected,2026-07-03
+2712,2708,2512,,,true,appointed,Current holder reported on Kochi Municipal Corporation,https://en.wikipedia.org/wiki/Kochi_Municipal_Corporation,0.65,collected,2026-07-03
+2713,2709,2514,,,true,appointed,Current holder reported on Kollam Municipal Corporation,https://en.wikipedia.org/wiki/Kollam_Municipal_Corporation,0.65,collected,2026-07-03
+2714,2710,2516,,,true,appointed,Current holder reported on Thrissur Municipal Corporation,https://en.wikipedia.org/wiki/Thrissur_Municipal_Corporation,0.65,collected,2026-07-03
+2715,2711,2518,,,true,appointed,Current holder reported on Kannur Municipal Corporation,https://en.wikipedia.org/wiki/Kannur_Municipal_Corporation,0.65,collected,2026-07-03
+2716,2712,2542,,,true,appointed,Current holder reported on Katni,https://en.wikipedia.org/wiki/Katni,0.65,collected,2026-07-03
+2717,2713,2584,,,true,appointed,Current holder reported on Panvel Municipal Corporation,https://en.wikipedia.org/wiki/Panvel_Municipal_Corporation,0.65,collected,2026-07-03
+2718,2714,2591,,,true,appointed,Current holder reported on Malegaon Municipal Corporation,https://en.wikipedia.org/wiki/Malegaon_Municipal_Corporation,0.65,collected,2026-07-03
+2719,2715,2594,,,true,appointed,Current holder reported on Latur City Municipal Corporation,https://en.wikipedia.org/wiki/Latur_City_Municipal_Corporation,0.65,collected,2026-07-03
+2720,2716,2596,,,true,appointed,Current holder reported on Dhule Municipal Corporation,https://en.wikipedia.org/wiki/Dhule_Municipal_Corporation,0.65,collected,2026-07-03
+2721,2717,2598,,,true,appointed,Current holder reported on Chandrapur City Municipal Corporation,https://en.wikipedia.org/wiki/Chandrapur_City_Municipal_Corporation,0.65,collected,2026-07-03
+2722,2718,2600,,,true,appointed,Current holder reported on Parbhani City Municipal Corporation,https://en.wikipedia.org/wiki/Parbhani_City_Municipal_Corporation,0.65,collected,2026-07-03
+2723,2719,2602,,,true,appointed,Current holder reported on Jalna City Municipal Corporation,https://en.wikipedia.org/wiki/Jalna_City_Municipal_Corporation,0.65,collected,2026-07-03
+2724,2720,2606,,,true,appointed,Current holder reported on Aizawl Municipal Corporation,https://en.wikipedia.org/wiki/Aizawl_Municipal_Corporation,0.65,collected,2026-07-03
+2725,2721,2608,,,true,appointed,"Current holder reported on Brahmapur, Odisha",https://en.wikipedia.org/wiki/Brahmapur%2C_Odisha,0.65,collected,2026-07-03
+2726,2722,2609,,,true,appointed,"Current holder reported on Brahmapur, Odisha",https://en.wikipedia.org/wiki/Brahmapur%2C_Odisha,0.65,collected,2026-07-03
+2727,2723,2610,,,true,appointed,Current holder reported on Bhubaneswar Municipal Corporation,https://en.wikipedia.org/wiki/Bhubaneswar_Municipal_Corporation,0.65,collected,2026-07-03
+2728,2724,2611,,,true,appointed,Current holder reported on Bhubaneswar Municipal Corporation,https://en.wikipedia.org/wiki/Bhubaneswar_Municipal_Corporation,0.65,collected,2026-07-03
+2729,2725,2612,,,true,appointed,Current holder reported on Cuttack Municipal Corporation,https://en.wikipedia.org/wiki/Cuttack_Municipal_Corporation,0.65,collected,2026-07-03
+2730,2726,2613,,,true,appointed,Current holder reported on Cuttack Municipal Corporation,https://en.wikipedia.org/wiki/Cuttack_Municipal_Corporation,0.65,collected,2026-07-03
+2731,2727,2615,,,true,appointed,Current holder reported on Rourkela Municipal Corporation,https://en.wikipedia.org/wiki/Rourkela_Municipal_Corporation,0.65,collected,2026-07-03
+2732,2728,2617,,,true,appointed,Current holder reported on Sambalpur,https://en.wikipedia.org/wiki/Sambalpur,0.65,collected,2026-07-03
+2733,2729,2620,,,true,appointed,Current holder reported on Ludhiana Municipal Corporation,https://en.wikipedia.org/wiki/Ludhiana_Municipal_Corporation,0.65,collected,2026-07-03
+2734,2730,2622,,,true,appointed,Current holder reported on Amritsar Municipal Corporation,https://en.wikipedia.org/wiki/Amritsar_Municipal_Corporation,0.65,collected,2026-07-03
+2735,2731,2626,,,true,appointed,Current holder reported on Patiala Municipal Corporation,https://en.wikipedia.org/wiki/Patiala_Municipal_Corporation,0.65,collected,2026-07-03
+2736,2732,2627,,,true,appointed,Current holder reported on Patiala Municipal Corporation,https://en.wikipedia.org/wiki/Patiala_Municipal_Corporation,0.65,collected,2026-07-03
+2737,2733,2631,,,true,appointed,Current holder reported on Bathinda Municipal Corporation,https://en.wikipedia.org/wiki/Bathinda_Municipal_Corporation,0.65,collected,2026-07-03
+2738,2734,2632,,,true,appointed,Current holder reported on Batala Municipal Corporation,https://en.wikipedia.org/wiki/Batala_Municipal_Corporation,0.65,collected,2026-07-03
+2739,2735,2633,,,true,appointed,Current holder reported on Batala Municipal Corporation,https://en.wikipedia.org/wiki/Batala_Municipal_Corporation,0.65,collected,2026-07-03
+2740,2736,2636,,,true,appointed,Current holder reported on Hoshiarpur,https://en.wikipedia.org/wiki/Hoshiarpur,0.65,collected,2026-07-03
+2741,2737,2643,,,true,appointed,Current holder reported on Abohar Municipal Corporation,https://en.wikipedia.org/wiki/Abohar_Municipal_Corporation,0.65,collected,2026-07-03
+2742,2738,2648,,,true,appointed,Current holder reported on Jaipur Municipal Corporation,https://en.wikipedia.org/wiki/Jaipur_Municipal_Corporation,0.65,collected,2026-07-03
+2743,2739,2656,,,true,appointed,Current holder reported on Bikaner Municipal Corporation,https://en.wikipedia.org/wiki/Bikaner_Municipal_Corporation,0.65,collected,2026-07-03
+2744,2740,2657,,,true,appointed,Current holder reported on Bikaner Municipal Corporation,https://en.wikipedia.org/wiki/Bikaner_Municipal_Corporation,0.65,collected,2026-07-03
+2745,2741,2658,,,true,appointed,Current holder reported on Ajmer,https://en.wikipedia.org/wiki/Ajmer,0.65,collected,2026-07-03
+2746,2742,2662,,,true,appointed,Current holder reported on Udaipur Municipal Corporation,https://en.wikipedia.org/wiki/Udaipur_Municipal_Corporation,0.65,collected,2026-07-03
+2747,2743,2663,,,true,appointed,Current holder reported on Udaipur Municipal Corporation,https://en.wikipedia.org/wiki/Udaipur_Municipal_Corporation,0.65,collected,2026-07-03
+2748,2744,2666,,,true,appointed,Current holder reported on Gangtok Municipal Corporation,https://en.wikipedia.org/wiki/Gangtok_Municipal_Corporation,0.65,collected,2026-07-03
+2749,2745,2667,,,true,appointed,Current holder reported on Gangtok Municipal Corporation,https://en.wikipedia.org/wiki/Gangtok_Municipal_Corporation,0.65,collected,2026-07-03
+2750,2746,2668,,,true,appointed,Current holder reported on Greater Chennai Corporation,https://en.wikipedia.org/wiki/Greater_Chennai_Corporation,0.65,collected,2026-07-03
+2751,2747,2669,,,true,appointed,Current holder reported on Greater Chennai Corporation,https://en.wikipedia.org/wiki/Greater_Chennai_Corporation,0.65,collected,2026-07-03
+2752,2748,2683,,,true,appointed,Current holder reported on Tirunelveli Municipal Corporation,https://en.wikipedia.org/wiki/Tirunelveli_Municipal_Corporation,0.65,collected,2026-07-03
+2753,2749,2702,,,true,appointed,Current holder reported on Greater Warangal Municipal Corporation,https://en.wikipedia.org/wiki/Greater_Warangal_Municipal_Corporation,0.65,collected,2026-07-03
+2754,2750,2704,,,true,appointed,Current holder reported on Khammam Municipal Corporation,https://en.wikipedia.org/wiki/Khammam_Municipal_Corporation,0.65,collected,2026-07-03
+2755,2751,2716,,,true,appointed,Current holder reported on Agartala Municipal Corporation,https://en.wikipedia.org/wiki/Agartala_Municipal_Corporation,0.65,collected,2026-07-03
+2756,2752,2717,,,true,appointed,Current holder reported on Agartala Municipal Corporation,https://en.wikipedia.org/wiki/Agartala_Municipal_Corporation,0.65,collected,2026-07-03
+2757,2753,2748,,,true,appointed,Current holder reported on Shahjahanpur,https://en.wikipedia.org/wiki/Shahjahanpur,0.65,collected,2026-07-03
+2758,2754,2750,,,true,appointed,Current holder reported on Dehradun Municipal Corporation,https://en.wikipedia.org/wiki/Dehradun_Municipal_Corporation,0.65,collected,2026-07-03
+2759,2755,2751,,,true,appointed,Current holder reported on Dehradun Municipal Corporation,https://en.wikipedia.org/wiki/Dehradun_Municipal_Corporation,0.65,collected,2026-07-03
+2760,2756,2752,,,true,appointed,Current holder reported on Haldwani Municipal Corporation,https://en.wikipedia.org/wiki/Haldwani_Municipal_Corporation,0.65,collected,2026-07-03
+2761,2757,2753,,,true,appointed,Current holder reported on Haldwani Municipal Corporation,https://en.wikipedia.org/wiki/Haldwani_Municipal_Corporation,0.65,collected,2026-07-03
+2762,2758,2754,,,true,appointed,Current holder reported on Haridwar Municipal Corporation,https://en.wikipedia.org/wiki/Haridwar_Municipal_Corporation,0.65,collected,2026-07-03
+2763,2759,2755,,,true,appointed,Current holder reported on Haridwar Municipal Corporation,https://en.wikipedia.org/wiki/Haridwar_Municipal_Corporation,0.65,collected,2026-07-03
+2764,2760,2756,,,true,appointed,Current holder reported on Rudrapur Municipal Corporation,https://en.wikipedia.org/wiki/Rudrapur_Municipal_Corporation,0.65,collected,2026-07-03
+2765,2761,2757,,,true,appointed,Current holder reported on Rudrapur Municipal Corporation,https://en.wikipedia.org/wiki/Rudrapur_Municipal_Corporation,0.65,collected,2026-07-03
+2766,2762,2758,,,true,appointed,Current holder reported on Kashipur Municipal Corporation,https://en.wikipedia.org/wiki/Kashipur_Municipal_Corporation,0.65,collected,2026-07-03
+2767,2763,2759,,,true,appointed,Current holder reported on Kashipur Municipal Corporation,https://en.wikipedia.org/wiki/Kashipur_Municipal_Corporation,0.65,collected,2026-07-03
+2768,2764,2760,,,true,appointed,Current holder reported on Roorkee Municipal Corporation,https://en.wikipedia.org/wiki/Roorkee_Municipal_Corporation,0.65,collected,2026-07-03
+2769,2765,2761,,,true,appointed,Current holder reported on Roorkee Municipal Corporation,https://en.wikipedia.org/wiki/Roorkee_Municipal_Corporation,0.65,collected,2026-07-03
+2770,2766,2762,,,true,appointed,Current holder reported on Rishikesh Municipal Corporation,https://en.wikipedia.org/wiki/Rishikesh_Municipal_Corporation,0.65,collected,2026-07-03
+2771,2767,2763,,,true,appointed,Current holder reported on Rishikesh Municipal Corporation,https://en.wikipedia.org/wiki/Rishikesh_Municipal_Corporation,0.65,collected,2026-07-03
+2772,2768,2838,,,true,appointed,Current holder reported on Mangaluru City Corporation,https://en.wikipedia.org/wiki/Mangaluru_City_Corporation,0.65,collected,2026-07-03
+2773,2699,2841,,,true,appointed,Current holder reported on Belagavi City Corporation,https://en.wikipedia.org/wiki/Belagavi_City_Corporation,0.65,collected,2026-07-03
+2774,2700,2842,,,true,appointed,Current holder reported on Kalaburagi City Corporation,https://en.wikipedia.org/wiki/Kalaburagi_City_Corporation,0.65,collected,2026-07-03
+2775,2703,2849,,,true,appointed,Current holder reported on Bijapur,https://en.wikipedia.org/wiki/Bijapur,0.65,collected,2026-07-03
+2776,2704,2850,,,true,appointed,Current holder reported on Tumkur,https://en.wikipedia.org/wiki/Tumkur,0.65,collected,2026-07-03
+2777,2705,2851,,,true,appointed,Current holder reported on Tumkur,https://en.wikipedia.org/wiki/Tumkur,0.65,collected,2026-07-03
+2778,2769,2509,,,true,appointed,"Official corporation page, updated 2026-07-02",https://tmc.lsgkerala.gov.in/en/secretary,0.90,collected,2026-07-03
+2779,2770,2511,,,true,appointed,"Official corporation page, updated 2026-07-02",https://kozhikodecorporation.lsgkerala.gov.in/en/node/568,0.90,collected,2026-07-03
+2780,2771,2513,,,true,appointed,Official corporation page,https://kochicorporation.lsgkerala.gov.in/en/secretary/370,0.90,collected,2026-07-03
+2781,2772,2515,,,true,appointed,Official corporation page lists tenure from 2025-08-08 with no end date,https://kollamcorporation.gov.in/index.php/en/former-secretaries,0.85,collected,2026-07-03
+2782,2773,2517,,,true,appointed,Official corporation page,https://thrissurcorporation.lsgkerala.gov.in/en/secretary/370,0.90,collected,2026-07-03
+2783,2774,2519,,,true,appointed,"Official corporation page, reviewed 2026-06-08",https://kannurcorporation.lsgkerala.gov.in/en,0.90,collected,2026-07-03
+2784,2775,2343,,,true,appointed,Official corporation page; commissioner since 2026-04-29,https://www.silcharmunicipality.in/municipal-corporation/,0.90,collected,2026-07-03
+2785,2776,2362,,,true,appointed,Official corporation website,https://www.madhubanimunicipal.com/,0.85,collected,2026-07-03
+2786,2777,2363,,,true,appointed,Official corporation website,https://www.madhubanimunicipal.com/,0.85,collected,2026-07-03
+2787,2778,2605,,,true,appointed,Current municipal notice published 2026-02-04,https://hueiyenlanpao.com/wp-content/uploads/2016/06/04.02.2026-B7.pdf,0.70,collected,2026-07-03
+2788,2779,2749,,,true,appointed,Appointed 2026-03-30,https://indianmasterminds.com/news/up-ias-transfer-soumya-gururani-shahjahanpur-municipal-commissioner-194234/,0.75,collected,2026-07-03
+2789,2780,2436,,,true,appointed,"Official corporation website, 2026",https://mcg.gov.in/,0.95,collected,2026-07-03
+2790,2781,2437,,,true,appointed,"Official corporation website, 2026",https://mcg.gov.in/,0.95,collected,2026-07-03
+2791,2782,2443,,,true,appointed,Official municipal officer directory,https://www.ulbharyana.gov.in/Panchkula/349,0.90,collected,2026-07-03
+2792,2783,2410,,,true,appointed,Elected after 2026 local elections,https://www.gujaratupdates.com/top-stories/gujarat-municipal-corporation-mayor-and-deputy-mayor-list/,0.85,collected,2026-07-03
+2793,2784,2416,,,true,appointed,Elected after 2026 local elections,https://www.gujaratupdates.com/top-stories/gujarat-municipal-corporation-mayor-and-deputy-mayor-list/,0.85,collected,2026-07-03
+2794,2785,2418,,,true,appointed,Elected after 2026 local elections,https://www.gujaratupdates.com/top-stories/gujarat-municipal-corporation-mayor-and-deputy-mayor-list/,0.85,collected,2026-07-03
+2795,2786,2419,,,true,appointed,"Gujarat municipal commissioner directory, June 2026",https://www.smc.gov.in/Content/Documents/Downloads/DMP_English.pdf?ver=406,0.90,collected,2026-07-03
+2796,2787,2420,,,true,appointed,Elected 2026-05-26,https://deshgujarat.com/2026/05/26/jamnagar-municipal-corporation-gets-new-mayor/,0.85,collected,2026-07-03
+2797,2788,2424,,,true,appointed,"First mayor, elected 2026-05-26",https://deshgujarat.com/2026/05/26/nadiad-gandhidham-mahesana-get-first-mayors/,0.85,collected,2026-07-03
+2798,2789,2425,,,true,appointed,"Appointed in Gujarat IAS transfer order, 2026-05-13",https://deshgujarat.com/2026/05/13/gujarat-government-transfers-72-ias-officers-heres-a-full-list/,0.90,collected,2026-07-03
+2799,2790,2426,,,true,appointed,"First mayor, elected 2026-05-26",https://deshgujarat.com/2026/05/26/nadiad-gandhidham-mahesana-get-first-mayors/,0.85,collected,2026-07-03
+2800,2791,2427,,,true,appointed,"Appointed in Gujarat IAS transfer order, 2026-05-13",https://deshgujarat.com/2026/05/13/gujarat-government-transfers-72-ias-officers-heres-a-full-list/,0.90,collected,2026-07-03
+2801,2792,2428,,,true,appointed,"First mayor, elected 2026-05-26",https://deshgujarat.com/2026/05/26/navsari-gets-its-first-mayor/,0.85,collected,2026-07-03
+2802,2793,2429,,,true,appointed,"Appointed in Gujarat IAS transfer order, 2026-05-13",https://deshgujarat.com/2026/05/13/gujarat-government-transfers-72-ias-officers-heres-a-full-list/,0.90,collected,2026-07-03
+2803,2794,2430,,,true,appointed,"First mayor, elected 2026-05-26",https://deshgujarat.com/2026/05/26/ahmedabad-gets-new-mayor/,0.85,collected,2026-07-03
+2804,2795,2431,,,true,appointed,"Appointed in Gujarat IAS transfer order, 2026-05-13",https://deshgujarat.com/2026/05/13/gujarat-government-transfers-72-ias-officers-heres-a-full-list/,0.90,collected,2026-07-03
+2805,2796,2432,,,true,appointed,"First mayor, elected 2026-05-26",https://deshgujarat.com/2026/05/26/nadiad-gandhidham-mahesana-get-first-mayors/,0.85,collected,2026-07-03
+2806,2797,2433,,,true,appointed,"Appointed in Gujarat IAS transfer order, 2026-05-13",https://deshgujarat.com/2026/05/13/gujarat-government-transfers-72-ias-officers-heres-a-full-list/,0.90,collected,2026-07-03
+2807,2798,2434,,,true,appointed,"First mayor, elected 2026-05-28",https://deshgujarat.com/2026/05/28/vapi-gets-its-first-mayor/,0.85,collected,2026-07-03
+2808,2799,2435,,,true,appointed,"Appointed in Gujarat IAS transfer order, 2026-05-13",https://deshgujarat.com/2026/05/13/gujarat-government-transfers-72-ias-officers-heres-a-full-list/,0.90,collected,2026-07-03
+2809,2800,2490,,,true,appointed,Elected 2026-03-18,https://timesofindia.indiatimes.com/city/hubballi/belagavi-gets-new-mayor-as-preeti-wins-poll-kongali-elected-as-deputy/articleshow/129662203.cms,0.80,collected,2026-07-03
+2810,2800,2840,,,true,appointed,Duplicate Belagavi position; elected 2026-03-18,https://timesofindia.indiatimes.com/city/hubballi/belagavi-gets-new-mayor-as-preeti-wins-poll-kongali-elected-as-deputy/articleshow/129662203.cms,0.80,collected,2026-07-03
+2811,2801,2495,,,true,appointed,Current commissioner; council under suspension,https://en.wikipedia.org/wiki/Hubli-Dharwad_Municipal_Corporation,0.70,collected,2026-07-03
+2812,2802,2499,,,true,appointed,Latest identified corporation commissioner,https://hospet.online/ballari-city-corporation-decides-to-install-cctv-cameras-to-monitor-waste-management/,0.70,collected,2026-07-03
+2813,2802,2847,,,true,appointed,Duplicate Ballari position,https://hospet.online/ballari-city-corporation-decides-to-install-cctv-cameras-to-monitor-waste-management/,0.70,collected,2026-07-03
+2814,2803,2503,,,true,appointed,Latest identified corporation commissioner,https://www.inkl.com/news/take-steps-to-avoid-rain-havoc-officers-told,0.70,collected,2026-07-03
+2815,2803,2853,,,true,appointed,Duplicate Shivamogga position,https://www.inkl.com/news/take-steps-to-avoid-rain-havoc-officers-told,0.70,collected,2026-07-03
+2816,2804,2837,,,true,appointed,Serving commissioner in May 2026,https://newskarnataka.com/mysuru/mcc-plans-revival-of-public-toilets-and-e-toilets/12052026/,0.80,collected,2026-07-03
+2817,2805,2839,,,true,appointed,Official smart-city board lists MCC commissioner,https://mangalurusmartcity.net/about-mscl,0.85,collected,2026-07-03
+2818,2806,2843,,,true,appointed,Serving commissioner in February 2026,https://timesofindia.indiatimes.com/city/hubballi/kalaburagi-dcs-car-seized-over-delay-in-land-compensation/articleshow/128821700.cms,0.80,collected,2026-07-03
+2819,2701,2844,,,true,appointed,Current mayor listing,https://en.wikipedia.org/wiki/Davanagere_City_Corporation,0.70,collected,2026-07-03
+2820,2702,2845,,,true,appointed,Current municipal commissioner listing,https://en.wikipedia.org/wiki/Davanagere_City_Corporation,0.70,collected,2026-07-03
+2821,2807,2846,,,true,appointed,Elected in November 2025,https://timesofindia.indiatimes.com/city/hubballi/gadeppa-pujar-elected-as-ballari-mayor-and-mubeena-his-deputy/articleshow/125351443.cms,0.80,collected,2026-07-03
+2822,2808,2649,,,true,appointed,"Official corporation contact page, updated 2026-06-28",https://jaipurmc.org/Presentation/Others/ConctactUs.aspx,0.95,collected,2026-07-03
+2823,2809,2651,,,true,appointed,Serving Jodhpur municipal commissioner in January 2026,https://indiankanoon.org/doc/135896289/,0.70,collected,2026-07-03
+2824,2810,2665,,,true,appointed,Official corporation page,https://lsg.urban.rajasthan.gov.in/content/raj/udh/ulb-bharatpur/en/telephone-directory/nodal-officer.html,0.85,collected,2026-07-03
+2825,2811,2387,,,true,appointed,"Official district directory, updated 2026-07-01",https://bilaspur.gov.in/en/divisions/hod/,0.95,collected,2026-07-03
+2826,2812,2391,,,true,appointed,"Official district directory, updated 2026-06-25",https://durg.gov.in/en/divisions/urban-administration-and-development/,0.90,collected,2026-07-03
+2827,2813,2397,,,true,appointed,Serving commissioner in March 2026,https://npg.news/chhattisgarh/raigarh-nagar-nigam-employee-dismissed-23-march-2026-1307481,0.75,collected,2026-07-03
+2828,2814,2399,,,true,appointed,Current commissioner listing,"https://en.wikipedia.org/wiki/Ambikapur,_Chhattisgarh",0.70,collected,2026-07-03
+2829,2815,2403,,,true,appointed,"Official district directory, updated 2026-06-25",https://durg.gov.in/en/divisions/urban-administration-and-development/,0.90,collected,2026-07-03
+2830,2816,2630,,,true,appointed,Elected 2026-06-11,https://indianexpress.com/article/cities/chandigarh/bathinda-barnala-municipal-corporation-elections-new-mayors-10735345/,0.85,collected,2026-07-03
+2831,2817,2634,,,true,appointed,Elected 2026-06-09,https://www.tribuneindia.com/news/chandigarh/mla-kulwant-singhs-son-sarabjit-samana-elected-mohali-mayor/,0.85,collected,2026-07-03
+2832,2818,2638,,,true,appointed,Elected 2026-06-11,https://theprint.in/india/punjab-aap-councillors-elected-mayors-of-barnala-batala-bathinda-moga-municipal-corporations/2957535/,0.80,collected,2026-07-03
+2833,2819,2646,,,true,appointed,"First mayor, elected 2026-06-11",https://theprint.in/india/punjab-aap-councillors-elected-mayors-of-barnala-batala-bathinda-moga-municipal-corporations/2957535/,0.80,collected,2026-07-03
+2834,2820,435,,,true,appointed,Composite legacy position mapped to the minister holding Irrigation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.85,collected,2026-07-03
+2835,2821,436,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2836,2820,437,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2837,2822,438,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2838,2823,439,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2839,2824,440,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2840,2825,441,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2841,2826,442,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2842,2827,443,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2843,2828,444,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2844,2829,445,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2845,2830,446,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2846,2831,447,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2847,2832,448,,,true,appointed,Composite legacy position mapped to the minister holding Fisheries,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.85,collected,2026-07-03
+2848,2833,449,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2849,2834,450,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2850,2835,451,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2851,2836,452,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2852,2837,453,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2853,2838,454,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2854,2839,455,,,true,appointed,Composite legacy position mapped to the minister holding Transport,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.85,collected,2026-07-03
+2855,2840,456,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2856,2841,457,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2857,2842,458,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2858,2830,460,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2859,2843,461,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2860,2844,462,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2861,2833,463,,,true,appointed,Duplicate dairy-development position,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2862,2845,464,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2863,2846,466,,,true,appointed,Tamil Nadu Lok Bhavan portfolio allocation,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.90,collected,2026-07-03
+2864,2847,467,,,true,appointed,Composite legacy position mapped to the minister holding Forests,https://images.assettype.com/dt-next/2026-05-21/mgqcw36i/Lok_Bhavan__Tamil_Nadu_Press_Release_No__40_Dated__21_05_2026___Tamil_Nadu_Ministers_Portfolio_List_.pdf,0.85,collected,2026-07-03
+2865,2848,2389,,,true,appointed,Serving Jagdalpur commissioner in January 2026,https://www.samagravishwa.com/2025/12/dalpat-sagar-deepotsav-makar-sankranti-jagdalpur-2026.html,0.75,collected,2026-07-03
+2866,2849,2395,,,true,appointed,Serving Rajnandgaon commissioner in April 2026,https://www.btnewsindia.com/paras-verma-rajnandgaon-chairman-appointment/,0.75,collected,2026-07-03
+2867,2850,2396,,,true,appointed,Elected mayor in 2025,https://en.wikipedia.org/wiki/2025_Chhattisgarh_local_elections,0.75,collected,2026-07-03
+2868,2851,2401,,,true,appointed,Serving Dhamtari commissioner in May 2026,https://www.emsindia.com/news/show/3287947/,0.80,collected,2026-07-03
+2869,2852,2462,,,true,appointed,Elected 2026-06-29,https://timesofindia.indiatimes.com/city/chandigarh/bjp-wins-mayoral-posts-in-mandi-congress-retains-palampur-dharamshala-solan-polls-deferred/articleshow/132074676.cms,0.85,collected,2026-07-03
+2870,2853,2464,,,true,appointed,Elected 2026-07-02,https://www.hindustantimes.com/cities/chandigarh-news/bjps-sushma-sharma-is-solan-mayor-101783020211629.html,0.90,collected,2026-07-03
+2871,2854,2466,,,true,appointed,Elected 2026-06-29,https://timesofindia.indiatimes.com/city/chandigarh/bjp-wins-mayoral-posts-in-mandi-congress-retains-palampur-dharamshala-solan-polls-deferred/articleshow/132074676.cms,0.85,collected,2026-07-03
+2872,2855,2543,,,true,appointed,Official corporation RTI publication,https://kmckatni.com/uploads/rti/RTI2024.pdf,0.75,collected,2026-07-03
+2873,2856,2607,,,true,appointed,Named as AMC Municipal Commissioner in April 2026,https://newsonair.gov.in/wp-content/uploads/2026/04/aizwal-1.pdf,0.85,collected,2026-07-03
+2874,2857,2619,,,true,appointed,Official district directory,https://puri.odisha.gov.in/en/about-district/who-s-who,0.90,collected,2026-07-03
+2875,2858,2621,,,true,appointed,Official corporation website,https://mcludhiana.punjab.gov.in/Home,0.95,collected,2026-07-03
+2876,2859,2623,,,true,appointed,Official corporation website,https://mcamritsar.punjab.gov.in/Home,0.95,collected,2026-07-03
+2877,2860,2624,,,true,appointed,Current mayor,https://mcjalandhar.in/,0.85,collected,2026-07-03
+2878,2861,2625,,,true,appointed,"Current commissioner directory, updated December 2025",https://www.indiacustomercare.com/muncipal-corporation-jalandhar-mcj-contact-details,0.75,collected,2026-07-03
+2879,2862,2628,,,true,appointed,Official corporation website,https://mcphagwara.punjab.gov.in/Home,0.95,collected,2026-07-03
+2880,2863,2629,,,true,appointed,Official corporation website,https://mcphagwara.punjab.gov.in/Home,0.95,collected,2026-07-03
+2881,2864,2635,,,true,appointed,Official corporation website,https://mcmohali.punjab.gov.in/Home,0.95,collected,2026-07-03
+2882,2865,2637,,,true,appointed,Official corporation website,https://mchoshiarpur.punjab.gov.in/Home,0.95,collected,2026-07-03
+2883,2866,2639,,,true,appointed,Official corporation website,https://mcmoga.punjab.gov.in/Home,0.95,collected,2026-07-03
+2884,2867,2641,,,true,appointed,Official corporation website,https://mcpathankot.punjab.gov.in/Home,0.95,collected,2026-07-03
+2885,2868,2645,,,true,appointed,Serving commissioner in March 2026,https://www.tribuneindia.com/news/jalandhar/kapurthala-mc-okays-rs-29-51-cr-budget/,0.80,collected,2026-07-03
+2886,2869,2647,,,true,appointed,Serving commissioner in April 2026,https://www.babushahi.com/view-news.php?id=219537,0.80,collected,2026-07-03
+2887,2870,2653,,,true,appointed,Current municipal commissioner listing,"https://en.wikipedia.org/wiki/Kota,_Rajasthan",0.70,collected,2026-07-03
+2888,2871,2655,,,true,appointed,Official corporation page updated January 2026,https://lsg.urban.rajasthan.gov.in/content/raj/udh/nagar-parishad-bhilwara/en/events/cultural-programme-schedules.html,0.85,collected,2026-07-03
+2889,2872,2659,,,true,appointed,Official corporation page updated January 2026,https://lsg.urban.rajasthan.gov.in/content/raj/udh/nagar-nigam-ajmer/en/schemes/intergrated-housing---slum-development-programme--ihsdp-/ihsdp-.html,0.85,collected,2026-07-03
+2890,2873,2661,,,true,appointed,Latest identified Alwar commissioner,https://jantaserishta.com/local/rajasthan/alwar-municipal-corporation-teams-cleaned-various-drains-of-the-city-4039256,0.65,collected,2026-07-03
+2891,2874,2769,,,true,appointed,Official corporation administration page,https://www.durgapurmunicipalcorporation.org/administration.php,0.90,collected,2026-07-03
+2892,2875,2775,,,true,appointed,Appointed commissioner after municipal board dissolution,https://www.ahn24x7.com/latest/another-trinamool-run-municipal-board-heading-for-dissolution-as-siliguri-mayor-resigns,0.80,collected,2026-07-03
+2893,2876,2777,,,true,appointed,"Official district directory, updated 2026-05-27",https://hooghly.nic.in/chandannagar-subdivision/,0.95,collected,2026-07-03
