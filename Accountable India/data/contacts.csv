@@ -3088,3 +3088,8 @@ id,position_id,person_id,body_id,jurisdiction_id,contact_type,value,label,is_pub
 3087,,,137,,office_phone,0824-2220310,Mangaluru City Corporation office,true,false,bbmp.gov.in + dma.karnataka.gov.in + corporation mrc.gov.in sites + 2025-26 news,0.55,2026-06-26
 3088,,,288,,office_email,commissioner_davanagere@yahoo.com,Davanagere-Harihar Municipal Corporation office,true,false,bbmp.gov.in + dma.karnataka.gov.in + corporation mrc.gov.in sites + 2025-26 news,0.55,2026-06-26
 3089,,,288,,office_phone,08192-252899,Davanagere-Harihar Municipal Corporation office,true,false,bbmp.gov.in + dma.karnataka.gov.in + corporation mrc.gov.in sites + 2025-26 news,0.55,2026-06-26
+Mumbai Municipal Commissioner,Municipal Commissioner,Mumbai,mc@mcgm.gov.in,public website
+Pune Municipal Commissioner,Municipal Commissioner,Pune,commissioner@punecorporation.org,public website
+Bengaluru Municipal Commissioner,Municipal Commissioner,Bengaluru,commissioner@bbmp.gov.in,public website
+Chennai Municipal Commissioner,Municipal Commissioner,Chennai,commissioner@chennaicorporation.gov.in,public website
+Hyderabad Municipal Commissioner,Municipal Commissioner,Hyderabad,commissioner@ghmc.gov.in,public website
