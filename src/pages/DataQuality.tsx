@@ -52,12 +52,11 @@ export default function DataQuality() {
   const latestRun = data.metrics.latestCollection;
 
   return (
-    <div className="space-y-8">
+    <div className="page-enter space-y-8">
       <div>
-        <h1 className="font-display text-3xl font-bold text-ink-950">
-          Data Quality
-        </h1>
-        <p className="text-ink-600 mt-2">
+        <p className="eyebrow mb-2">Trust signals</p>
+        <h1 className="display text-3xl sm:text-4xl">Data Quality</h1>
+        <p className="mt-2 text-ink-600">
           Verification status, confidence scores, and collection audit trail for
           the Accountable India dataset.
         </p>
@@ -124,10 +123,8 @@ export default function DataQuality() {
       </div>
 
       {latestRun && (
-        <div className="card p-6">
-          <h3 className="font-display text-lg font-semibold mb-3">
-            Latest Collection Run
-          </h3>
+        <div className="panel p-6">
+          <h3 className="display mb-3 text-lg">Latest Collection Run</h3>
           <dl className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
             <div>
               <dt className="text-ink-400">Date</dt>
@@ -153,13 +150,13 @@ export default function DataQuality() {
       )}
 
       <div className="grid lg:grid-cols-2 gap-6">
-        <div className="card overflow-hidden">
-          <div className="px-5 py-3 border-b bg-amber-50">
-            <h4 className="font-medium text-amber-800">
+        <div className="panel overflow-hidden">
+          <div className="border-b border-amber-200 bg-amber-50 px-5 py-3">
+            <h4 className="font-medium text-amber-900">
               Pending Verification ({pendingRecords.length})
             </h4>
           </div>
-          <div className="max-h-[300px] overflow-y-auto divide-y">
+          <div className="max-h-[300px] divide-y divide-[var(--rule)] overflow-y-auto">
             {pendingRecords.slice(0, 20).map((p) => (
               <div key={p.id} className="px-5 py-2.5 text-sm">
                 <p className="font-medium">{p.title}</p>
@@ -169,15 +166,15 @@ export default function DataQuality() {
           </div>
         </div>
 
-        <div className="card overflow-hidden">
-          <div className="px-5 py-3 border-b bg-red-50">
-            <h4 className="font-medium text-red-800">
+        <div className="panel overflow-hidden">
+          <div className="border-b border-red-200 bg-red-50 px-5 py-3">
+            <h4 className="font-medium text-red-900">
               Stale Records ({staleRecords.length})
             </h4>
           </div>
-          <div className="max-h-[300px] overflow-y-auto divide-y">
+          <div className="max-h-[300px] divide-y divide-[var(--rule)] overflow-y-auto">
             {staleRecords.length === 0 ? (
-              <p className="px-5 py-4 text-sm text-ink-500">No stale records 🎉</p>
+              <p className="px-5 py-4 text-sm text-ink-500">No stale records.</p>
             ) : (
               staleRecords.slice(0, 20).map((p) => (
                 <div key={p.id} className="px-5 py-2.5 text-sm">

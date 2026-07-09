@@ -1,45 +1,103 @@
 import { useState, useRef, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import type { ChatMessage } from "../lib/types";
+import type { AccountabilityResolution } from "../components/HierarchyChain";
+import HierarchyChain from "../components/HierarchyChain";
 import { renderChatMarkdown } from "../lib/chat-markdown.mjs";
+import { resolveAccountability } from "../lib/resolve";
+import { loadDataset } from "../lib/data";
 
-const STARTERS = [
-  "Who is the DM of Lucknow?",
-  "How does the Union Council of Ministers connect to district administration?",
-  "Which office handles water supply complaints?",
-  "What data do we have on Karnataka district collectors?",
+const EXAMPLES = [
+  {
+    problem: "No water in my society for three days",
+    location: "Lucknow",
+  },
+  {
+    problem: "Large pothole on my street, cars are getting damaged",
+    location: "Pune",
+  },
+  {
+    problem: "Police station is not filing my FIR",
+    location: "Jaipur",
+  },
+  {
+    problem: "Garbage not collected for a week",
+    location: "Ahmedabad",
+  },
 ];
 
 export default function Chat() {
+  const [params] = useSearchParams();
+  const [problem, setProblem] = useState(params.get("problem") ?? "");
+  const [location, setLocation] = useState(params.get("location") ?? "");
   const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [input, setInput] = useState("");
+  const [resolution, setResolution] = useState<AccountabilityResolution | null>(
+    null
+  );
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const autoStarted = useRef(false);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, loading]);
+  }, [messages, loading, resolution]);
 
-  async function send(text: string) {
-    const trimmed = text.trim();
+  useEffect(() => {
+    if (autoStarted.current) return;
+    const p = params.get("problem");
+    const loc = params.get("location") ?? "";
+    if (p?.trim()) {
+      autoStarted.current = true;
+      void submit(p, loc);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  async function submit(problemText: string, locationText: string) {
+    const trimmed = problemText.trim();
     if (!trimmed || loading) return;
 
     setError(null);
-    const userMsg: ChatMessage = { role: "user", content: trimmed };
+    setProblem(trimmed);
+    setLocation(locationText.trim());
+    setLoading(true);
+
+    const userContent = locationText.trim()
+      ? `${trimmed}\n\nLocation: ${locationText.trim()}`
+      : trimmed;
+    const userMsg: ChatMessage = { role: "user", content: userContent };
     const next = [...messages, userMsg];
     setMessages(next);
-    setInput("");
-    setLoading(true);
+
+    // Instant structured ladder from the same golden dataset (client-side).
+    try {
+      const dataset = await loadDataset();
+      const localResolution = resolveAccountability(dataset, {
+        problem: trimmed,
+        location: locationText.trim(),
+      }) as AccountabilityResolution;
+      setResolution(localResolution);
+    } catch {
+      // Server will still return resolution.
+    }
 
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: next }),
+        body: JSON.stringify({
+          messages: next,
+          problem: trimmed,
+          location: locationText.trim(),
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
         throw new Error(data.error ?? "Request failed");
+      }
+      if (data.resolution) {
+        setResolution(data.resolution as AccountabilityResolution);
       }
       setMessages([
         ...next,
@@ -56,95 +114,121 @@ export default function Chat() {
   }
 
   return (
-    <div className="flex flex-col h-[calc(100vh-12rem)] max-h-[800px]">
-      <div className="mb-4">
-        <h1 className="font-display text-3xl font-bold text-ink-950">AI Agent</h1>
-        <p className="text-ink-600 mt-2">
-          Ask questions about India&apos;s government org chart, office holders, contacts,
-          and citizen problem routing — powered by DeepSeek and the Accountable India dataset.
+    <div className="page-enter mx-auto flex max-w-3xl flex-col gap-6">
+      <div>
+        <p className="eyebrow mb-2">Who is accountable?</p>
+        <h1 className="display text-3xl sm:text-4xl">
+          Describe the problem. Get the chain.
+        </h1>
+        <p className="mt-2 text-ink-600">
+          Answers come only from the Accountable India register — offices,
+          holders, contacts, and why each level is responsible — bottom to top.
         </p>
       </div>
 
-      <div className="card flex-1 flex flex-col overflow-hidden">
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4">
-          {messages.length === 0 && (
-            <div className="text-center py-8">
-              <p className="text-ink-500 mb-4">Try one of these questions:</p>
-              <div className="flex flex-wrap justify-center gap-2">
-                {STARTERS.map((q) => (
-                  <button
-                    key={q}
-                    type="button"
-                    onClick={() => send(q)}
-                    className="rounded-full border border-ink-200 px-3 py-1.5 text-sm text-ink-600 hover:border-saffron-400 hover:bg-saffron-50/50 transition"
-                  >
-                    {q}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {messages.map((msg, i) => (
-            <div
-              key={i}
-              className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
-            >
-              <div
-                className={`max-w-[92%] rounded-2xl px-4 py-3 text-sm leading-relaxed sm:max-w-[85%] ${
-                  msg.role === "user"
-                    ? "rounded-tr-md bg-ink-950 text-white"
-                    : "rounded-tl-md border border-ink-200/80 bg-ink-50 text-ink-800"
-                }`}
-              >
-                {msg.role === "assistant" ? (
-                  <div
-                    className="chat-markdown"
-                    dangerouslySetInnerHTML={{ __html: renderChatMarkdown(msg.content) }}
-                  />
-                ) : (
-                  <p className="whitespace-pre-wrap">{msg.content}</p>
-                )}
-              </div>
-            </div>
-          ))}
-
-          {loading && (
-            <div className="flex justify-start">
-              <div className="rounded-2xl bg-ink-100 px-4 py-3 text-sm text-ink-500">
-                Thinking…
-              </div>
-            </div>
-          )}
-          <div ref={bottomRef} />
-        </div>
-
-        {error && (
-          <div className="px-4 py-2 bg-red-50 text-red-700 text-sm border-t border-red-100">
-            {error}
-          </div>
-        )}
-
-        <form
-          className="border-t border-ink-100 p-4 flex gap-2"
-          onSubmit={(e) => {
-            e.preventDefault();
-            send(input);
-          }}
-        >
+      <form
+        className="panel space-y-3 p-4 sm:p-5"
+        onSubmit={(e) => {
+          e.preventDefault();
+          void submit(problem, location);
+        }}
+      >
+        <label className="block">
+          <span className="mb-1.5 block text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-ink-500">
+            What is going wrong?
+          </span>
+          <textarea
+            className="input min-h-[88px] resize-y"
+            placeholder="e.g. No water supply in my society for three days"
+            value={problem}
+            onChange={(e) => setProblem(e.target.value)}
+            disabled={loading}
+            required
+          />
+        </label>
+        <label className="block">
+          <span className="mb-1.5 block text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-ink-500">
+            Where? (city or district)
+          </span>
           <input
             type="text"
-            className="input flex-1"
-            placeholder="Ask about offices, officials, or responsibilities…"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
+            className="input"
+            placeholder="e.g. Lucknow"
+            value={location}
+            onChange={(e) => setLocation(e.target.value)}
             disabled={loading}
           />
-          <button type="submit" className="btn-primary shrink-0" disabled={loading || !input.trim()}>
-            Send
-          </button>
-        </form>
-      </div>
+        </label>
+        <button
+          type="submit"
+          className="btn-primary w-full sm:w-auto"
+          disabled={loading || !problem.trim()}
+        >
+          {loading ? "Resolving…" : "Show who is accountable"}
+        </button>
+      </form>
+
+      {messages.length === 0 && (
+        <div>
+          <p className="mb-2 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-ink-500">
+            Try an example
+          </p>
+          <div className="flex flex-col gap-2">
+            {EXAMPLES.map((ex) => (
+              <button
+                key={ex.problem}
+                type="button"
+                onClick={() => {
+                  setProblem(ex.problem);
+                  setLocation(ex.location);
+                  void submit(ex.problem, ex.location);
+                }}
+                className="border border-[var(--rule)] bg-white/80 px-3 py-2.5 text-left text-sm transition hover:border-saffron-400"
+              >
+                <span className="font-medium text-ink-900">{ex.problem}</span>
+                <span className="mt-0.5 block text-ink-500">{ex.location}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {resolution && (
+        <div className="panel p-4 sm:p-6">
+          <HierarchyChain resolution={resolution} />
+        </div>
+      )}
+
+      {messages.filter((m) => m.role === "assistant").length > 0 && (
+        <div className="space-y-3">
+          <p className="text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-ink-500">
+            Agent explanation
+          </p>
+          {messages
+            .filter((m) => m.role === "assistant")
+            .map((msg, i) => (
+              <div
+                key={i}
+                className="border border-[var(--rule)] bg-ink-50/70 px-4 py-3"
+              >
+                <div
+                  className="chat-markdown"
+                  dangerouslySetInnerHTML={{
+                    __html: renderChatMarkdown(msg.content),
+                  }}
+                />
+              </div>
+            ))}
+        </div>
+      )}
+
+      {error && (
+        <div className="border border-red-200 bg-red-50 px-4 py-2 text-sm text-red-700">
+          {error}
+        </div>
+      )}
+
+      <div ref={bottomRef} />
     </div>
   );
 }

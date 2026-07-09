@@ -16,7 +16,8 @@ export default function App() {
         <Route path="explore" element={<Explore />} />
         <Route path="geography" element={<Geography />} />
         <Route path="quality" element={<DataQuality />} />
-        <Route path="chat" element={<Chat />} />
+        <Route path="ask" element={<Chat />} />
+        <Route path="chat" element={<Navigate to="/ask" replace />} />
         <Route path="docs" element={<WikiIndex />} />
         <Route path="docs/:slug" element={<WikiPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

@@ -53,13 +53,12 @@ export default function Geography() {
   }));
 
   return (
-    <div className="space-y-8">
+    <div className="page-enter space-y-8">
       <div>
-        <h1 className="font-display text-3xl font-bold text-ink-950">
-          Geographic Breakdown
-        </h1>
-        <p className="text-ink-600 mt-2">
-          India's administrative hierarchy from Union to ward level — {data.metrics.counts.states}{" "}
+        <p className="eyebrow mb-2">Map of responsibility</p>
+        <h1 className="display text-3xl sm:text-4xl">Geographic Breakdown</h1>
+        <p className="mt-2 text-ink-600">
+          India&apos;s administrative hierarchy from Union to ward level — {data.metrics.counts.states}{" "}
           states/UTs covering {data.metrics.counts.districts} districts.
         </p>
       </div>
@@ -112,18 +111,20 @@ export default function Geography() {
       </div>
 
       <div className="grid lg:grid-cols-3 gap-6">
-        <div className="card p-4 lg:col-span-1 max-h-[500px] overflow-y-auto">
-          <h3 className="font-semibold text-ink-900 mb-3">Select State/UT</h3>
+        <div className="panel max-h-[500px] overflow-y-auto p-4 lg:col-span-1">
+          <h3 className="mb-3 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-ink-500">
+            Select State/UT
+          </h3>
           <div className="space-y-1">
             {stateStats.map((s) => (
               <button
                 key={s.id}
                 type="button"
                 onClick={() => setSelectedState(s.id)}
-                className={`w-full text-left rounded-lg px-3 py-2 text-sm transition ${
+                className={`w-full px-3 py-2 text-left text-sm transition ${
                   selectedState === s.id
                     ? "bg-ink-950 text-white"
-                    : "hover:bg-ink-100 text-ink-700"
+                    : "text-ink-700 hover:bg-ink-100"
                 }`}
               >
                 <span className="font-medium">{s.name}</span>
@@ -137,9 +138,9 @@ export default function Geography() {
 
         <div className="lg:col-span-2 space-y-4">
           {state && (
-            <div className="card p-5">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="font-display text-xl font-semibold">{state.name}</h3>
+            <div className="panel p-5">
+              <div className="mb-4 flex items-center justify-between">
+                <h3 className="display text-xl">{state.name}</h3>
                 <span className={`badge ${statusColor(state.data_status)}`}>
                   {state.data_status}
                 </span>
@@ -165,13 +166,13 @@ export default function Geography() {
             </div>
           )}
 
-          <div className="card overflow-hidden">
-            <div className="px-5 py-3 border-b border-ink-100 bg-ink-50">
+          <div className="panel overflow-hidden">
+            <div className="border-b border-[var(--rule)] bg-ink-50 px-5 py-3">
               <h4 className="font-medium text-ink-800">
                 Positions in {state?.name ?? "…"} ({statePositions.length})
               </h4>
             </div>
-            <div className="max-h-[350px] overflow-y-auto divide-y divide-ink-100">
+            <div className="max-h-[350px] divide-y divide-[var(--rule)] overflow-y-auto">
               {statePositions.slice(0, 50).map((p) => (
                 <div key={p.id} className="px-5 py-3 flex items-center justify-between gap-4">
                   <div className="min-w-0">

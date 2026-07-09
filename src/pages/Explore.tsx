@@ -9,15 +9,13 @@ function DetailPanel({ item }: { item: SearchRecord }) {
   const d = item.data;
 
   return (
-    <div className="card p-6 space-y-4">
+    <div className="panel space-y-4 p-6">
       <div className="flex items-start justify-between gap-4">
         <div>
-          <span className="badge bg-ink-100 text-ink-600 mb-2">{item.type}</span>
-          <h2 className="font-display text-2xl font-bold text-ink-950">
-            {item.label}
-          </h2>
+          <span className="badge mb-2 bg-ink-100 text-ink-600">{item.type}</span>
+          <h2 className="display text-2xl">{item.label}</h2>
           {item.subtitle && (
-            <p className="text-ink-600 mt-1">{item.subtitle}</p>
+            <p className="mt-1 text-ink-600">{item.subtitle}</p>
           )}
         </div>
         {typeof d.data_status === "string" && (
@@ -27,7 +25,7 @@ function DetailPanel({ item }: { item: SearchRecord }) {
         )}
       </div>
 
-      <dl className="grid sm:grid-cols-2 gap-3 text-sm">
+      <dl className="grid gap-2 text-sm sm:grid-cols-2">
         {Object.entries(d)
           .filter(
             ([k, v]) =>
@@ -38,11 +36,11 @@ function DetailPanel({ item }: { item: SearchRecord }) {
           )
           .slice(0, 16)
           .map(([key, value]) => (
-            <div key={key} className="rounded-lg bg-ink-50 px-3 py-2">
-              <dt className="text-xs font-medium text-ink-400 uppercase tracking-wide">
+            <div key={key} className="border border-[var(--rule)] bg-ink-50/70 px-3 py-2">
+              <dt className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-ink-400">
                 {key.replace(/_/g, " ")}
               </dt>
-              <dd className="text-ink-800 mt-0.5 break-words">
+              <dd className="mt-0.5 break-words text-ink-800">
                 {typeof value === "boolean" ? (value ? "Yes" : "No") : String(value)}
               </dd>
             </div>
@@ -91,12 +89,11 @@ export default function Explore() {
   const types = ["all", "position", "person", "jurisdiction", "body", "topic"];
 
   return (
-    <div className="space-y-6">
+    <div className="page-enter space-y-6">
       <div>
-        <h1 className="font-display text-3xl font-bold text-ink-950">
-          Explore Data
-        </h1>
-        <p className="text-ink-600 mt-2">
+        <p className="eyebrow mb-2">Register search</p>
+        <h1 className="display text-3xl sm:text-4xl">Explore Data</h1>
+        <p className="mt-2 text-ink-600">
           Search {data.searchIndex.length.toLocaleString()} records across offices,
           people, jurisdictions, and topics.
         </p>
@@ -110,10 +107,10 @@ export default function Explore() {
             key={t}
             type="button"
             onClick={() => setFilter(t)}
-            className={`rounded-full px-3 py-1.5 text-sm font-medium transition ${
+            className={`px-3 py-1.5 text-sm font-medium transition ${
               filter === t
                 ? "bg-ink-950 text-white"
-                : "bg-ink-100 text-ink-600 hover:bg-ink-200"
+                : "border border-[var(--rule)] bg-white/80 text-ink-600 hover:bg-ink-50"
             }`}
           >
             {t === "all" ? "All" : t.charAt(0).toUpperCase() + t.slice(1)}
@@ -121,21 +118,21 @@ export default function Explore() {
         ))}
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-6">
-        <div className="space-y-2 max-h-[600px] overflow-y-auto">
+      <div className="grid gap-6 lg:grid-cols-2">
+        <div className="max-h-[600px] space-y-2 overflow-y-auto">
           {filteredBrowse.map((item) => (
             <button
               key={`${item.type}-${item.id}`}
               type="button"
               onClick={() => setSelected(item)}
-              className={`w-full text-left rounded-xl border p-4 transition ${
+              className={`w-full border p-4 text-left transition ${
                 selected?.id === item.id && selected?.type === item.type
-                  ? "border-saffron-400 bg-saffron-50/50"
-                  : "border-ink-200 bg-white hover:border-ink-300"
+                  ? "border-saffron-400 bg-saffron-50/40"
+                  : "border-[var(--rule)] bg-white/80 hover:border-ink-300"
               }`}
             >
-              <div className="flex items-center gap-2 mb-1">
-                <span className="badge bg-ink-100 text-ink-600 text-xs">
+              <div className="mb-1 flex items-center gap-2">
+                <span className="badge bg-ink-100 text-ink-600">
                   {item.type}
                 </span>
                 {typeof item.data.jurisdiction_level === "string" && (
@@ -146,7 +143,7 @@ export default function Explore() {
               </div>
               <p className="font-medium text-ink-900">{item.label}</p>
               {item.subtitle && (
-                <p className="text-sm text-ink-500 truncate">{item.subtitle}</p>
+                <p className="truncate text-sm text-ink-500">{item.subtitle}</p>
               )}
             </button>
           ))}
@@ -156,7 +153,7 @@ export default function Explore() {
           {selected ? (
             <DetailPanel item={selected} />
           ) : (
-            <div className="card p-8 text-center text-ink-500">
+            <div className="panel p-8 text-center text-ink-500">
               Select a record or search to view details
             </div>
           )}

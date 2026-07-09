@@ -3,6 +3,8 @@
   publish = "dist"
   functions = "netlify/functions"
 
+# SPA fallback only. /api/chat is served by netlify/functions/chat.ts
+# via export const config = { path: "/api/chat" }.
 [[redirects]]
   from = "/*"
   to = "/index.html"

@@ -24,15 +24,19 @@ export interface Position {
   position_type: string;
   jurisdiction_id: number;
   body_id: number | null;
+  reports_to_position_id?: number | null;
   jurisdiction_name: string | null;
   jurisdiction_level: string | null;
+  state_name?: string | null;
   body_name: string | null;
   person_name: string | null;
   person_party: string | null;
+  reports_to_title?: string | null;
   is_vacant: boolean;
   data_status: string;
   confidence: number | null;
   rank_level: number | null;
+  source_url?: string | null;
 }
 
 export interface Person {
@@ -48,6 +52,7 @@ export interface Contact {
   contact_type: string;
   value: string;
   label: string | null;
+  position_id?: number | null;
   position_title: string | null;
   person_name: string | null;
   jurisdiction_name: string | null;
@@ -112,6 +117,20 @@ export interface Metrics {
   } | null;
 }
 
+export interface ResponsibilityMapping {
+  id: number;
+  topic_id: number;
+  body_id: number | null;
+  position_id: number | null;
+  jurisdiction_level: string | null;
+  priority: number | null;
+  notes: string | null;
+  source_url: string | null;
+  topic_name?: string | null;
+  body_name?: string | null;
+  position_title?: string | null;
+}
+
 export interface Dataset {
   meta: {
     name: string;
@@ -126,6 +145,7 @@ export interface Dataset {
   persons: Person[];
   contacts: Contact[];
   topics: Topic[];
+  responsibilityMap: ResponsibilityMapping[];
   searchIndex: SearchRecord[];
 }
 

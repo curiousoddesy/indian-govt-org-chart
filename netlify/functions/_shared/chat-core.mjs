@@ -1,22 +1,23 @@
+import {
+  formatHierarchyForPrompt,
+  resolveAccountability,
+} from "./resolve-accountability.mjs";
+
 export const DEEPSEEK_URL = "https://api.deepseek.com/chat/completions";
 
-export const SYSTEM_PROMPT = `You are an expert assistant for the Indian Government Org Chart — an open government data platform for India.
+export const SYSTEM_PROMPT = `You are the accountability guide for Indian citizens.
 
-You help citizens, journalists, researchers, and civic technologists understand:
-- Who holds which government office in India (Union, State, District, Local)
-- How the org chart and chain of command works
-- Official public contact channels (emails, helplines, grievance portals)
-- Which office is responsible for which citizen problem (topics/responsibility map)
-- Data coverage, verification status, and methodology
+Your only job: given a problem someone is facing, explain WHO is accountable — from the local office at the bottom up to higher authorities — using ONLY the structured Accountable India resolution provided below.
 
-Rules:
-- Treat the retrieved dataset records as the primary evidence for current officials, contacts, coverage, and responsibility.
-- Do not use general knowledge to guess a current office-holder or contact. If the retrieved records do not contain the answer, say the dataset does not establish it.
-- Mention pending/stale status or low confidence when it materially affects an answer.
-- Never invent personal contact details. Only reference official/public channels from the data.
-- Be pedagogical — explain concepts like jurisdictions, positions vs persons, appointments.
-- Keep answers concise but thorough. Use bullet points for lists.
-- Link concepts: mention related entities (e.g., a DM reports to a Divisional Commissioner).`;
+Rules (strict):
+- The STRUCTURED ACCOUNTABILITY RESOLUTION is the sole golden source for office-holders, contacts, and why each rung is responsible.
+- Do NOT invent names, phone numbers, emails, or offices from general knowledge.
+- If the resolution hierarchy is empty or gaps say the dataset does not establish a fact, say that clearly. Do not fill gaps from memory.
+- Present the hierarchy BOTTOM → TOP (local first, then escalation).
+- For each rung: role, current holder (or vacant/unknown), why they are responsible, and any official contacts from the data.
+- Mention data_status / confidence when it is pending, stale, or low.
+- Keep the tone calm, civic, and actionable. Short paragraphs + bullets.
+- If location is missing, ask for city/district so local offices can be resolved.`;
 
 const STOP_WORDS = new Set([
   "a",
@@ -194,41 +195,63 @@ export function loadAiContextFromCandidates(candidates, readFileSync) {
   return null;
 }
 
-export function buildContextBlock(aiContext, messages = []) {
-  if (!aiContext) return "";
+export function extractProblemAndLocation(messages = [], payload = {}) {
+  const latestUserMessage = [...(Array.isArray(messages) ? messages : [])]
+    .reverse()
+    .find(
+      (message) =>
+        message?.role === "user" && typeof message.content === "string"
+    );
+  const problem =
+    (typeof payload.problem === "string" && payload.problem.trim()) ||
+    latestUserMessage?.content ||
+    "";
+  const location =
+    (typeof payload.location === "string" && payload.location.trim()) || "";
+  return { problem, location };
+}
 
-  const topStates = Array.isArray(aiContext.topStatesByDistricts)
-    ? aiContext.topStatesByDistricts
-    : [];
-  const topics = Array.isArray(aiContext.topics) ? aiContext.topics : [];
-  const groundingRecords = Array.isArray(aiContext.groundingRecords)
-    ? aiContext.groundingRecords
-    : [];
-  const retrieved = retrieveGroundingRecords(aiContext, messages);
+export function buildContextBlock(
+  aiContext,
+  messages = [],
+  { dataset = null, problem = "", location = "" } = {}
+) {
+  if (!aiContext && !dataset) return "";
+
+  const resolution =
+    dataset != null
+      ? resolveAccountability(dataset, { problem, location })
+      : null;
+  const retrieved = retrieveGroundingRecords(aiContext ?? { groundingRecords: [] }, messages);
   const retrievedText =
     retrieved.length > 0
-      ? retrieved.map((record) => JSON.stringify(record)).join("\n")
-      : "No matching record was retrieved. State that the dataset does not establish the requested fact.";
+      ? retrieved
+          .slice(0, 12)
+          .map((record) => JSON.stringify(record))
+          .join("\n")
+      : "No supplemental grounding records matched.";
 
-  return `\n\n--- DATASET CONTEXT (Accountable India, generated ${aiContext.generatedAt ?? "unknown"}) ---
-${aiContext.summary ?? ""}
+  const topics = Array.isArray(aiContext?.topics) ? aiContext.topics : [];
 
-Top states: ${topStates.join("; ")}
+  return `\n\n--- ACCOUNTABLE INDIA (generated ${aiContext?.generatedAt ?? dataset?.meta?.generatedAt ?? "unknown"}) ---
+${aiContext?.summary ?? dataset?.meta?.description ?? ""}
 
-Position types: ${JSON.stringify(aiContext.positionTypes ?? {})}
+Citizen topics in the dataset:
+${topics.map((topic) => `- ${topic.name}: ${topic.keywords}`).join("\n") || "(see structured resolution)"}
 
-Citizen topics:
-${topics.map((topic) => `- ${topic.name}: ${topic.keywords}`).join("\n")}
+--- STRUCTURED ACCOUNTABILITY RESOLUTION (golden source — use only this for holders/contacts/why) ---
+Problem: ${problem || "(empty)"}
+Location: ${location || "(not provided)"}
+${formatHierarchyForPrompt(resolution)}
 
-Full metrics: ${JSON.stringify(aiContext.metrics?.counts ?? {})}
-
-Retrieved records for this question (${retrieved.length} of ${groundingRecords.length} indexed records):
+--- Supplemental retrieved records (optional colour; never override the structured resolution) ---
 ${retrievedText}`;
 }
 
 export function createChatHandler({
   getApiKey,
   loadAiContext,
+  loadDataset,
   fetchImpl,
   logger,
 }) {
@@ -256,7 +279,18 @@ export function createChatHandler({
         );
       }
 
-      const contextBlock = buildContextBlock(loadAiContext(), messages);
+      const { problem, location } = extractProblemAndLocation(messages, payload);
+      const dataset = typeof loadDataset === "function" ? loadDataset() : null;
+      const resolution =
+        dataset != null
+          ? resolveAccountability(dataset, { problem, location })
+          : null;
+
+      const contextBlock = buildContextBlock(loadAiContext(), messages, {
+        dataset,
+        problem,
+        location,
+      });
       const upstream = await fetchImpl(DEEPSEEK_URL, {
         method: "POST",
         headers: {
@@ -270,7 +304,7 @@ export function createChatHandler({
             ...messages,
           ],
           thinking: { type: "disabled" },
-          temperature: 0.4,
+          temperature: 0.2,
           max_tokens: 2048,
         }),
       });
@@ -292,6 +326,7 @@ export function createChatHandler({
           role: "assistant",
           content: "No response.",
         },
+        resolution,
         model: data.model,
         usage: data.usage,
       });

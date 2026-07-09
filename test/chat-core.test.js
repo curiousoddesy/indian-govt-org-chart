@@ -221,21 +221,21 @@ test("validates bounded user and assistant chat history", () => {
 });
 
 test("builds complete, sparse, and absent dataset context blocks", () => {
-  const complete = buildContextBlock(DATASET_CONTEXT, [
-    { role: "user", content: "Who is the DM of Lucknow?" },
-  ]);
+  const complete = buildContextBlock(
+    DATASET_CONTEXT,
+    [{ role: "user", content: "Who is the DM of Lucknow?" }],
+    { problem: "Who is the DM of Lucknow?", location: "Lucknow" }
+  );
   assert.match(complete, /generated 2026-07-02/);
-  assert.match(complete, /Uttar Pradesh: 75 districts/);
+  assert.match(complete, /STRUCTURED ACCOUNTABILITY RESOLUTION/);
   assert.match(complete, /"holder":"Test Official"/);
-  assert.match(complete, /3 indexed records/);
   assert.match(complete, /- Roads: road,pothole/);
-  assert.match(complete, /"positions":10/);
+  assert.match(complete, /A test accountability dataset/);
 
   const sparse = buildContextBlock({});
   assert.match(sparse, /generated unknown/);
-  assert.match(sparse, /Position types: \{\}/);
-  assert.match(sparse, /Full metrics: \{\}/);
-  assert.match(sparse, /No matching record was retrieved/);
+  assert.match(sparse, /STRUCTURED ACCOUNTABILITY RESOLUTION/);
+  assert.match(sparse, /No supplemental grounding records matched/);
 
   assert.equal(buildContextBlock(null), "");
 });
@@ -317,6 +317,7 @@ test("sends a grounded request to DeepSeek and returns its answer", async () => 
       role: "assistant",
       content: "The DM is listed in the dataset.",
     },
+    resolution: null,
     model: "deepseek-v4-flash",
     usage: { prompt_tokens: 20, completion_tokens: 8 },
   });
@@ -330,7 +331,7 @@ test("sends a grounded request to DeepSeek and returns its answer", async () => 
   const upstreamBody = JSON.parse(options.body);
   assert.equal(upstreamBody.model, "deepseek-v4-flash");
   assert.deepEqual(upstreamBody.thinking, { type: "disabled" });
-  assert.equal(upstreamBody.temperature, 0.4);
+  assert.equal(upstreamBody.temperature, 0.2);
   assert.equal(upstreamBody.max_tokens, 2048);
   assert.equal(upstreamBody.messages[1].content, userMessage.content);
   assert.ok(upstreamBody.messages[0].content.startsWith(SYSTEM_PROMPT));
@@ -360,10 +361,11 @@ test("works without dataset context and supplies a fallback empty answer", async
   assert.equal(response.status, 200);
   assert.deepEqual(await response.json(), {
     message: { role: "assistant", content: "No response." },
+    resolution: null,
     model: "deepseek-v4-flash",
     usage: null,
   });
-  assert.equal(upstreamBody.messages[0].content, SYSTEM_PROMPT);
+  assert.ok(upstreamBody.messages[0].content.startsWith(SYSTEM_PROMPT));
 });
 
 test("maps upstream DeepSeek failures to a bounded 502 response", async () => {

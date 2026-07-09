@@ -38,10 +38,11 @@ export default function SearchBar({
     <div className="relative">
       <div className="relative">
         <svg
-          className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-ink-400"
+          className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-400"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          aria-hidden
         >
           <path
             strokeLinecap="round"
@@ -59,25 +60,26 @@ export default function SearchBar({
           onChange={(e) => handleSearch(e.target.value)}
           onFocus={() => results.length > 0 && setOpen(true)}
           onBlur={() => setTimeout(() => setOpen(false), 200)}
+          aria-label="Search the register"
         />
       </div>
 
       {open && results.length > 0 && (
-        <div className="absolute z-50 mt-2 w-full rounded-xl border border-ink-200 bg-white shadow-lg overflow-hidden">
+        <div className="absolute z-50 mt-1.5 w-full overflow-hidden border border-[var(--rule)] bg-white shadow-[0_12px_40px_-16px_rgba(34,38,47,0.35)]">
           {results.map((item) => (
             <button
               key={`${item.type}-${item.id}`}
               type="button"
-              className="flex w-full items-start gap-3 px-4 py-3 text-left hover:bg-ink-50 transition"
+              className="flex w-full items-start gap-3 border-b border-[var(--rule)] px-4 py-3 text-left transition last:border-b-0 hover:bg-ink-50"
               onMouseDown={() => handleSelect(item)}
             >
-              <span className="badge bg-ink-100 text-ink-600 shrink-0 mt-0.5">
+              <span className="badge mt-0.5 shrink-0 bg-ink-100 text-ink-600">
                 {item.type}
               </span>
               <div className="min-w-0">
-                <p className="font-medium text-ink-900 truncate">{item.label}</p>
+                <p className="truncate font-medium text-ink-900">{item.label}</p>
                 {item.subtitle && (
-                  <p className="text-sm text-ink-500 truncate">{item.subtitle}</p>
+                  <p className="truncate text-sm text-ink-500">{item.subtitle}</p>
                 )}
               </div>
             </button>

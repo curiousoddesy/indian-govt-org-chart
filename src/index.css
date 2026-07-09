@@ -3,50 +3,161 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --paper: oklch(0.975 0.006 250);
+    --paper-deep: oklch(0.955 0.01 250);
+    --rule: oklch(0.86 0.015 250);
+    --ink: oklch(0.28 0.02 255);
+    --ink-soft: oklch(0.45 0.02 255);
+    --stamp: oklch(0.68 0.16 55);
+    --verified: oklch(0.48 0.14 145);
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
   html {
     @apply scroll-smooth;
   }
 
   body {
-    @apply bg-ink-50 text-ink-900 font-sans antialiased;
+    @apply text-ink-900 font-sans antialiased;
+    background-color: var(--paper);
+    background-image:
+      radial-gradient(ellipse 120% 80% at 0% -20%, oklch(0.94 0.03 55 / 0.35), transparent 50%),
+      radial-gradient(ellipse 80% 60% at 100% 0%, oklch(0.94 0.025 145 / 0.2), transparent 45%),
+      linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    color: var(--ink);
   }
 
   ::selection {
-    @apply bg-saffron-400/30;
+    background: oklch(0.78 0.14 55 / 0.35);
   }
 }
 
 @layer components {
+  .page-enter > * {
+    animation: rise-in 0.55s var(--ease-out) both;
+  }
+
+  .page-enter > *:nth-child(1) { animation-delay: 0.02s; }
+  .page-enter > *:nth-child(2) { animation-delay: 0.07s; }
+  .page-enter > *:nth-child(3) { animation-delay: 0.12s; }
+  .page-enter > *:nth-child(4) { animation-delay: 0.17s; }
+  .page-enter > *:nth-child(5) { animation-delay: 0.22s; }
+  .page-enter > *:nth-child(6) { animation-delay: 0.27s; }
+
+  @keyframes rise-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .page-enter > * {
+      animation: none;
+    }
+  }
+
+  .panel {
+    @apply border bg-white/80 backdrop-blur-[2px];
+    border-color: var(--rule);
+    border-radius: 2px;
+  }
+
+  .panel-flush {
+    @apply border bg-white/70;
+    border-color: var(--rule);
+    border-radius: 2px;
+  }
+
   .card {
-    @apply rounded-2xl border border-ink-200/80 bg-white shadow-sm;
+    @apply panel;
+  }
+
+  .rule-top {
+    border-top: 1px solid var(--rule);
+  }
+
+  .rule-bottom {
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .eyebrow {
+    @apply text-[0.7rem] font-semibold uppercase tracking-[0.14em];
+    color: var(--stamp);
+  }
+
+  .display {
+    @apply font-display font-bold tracking-tight text-ink-950;
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition-all;
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium transition-all duration-200;
+    border-radius: 2px;
   }
 
   .btn-primary {
-    @apply btn bg-ink-950 text-white hover:bg-ink-800 active:scale-[0.98];
+    @apply btn bg-ink-950 text-white hover:bg-ink-800 active:translate-y-px;
   }
 
   .btn-secondary {
-    @apply btn border border-ink-200 bg-white text-ink-800 hover:bg-ink-50;
+    @apply btn border bg-white text-ink-800 hover:bg-ink-50;
+    border-color: var(--rule);
   }
 
   .input {
-    @apply w-full rounded-xl border border-ink-200 bg-white px-4 py-2.5 text-sm outline-none transition focus:border-saffron-400 focus:ring-2 focus:ring-saffron-400/20;
+    @apply w-full border bg-white px-4 py-2.5 text-sm outline-none transition;
+    border-color: var(--rule);
+    border-radius: 2px;
+  }
+
+  .input:focus {
+    border-color: oklch(0.68 0.16 55);
+    box-shadow: 0 0 0 3px oklch(0.78 0.14 55 / 0.2);
   }
 
   .badge {
-    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+    @apply inline-flex items-center px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wider;
+    border-radius: 2px;
+  }
+
+  .metric-tile {
+    @apply relative overflow-hidden border bg-white/85 p-5;
+    border-color: var(--rule);
+    border-radius: 2px;
+  }
+
+  .metric-tile::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--ink);
+  }
+
+  .metric-tile[data-accent="saffron"]::before {
+    background: var(--stamp);
+  }
+
+  .metric-tile[data-accent="green"]::before {
+    background: var(--verified);
   }
 
   .wiki-content h1 {
-    @apply font-display text-3xl font-bold text-ink-950 mb-4 mt-8 first:mt-0;
+    @apply display text-3xl mb-4 mt-8 first:mt-0;
   }
 
   .wiki-content h2 {
-    @apply font-display text-2xl font-semibold text-ink-900 mb-3 mt-8 border-b border-ink-100 pb-2;
+    @apply font-display text-2xl font-semibold text-ink-900 mb-3 mt-8 pb-2;
+    border-bottom: 1px solid var(--rule);
   }
 
   .wiki-content h3 {
@@ -75,11 +186,12 @@
   }
 
   .wiki-content code {
-    @apply rounded bg-ink-100 px-1.5 py-0.5 font-mono text-sm text-ink-800;
+    @apply rounded-sm bg-ink-100 px-1.5 py-0.5 font-mono text-sm text-ink-800;
   }
 
   .wiki-content pre {
-    @apply mb-4 overflow-x-auto rounded-xl bg-ink-950 p-4 text-sm text-ink-100;
+    @apply mb-4 overflow-x-auto bg-ink-950 p-4 text-sm text-ink-100;
+    border-radius: 2px;
   }
 
   .wiki-content pre code {
@@ -166,11 +278,12 @@
   }
 
   .chat-markdown code {
-    @apply rounded bg-ink-200/70 px-1.5 py-0.5 font-mono text-[0.825rem] text-ink-900;
+    @apply rounded-sm bg-ink-200/70 px-1.5 py-0.5 font-mono text-[0.825rem] text-ink-900;
   }
 
   .chat-markdown pre {
-    @apply mb-3 max-w-full overflow-x-auto rounded-xl bg-ink-950 p-3 text-sm leading-6 text-ink-100;
+    @apply mb-3 max-w-full overflow-x-auto bg-ink-950 p-3 text-sm leading-6 text-ink-100;
+    border-radius: 2px;
   }
 
   .chat-markdown pre code {
@@ -188,14 +301,6 @@
 
   .chat-markdown th {
     @apply border-t bg-white font-semibold text-ink-950;
-  }
-
-  .chat-markdown tr:first-child th:first-child {
-    @apply rounded-tl-lg;
-  }
-
-  .chat-markdown tr:first-child th:last-child {
-    @apply rounded-tr-lg;
   }
 
   .chat-markdown hr {
