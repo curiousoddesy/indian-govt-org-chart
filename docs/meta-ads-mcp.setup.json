@@ -1,7 +1,55 @@
 {
-  "mcpServers": {
-    "meta-ads": {
-      "url": "https://mcp.metamkt.com"
+  "_readme": [
+    "Pipeboard Meta Ads + Google Ads MCP for Cursor.",
+    "",
+    "RECOMMENDED (token auth — avoids localhost:8787 OAuth callback):",
+    "1. Open https://pipeboard.co/api-tokens and create/copy a Pipeboard API token.",
+    "2. Put the REAL token only in ~/.cursor/mcp.json (user-level Cursor MCP), not in project files:",
+    "   {",
+    "     \"mcpServers\": {",
+    "       \"meta-ads-remote\": { \"url\": \"https://meta-ads.mcp.pipeboard.co/?token=YOUR_PIPEBOARD_TOKEN\" },",
+    "       \"google-ads-remote\": { \"url\": \"https://google-ads.mcp.pipeboard.co/?token=YOUR_PIPEBOARD_TOKEN\" }",
+    "     }",
+    "   }",
+    "3. Replace YOUR_PIPEBOARD_TOKEN with the real token (do not commit secrets).",
+    "4. Project .cursor/mcp.json should keep placeholders only; .cursor/mcp.json is gitignored.",
+    "5. Reload the Cursor window (Developer: Reload Window).",
+    "6. Confirm Meta Ads / Google Ads tools appear (servers should no longer show needsAuth).",
+    "",
+    "ALTERNATIVE (browser OAuth — fragile in Cursor):",
+    "1. Use url without ?token= (see oauth_url below).",
+    "2. Trigger mcp_auth and complete Facebook/Pipeboard approval quickly.",
+    "3. Keep Cursor focused; do not let the auth flow time out.",
+    "4. Safari must reach Cursor's callback on http://127.0.0.1:8787/callback.",
+    "   If that page fails (Safari Can't Connect), the OAuth code is burned —",
+    "   start a fresh OAuth attempt or switch to token auth.",
+    "",
+    "Do not invent or paste example tokens. Never create ads or spend money from setup alone."
+  ],
+  "recommended_token_auth": {
+    "mcpServers": {
+      "meta-ads-remote": {
+        "url": "https://meta-ads.mcp.pipeboard.co/?token=YOUR_PIPEBOARD_TOKEN"
+      },
+      "google-ads-remote": {
+        "url": "https://google-ads.mcp.pipeboard.co/?token=YOUR_PIPEBOARD_TOKEN"
+      }
     }
+  },
+  "oauth_url": {
+    "mcpServers": {
+      "meta-ads-remote": {
+        "url": "https://meta-ads.mcp.pipeboard.co/"
+      },
+      "google-ads-remote": {
+        "url": "https://google-ads.mcp.pipeboard.co/"
+      }
+    }
+  },
+  "token_source": "https://pipeboard.co/api-tokens",
+  "notes": {
+    "why_token": "Cursor OAuth uses a local callback on port 8787. If that listener is down, IPv4-only, or timed out, Safari fails after Facebook approval and the auth code is single-use/burned.",
+    "after_token": "Reload Cursor window, then verify GetMcpTools / MCP panel shows Meta Ads and Google Ads tools instead of needsAuth.",
+    "security": "Keep the real token in ~/.cursor/mcp.json only. Project .cursor/mcp.json uses placeholders and is listed in .gitignore."
   }
 }

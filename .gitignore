@@ -15,6 +15,9 @@ public/data/*.json
 .env.local
 .env.*.local
 
+# Cursor MCP config may contain Pipeboard API tokens — keep secrets out of git
+.cursor/mcp.json
+
 # Coverage output
 coverage
 .nyc_output
