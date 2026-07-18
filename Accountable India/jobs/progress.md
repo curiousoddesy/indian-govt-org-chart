@@ -85,12 +85,12 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 - [ ] Each state department + its Secretary/Director
 - [ ] Department official contacts
 
-### PHASE 5 — District level  ✅ DM LAYER COMPLETE / SP LAYER ⏳
+### PHASE 5 — District level  ✅ DM + SP LAYERS COMPLETE
 - [x] All 785 districts added as jurisdictions
 - [x] DM/Collector office created for every district
-- [x] **DM NAMES filled for 782/785 (99.6%)** — only 3 unfilled: Bengaluru North/South (proposed sub-districts, not separate admin units) + Kolkata (no DM by design)
+- [x] **DM NAMES resolved for all 785** — 784 named + 1 vacant by design (Kolkata has no DM). Bengaluru North/South filled (renamed Rural/Ramanagara districts).
 - [x] Superintendent of Police office created for every district
-- [x] **SP NAMES filled for 766/785 (97.6%)** — 19 blanks remain across the remaining district/commissionerate gaps
+- [x] **SP NAMES resolved for all 785** — 781 named + 4 vacant by design (Telangana commissionerate districts: Jangaon, Hanumakonda, Medchal-Malkajgiri, Ranga Reddy — CP/DCP, not district SP)
 - [ ] District-level department officers
 
 ### PHASE 6 — Local bodies  ⏳ MUNICIPAL CORPORATIONS DONE
@@ -106,12 +106,12 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 > PRIORITY: Phase 6 — fill Municipal Commissioner names for the remaining empty
 > commissioner seats (mirror the mayor fill approach: official corp sites + recent
 > IAS transfer news; mark Administrator-only corps carefully). Then add public
-> corporation contacts. After that, resume district SP gaps (19) and any remaining
-> Union Secretary contact details.
+> corporation contacts. Also re-verify Mizoram Lawngtlai/Saitual SP successors
+> after mid-July 2026 AGMUT transfer reports.
 >
 > Official .gov.in sources only; public contacts only. NOTE: many official portals
 > are JavaScript-rendered — use the Claude-in-Chrome browser tools to read them
 > when a plain fetch returns an empty/JS shell.
 
 ## Last updated
-2026-07-18 (Mayor fill wave: 101 new mayor names + 56 vacant flags; all 250 mayor seats resolved. Sources: Gujarat/Punjab/Haryana/HP/Kerala/MH/JH/UK 2025–26 civic polls + official MC sites. Vacant by design: AP Special Officers, WB board dissolutions, RJ pending ULB polls, TG/JK SO, several KA corps without elected council, Odisha Rourkela/Sambalpur/Puri, Silchar/Imphal, Pathankot hung house, Hoshiarpur post-poll mayoral election pending.)
+2026-07-18 (DM+SP gap fill complete: all 785 DM and 785 SP seats resolved. Named Bengaluru North/South DM+SP, Keyi Panyor SP, Niwari/Panna SP, Mizoram 4 SPs, Meluri SP, Ladakh 5 new-district SPs. Vacant by design: Kolkata DM; Telangana commissionerate SP stubs. Earlier same day: all 250 mayor seats resolved.)
