@@ -96,30 +96,22 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 ### PHASE 6 — Local bodies  ⏳ MUNICIPAL CORPORATIONS DONE
 - [x] 250 Municipal Corporations added as local bodies, including the 12 Karnataka corporations
 - [x] Mayor office + Municipal Commissioner office for each (Commissioner reports to district DM/state CS)
-- [ ] Fill Mayor / Commissioner NAMES + corporation contacts (verify via corp official sites / Chrome)
+- [x] **Mayor NAMES resolved for all 250** — 194 named incumbents + 56 marked vacant (Administrator/Special Officer / pending mayoral poll; no fabricated names)
+- [ ] Fill Municipal Commissioner NAMES + corporation contacts (verify via corp official sites / Chrome)
 - [ ] Municipalities / Nagar Panchayats (smaller towns)
 - [ ] Zila Parishad / Panchayat Samiti / Gram Panchayat heads (rural)
 - [ ] Ward-level officers + contacts
 
 ## NEXT TARGET (read by next run)
-> PRIORITY: Phase 3B — collect the next state's full Council of Ministers (see the
-> per-state checklist above; do the next unchecked state). Fetch that state's
-> current "[CM] ministry" Wikipedia article, add current incumbent ministers as
-> positions reporting to that state's Chief Minister, with persons + appointments.
-> Tick the state off and append a collection_log row. Aim for 1-3 states per run.
-> Then resume the threads below.
+> PRIORITY: Phase 6 — fill Municipal Commissioner names for the remaining empty
+> commissioner seats (mirror the mayor fill approach: official corp sites + recent
+> IAS transfer news; mark Administrator-only corps carefully). Then add public
+> corporation contacts. After that, resume district SP gaps (19) and any remaining
+> Union Secretary contact details.
 >
-> Two open threads — pick up either:
-> (A) Phase 3 depth: for each state, add the State Cabinet Ministers + portfolios
->     (reports_to that state's CM), add Lt. Governors/Administrators for the 5
->     remaining UTs (Andaman & Nicobar, Chandigarh, Dadra & Nagar Haveli and
->     Daman & Diu, Ladakh, Lakshadweep), and fill the pending Chief Secretary
->     names from each state's official portal.
-> (B) Phase 2: Union bureaucratic layer — Cabinet Secretary, Principal Secretary
->     to PM, each ministry's Secretary, and official ministry contacts.
 > Official .gov.in sources only; public contacts only. NOTE: many official portals
 > are JavaScript-rendered — use the Claude-in-Chrome browser tools to read them
 > when a plain fetch returns an empty/JS shell.
 
 ## Last updated
-2026-06-30 (Run 6: Phase 2 complete — all 36 Union ministry Secretaries filled; Phase 5 DM layer complete — 782/785 DMs named via Playwright browser scraping)
+2026-07-18 (Mayor fill wave: 101 new mayor names + 56 vacant flags; all 250 mayor seats resolved. Sources: Gujarat/Punjab/Haryana/HP/Kerala/MH/JH/UK 2025–26 civic polls + official MC sites. Vacant by design: AP Special Officers, WB board dissolutions, RJ pending ULB polls, TG/JK SO, several KA corps without elected council, Odisha Rourkela/Sambalpur/Puri, Silchar/Imphal, Pathankot hung house, Hoshiarpur post-poll mayoral election pending.)
