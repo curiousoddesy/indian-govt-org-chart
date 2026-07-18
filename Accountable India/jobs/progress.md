@@ -85,41 +85,33 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 - [ ] Each state department + its Secretary/Director
 - [ ] Department official contacts
 
-### PHASE 5 — District level  ✅ DM LAYER COMPLETE / SP LAYER ⏳
+### PHASE 5 — District level  ✅ DM + SP LAYERS COMPLETE
 - [x] All 785 districts added as jurisdictions
 - [x] DM/Collector office created for every district
-- [x] **DM NAMES filled for 782/785 (99.6%)** — only 3 unfilled: Bengaluru North/South (proposed sub-districts, not separate admin units) + Kolkata (no DM by design)
+- [x] **DM NAMES resolved for all 785** — 784 named + 1 vacant by design (Kolkata has no DM). Bengaluru North/South filled (renamed Rural/Ramanagara districts).
 - [x] Superintendent of Police office created for every district
-- [x] **SP NAMES filled for 766/785 (97.6%)** — 19 blanks remain across the remaining district/commissionerate gaps
+- [x] **SP NAMES resolved for all 785** — 781 named + 4 vacant by design (Telangana commissionerate districts: Jangaon, Hanumakonda, Medchal-Malkajgiri, Ranga Reddy — CP/DCP, not district SP)
 - [ ] District-level department officers
 
 ### PHASE 6 — Local bodies  ⏳ MUNICIPAL CORPORATIONS DONE
 - [x] 250 Municipal Corporations added as local bodies, including the 12 Karnataka corporations
 - [x] Mayor office + Municipal Commissioner office for each (Commissioner reports to district DM/state CS)
-- [ ] Fill Mayor / Commissioner NAMES + corporation contacts (verify via corp official sites / Chrome)
+- [x] **Mayor NAMES resolved for all 250** — 194 named incumbents + 56 marked vacant (Administrator/Special Officer / pending mayoral poll; no fabricated names)
+- [ ] Fill Municipal Commissioner NAMES + corporation contacts (verify via corp official sites / Chrome)
 - [ ] Municipalities / Nagar Panchayats (smaller towns)
 - [ ] Zila Parishad / Panchayat Samiti / Gram Panchayat heads (rural)
 - [ ] Ward-level officers + contacts
 
 ## NEXT TARGET (read by next run)
-> PRIORITY: Phase 3B — collect the next state's full Council of Ministers (see the
-> per-state checklist above; do the next unchecked state). Fetch that state's
-> current "[CM] ministry" Wikipedia article, add current incumbent ministers as
-> positions reporting to that state's Chief Minister, with persons + appointments.
-> Tick the state off and append a collection_log row. Aim for 1-3 states per run.
-> Then resume the threads below.
+> PRIORITY: Phase 6 — fill Municipal Commissioner names for the remaining empty
+> commissioner seats (mirror the mayor fill approach: official corp sites + recent
+> IAS transfer news; mark Administrator-only corps carefully). Then add public
+> corporation contacts. Also re-verify Mizoram Lawngtlai/Saitual SP successors
+> after mid-July 2026 AGMUT transfer reports.
 >
-> Two open threads — pick up either:
-> (A) Phase 3 depth: for each state, add the State Cabinet Ministers + portfolios
->     (reports_to that state's CM), add Lt. Governors/Administrators for the 5
->     remaining UTs (Andaman & Nicobar, Chandigarh, Dadra & Nagar Haveli and
->     Daman & Diu, Ladakh, Lakshadweep), and fill the pending Chief Secretary
->     names from each state's official portal.
-> (B) Phase 2: Union bureaucratic layer — Cabinet Secretary, Principal Secretary
->     to PM, each ministry's Secretary, and official ministry contacts.
 > Official .gov.in sources only; public contacts only. NOTE: many official portals
 > are JavaScript-rendered — use the Claude-in-Chrome browser tools to read them
 > when a plain fetch returns an empty/JS shell.
 
 ## Last updated
-2026-06-30 (Run 6: Phase 2 complete — all 36 Union ministry Secretaries filled; Phase 5 DM layer complete — 782/785 DMs named via Playwright browser scraping)
+2026-07-18 (DM+SP gap fill complete: all 785 DM and 785 SP seats resolved. Named Bengaluru North/South DM+SP, Keyi Panyor SP, Niwari/Panna SP, Mizoram 4 SPs, Meluri SP, Ladakh 5 new-district SPs. Vacant by design: Kolkata DM; Telangana commissionerate SP stubs. Earlier same day: all 250 mayor seats resolved.)
