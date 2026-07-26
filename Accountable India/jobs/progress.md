@@ -114,4 +114,5 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 > when a plain fetch returns an empty/JS shell.
 
 ## Last updated
+2026-07-25 (Union Education Minister updated: Dharmendra Pradhan resigned from the Union Council of Ministers; Pralhad Joshi assigned additional charge of Ministry of Education while retaining Consumer Affairs / Food & PD and New & Renewable Energy. Source: The Hindu / Rashtrapati Bhavan.)  
 2026-07-18 (DM+SP gap fill complete: all 785 DM and 785 SP seats resolved. Named Bengaluru North/South DM+SP, Keyi Panyor SP, Niwari/Panna SP, Mizoram 4 SPs, Meluri SP, Ladakh 5 new-district SPs. Vacant by design: Kolkata DM; Telangana commissionerate SP stubs. Earlier same day: all 250 mayor seats resolved.)
