@@ -6,7 +6,7 @@ id,person_id,position_id,start_date,end_date,is_current,appointment_type,notes,s
 5,5,5,2024-06-09,,true,appointed,Defence,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
 6,6,6,2024-06-09,,true,appointed,Finance and Corporate Affairs,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-06-26
 7,7,7,2024-06-09,,true,appointed,"Railways, I&B, Electronics & IT",https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
-8,8,8,2024-06-09,,true,appointed,Education,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+8,8,8,2024-06-09,2026-07-25,false,appointed,Resigned from Union Council of Ministers; Education portfolio reassigned,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.90,verified,2026-07-25
 9,9,10,2024-06-10,,true,appointed,"Cabinet Minister, Road Transport & Highways",https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 10,10,11,2024-06-10,,true,appointed,Cabinet Minister; also Chemicals & Fertilizers,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 11,11,12,2024-06-10,,true,appointed,Cabinet Minister; also Rural Development,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
@@ -2700,3 +2700,4 @@ id,person_id,position_id,start_date,end_date,is_current,appointment_type,notes,s
 2699,2692,2295,,,true,appointed,SP Sham; UT Ladakh LG appointment list Apr 2026,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-18
 2700,2693,2297,,,true,appointed,SP Nubra; UT Ladakh LG appointment list Apr 2026,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-18
 2701,2694,2299,,,true,appointed,SP Changthang (Nyoma HQ); UT Ladakh LG appointment list Apr 2026; also Syed Zaheer Abbas Jafari,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-18
+2702,21,8,2026-07-25,,true,appointed,Additional charge of Ministry of Education alongside Consumer Affairs / Food & PD and New & Renewable Energy,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.90,verified,2026-07-25

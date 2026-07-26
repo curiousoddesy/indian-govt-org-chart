@@ -6,7 +6,7 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 5,Rajnath Singh,Shri,male,Bharatiya Janata Party,,Union Minister of Defence,,1951-07-10,https://en.wikipedia.org/wiki/Rajnath_Singh,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
 6,Nirmala Sitharaman,Smt,female,Bharatiya Janata Party,,Union Minister of Finance and Corporate Affairs,,1959-08-18,https://en.wikipedia.org/wiki/Nirmala_Sitharaman,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-06-26
 7,Ashwini Vaishnaw,Shri,male,Bharatiya Janata Party,,"Union Minister of Railways, Information & Broadcasting, and Electronics & IT",,1970-07-18,https://en.wikipedia.org/wiki/Ashwini_Vaishnaw,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
-8,Dharmendra Pradhan,Shri,male,Bharatiya Janata Party,,Union Minister of Education,,1969-06-26,https://en.wikipedia.org/wiki/Dharmendra_Pradhan,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+8,Dharmendra Pradhan,Shri,male,Bharatiya Janata Party,,Former Union Minister of Education; resigned from Union Council of Ministers on 2026-07-25,,1969-06-26,https://en.wikipedia.org/wiki/Dharmendra_Pradhan,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.90,verified,2026-07-25
 9,Nitin Gadkari,Shri,male,BJP,,"Cabinet Minister, Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 10,Jagat Prakash Nadda,Shri,male,BJP,,Cabinet Minister; also Chemicals & Fertilizers,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 11,Shivraj Singh Chouhan,Shri,male,BJP,,Cabinet Minister; also Rural Development,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
@@ -19,7 +19,7 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 18,Sarbananda Sonowal,Shri,male,BJP,,"Cabinet Minister, Ports/Shipping/Waterways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 19,Virendra Kumar,Shri,male,BJP,,"Cabinet Minister, Social Justice & Empowerment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 20,Kinjarapu Ram Mohan Naidu,Shri,male,TDP,,"Cabinet Minister, Civil Aviation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-21,Prahlad Joshi,Shri,male,BJP,,Cabinet Minister; also New & Renewable Energy,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
+21,Pralhad Joshi,Shri,male,Bharatiya Janata Party,,"Union Cabinet Minister — Education (additional charge); Consumer Affairs, Food and Public Distribution; New and Renewable Energy",,1962-11-27,https://en.wikipedia.org/wiki/Pralhad_Joshi,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.90,verified,2026-07-25
 22,Jual Oram,Shri,male,BJP,,"Cabinet Minister, Tribal Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 23,Giriraj Singh,Shri,male,BJP,,"Cabinet Minister, Textiles",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
 24,Jyotiraditya Scindia,Shri,male,BJP,,Cabinet Minister; also Development of North Eastern Region,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26

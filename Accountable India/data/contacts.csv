@@ -95,8 +95,8 @@ id,position_id,person_id,body_id,jurisdiction_id,contact_type,value,label,is_pub
 94,15,,,,office_email,minoff-mhi@gov.in,Office of H. D. Kumaraswamy (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
 95,16,,,,office_phone,+91-11-23039110,Office of Piyush Goyal (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
 96,16,,,,office_email,piyush.goyal@gov.in,Office of Piyush Goyal (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
-97,8,,,,office_phone,+91-11-23782698,Office of Dharmendra Pradhan (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
-98,8,,,,office_email,minister.sm@gov.in,Office of Dharmendra Pradhan (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
+97,8,,,,office_phone,+91-11-23782698,Office of the Minister of Education,true,false,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.70,2026-07-25
+98,8,,,,office_email,minister.sm@gov.in,Office of the Minister of Education,true,false,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.70,2026-07-25
 99,17,,,,office_phone,+91 24011271,Office of Jitan Ram Manjhi (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
 100,17,,,,office_email,min-msme@nic.in,Office of Jitan Ram Manjhi (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26
 101,18,,,,office_phone,+91 11 23380780,Office of Lalan Singh (ministry),true,false,https://www.sarkaritel.com/council-of-ministers/,0.70,2026-06-26

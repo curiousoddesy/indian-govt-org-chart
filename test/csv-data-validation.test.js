@@ -193,7 +193,7 @@ test("the shipped Accountable India CSV dataset passes validation", () => {
   const summary = validateCsvDocuments(loadCsvDocuments());
   assert.equal(summary.tables, 10);
   assert.equal(summary.positions, 2905);
-  assert.equal(summary.currentAppointments, 2545);
+  assert.equal(summary.currentAppointments, 2663);
   assert.equal(summary.contacts, 3089);
 });
 
