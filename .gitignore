@@ -4,6 +4,14 @@
 # Dependencies
 node_modules
 
+# Expo
+mobile/.expo
+mobile/dist
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
 # Build output
 dist
 

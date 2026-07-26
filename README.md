@@ -47,6 +47,16 @@ cp .env.example .env        # add DEEPSEEK_API_KEY for the AI agent
 npm run netlify:dev         # Vite dev server + Netlify functions
 ```
 
+### Android app (Expo Go)
+
+```bash
+cd mobile
+npm install
+npm start                   # scan the QR code with Expo Go on Android
+```
+
+See [`mobile/README.md`](mobile/README.md) for Expo Go setup, tunnel mode, and screen map.
+
 Build for production (compiles CSVs → JSON, then Vite):
 
 ```bash
@@ -80,7 +90,8 @@ npm run test:chat-format:coverage  # Markdown output and safety rules
 ```
 ├── Accountable India/       # Source CSV dataset + schema + jobs
 ├── scripts/build-data.mjs   # CSV → public/data/*.json at build time
-├── src/                     # React app (Vite + TypeScript + Tailwind)
+├── src/                     # React web app (Vite + TypeScript + Tailwind)
+├── mobile/                  # Expo React Native app (test with Expo Go)
 ├── netlify/functions/       # Serverless: /api/chat (DeepSeek)
 ├── public/                  # Static assets + generated data (build output)
 └── netlify.toml             # Netlify build & redirect config
