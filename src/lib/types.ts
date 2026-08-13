@@ -70,6 +70,53 @@ export interface SearchRecord {
   data: Record<string, unknown>;
 }
 
+export interface OfficeHolder {
+  id: number;
+  title: string;
+  person_name: string | null;
+  person_party: string | null;
+  jurisdiction_name: string | null;
+  is_vacant: boolean;
+  last_verified_at: string | null;
+}
+
+export interface LeadershipSnapshot {
+  union: OfficeHolder[];
+  constitutional: OfficeHolder[];
+  cabinet: OfficeHolder[];
+  mosIndependent: OfficeHolder[];
+  mos: OfficeHolder[];
+  vacantMos: OfficeHolder[];
+  cabinetHolderCount: number;
+  chiefMinisters: OfficeHolder[];
+  governors: OfficeHolder[];
+  administrators: OfficeHolder[];
+}
+
+export interface RecentChange {
+  id: number;
+  person_name: string | null;
+  position_title: string | null;
+  jurisdiction_name: string | null;
+  start_date: string | null;
+  end_date: string | null;
+  is_current: boolean;
+  notes: string | null;
+}
+
+export interface CollectionRun {
+  id: number;
+  run_date: string;
+  run_type: string;
+  scope: string | null;
+  records_added: number;
+  records_updated: number;
+  records_flagged: number;
+  status: string;
+  next_target: string | null;
+  notes: string | null;
+}
+
 export interface Metrics {
   generatedAt: string;
   counts: Record<string, number>;
@@ -97,19 +144,15 @@ export interface Metrics {
     dms_total: number;
     dms_filled: number;
     data_status: string;
+    cm_name?: string | null;
+    governor_name?: string | null;
+    dcm_names?: string[];
+    cabinet_filled?: number;
+    cabinet_vacant?: number;
   }>;
-  latestCollection: {
-    id: number;
-    run_date: string;
-    run_type: string;
-    scope: string | null;
-    records_added: number;
-    records_updated: number;
-    records_flagged: number;
-    status: string;
-    next_target: string | null;
-    notes: string | null;
-  } | null;
+  latestCollection: CollectionRun | null;
+  leadership?: LeadershipSnapshot;
+  recentChanges?: RecentChange[];
 }
 
 export interface Dataset {
@@ -127,6 +170,7 @@ export interface Dataset {
   contacts: Contact[];
   topics: Topic[];
   searchIndex: SearchRecord[];
+  collectionLog?: CollectionRun[];
 }
 
 export interface ChatMessage {

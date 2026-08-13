@@ -96,7 +96,8 @@ flowchart TB
 1. Contributors update the linked files in `Accountable India/data/`.
 2. `npm run validate:data` verifies file structure, constraints, and relationships.
 3. `scripts/build-data.mjs` joins the tables and generates:
-   - `accountable-india.json` for dashboards and Fuse.js search.
+   - `accountable-india.json` for dashboards and Fuse.js search, including a
+     high-office leadership snapshot (Union cabinet, CMs, governors, recent changes).
    - `ai-context.json` for server-side question-specific retrieval.
 4. Vite builds the React application, and Netlify publishes the static output
    together with the `/api/chat` function.

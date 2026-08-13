@@ -4,7 +4,7 @@ Open-source dashboards, search, and an AI agent built on the **Accountable India
 
 ## What this app does
 
-- **Dashboard** — coverage metrics, charts, and quick navigation
+- **Dashboard** — coverage metrics, Union/state leadership, recent office changes, and charts
 - **Explore** — full-text search across offices, people, jurisdictions, and topics
 - **Geography** — state and district breakdowns with DM coverage
 - **Data Quality** — verification status, confidence scores, collection audit trail
