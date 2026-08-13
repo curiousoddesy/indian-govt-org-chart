@@ -1,174 +1,174 @@
 id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipedia_url,source_url,confidence,data_status,last_verified_at
-1,Droupadi Murmu,Smt,female,,,15th President of India,,1958-06-20,https://en.wikipedia.org/wiki/Droupadi_Murmu,https://www.presidentofindia.gov.in/,0.90,verified,2026-06-26
-2,C. P. Radhakrishnan,Shri,male,,,15th Vice President of India,,1957-10-04,https://en.wikipedia.org/wiki/C._P._Radhakrishnan,https://vicepresidentofindia.nic.in/,0.90,verified,2026-06-26
-3,Narendra Modi,Shri,male,Bharatiya Janata Party,,Prime Minister of India,,1950-09-17,https://en.wikipedia.org/wiki/Narendra_Modi,https://www.pmindia.gov.in/en/,0.90,verified,2026-06-26
-4,Amit Shah,Shri,male,Bharatiya Janata Party,,Union Minister of Home Affairs and Cooperation,,1964-10-22,https://en.wikipedia.org/wiki/Amit_Shah,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
-5,Rajnath Singh,Shri,male,Bharatiya Janata Party,,Union Minister of Defence,,1951-07-10,https://en.wikipedia.org/wiki/Rajnath_Singh,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
-6,Nirmala Sitharaman,Smt,female,Bharatiya Janata Party,,Union Minister of Finance and Corporate Affairs,,1959-08-18,https://en.wikipedia.org/wiki/Nirmala_Sitharaman,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-06-26
-7,Ashwini Vaishnaw,Shri,male,Bharatiya Janata Party,,"Union Minister of Railways, Information & Broadcasting, and Electronics & IT",,1970-07-18,https://en.wikipedia.org/wiki/Ashwini_Vaishnaw,https://www.india.gov.in/directory/whos-who/council-of-ministers,0.80,collected,2026-06-26
+1,Droupadi Murmu,Smt,female,,,15th President of India,,1958-06-20,https://en.wikipedia.org/wiki/Droupadi_Murmu,https://www.presidentofindia.gov.in/,0.85,verified,2026-08-13
+2,C. P. Radhakrishnan,Shri,male,,,15th Vice President of India,,1957-10-04,https://en.wikipedia.org/wiki/C._P._Radhakrishnan,https://vicepresidentofindia.nic.in/,0.85,verified,2026-08-13
+3,Narendra Modi,Shri,male,Bharatiya Janata Party,,Prime Minister of India,,1950-09-17,https://en.wikipedia.org/wiki/Narendra_Modi,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+4,Amit Shah,Shri,male,Bharatiya Janata Party,,Union Minister of Home Affairs and Cooperation,,1964-10-22,https://en.wikipedia.org/wiki/Amit_Shah,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+5,Rajnath Singh,Shri,male,Bharatiya Janata Party,,Union Minister of Defence,,1951-07-10,https://en.wikipedia.org/wiki/Rajnath_Singh,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+6,Nirmala Sitharaman,Smt,female,Bharatiya Janata Party,,Union Minister of Finance and Corporate Affairs,,1959-08-18,https://en.wikipedia.org/wiki/Nirmala_Sitharaman,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+7,Ashwini Vaishnaw,Shri,male,Bharatiya Janata Party,,"Union Minister of Railways, Information & Broadcasting, and Electronics & IT",,1970-07-18,https://en.wikipedia.org/wiki/Ashwini_Vaishnaw,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
 8,Dharmendra Pradhan,Shri,male,Bharatiya Janata Party,,Former Union Minister of Education; resigned from Union Council of Ministers on 2026-07-25,,1969-06-26,https://en.wikipedia.org/wiki/Dharmendra_Pradhan,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.90,verified,2026-07-25
-9,Nitin Gadkari,Shri,male,BJP,,"Cabinet Minister, Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-10,Jagat Prakash Nadda,Shri,male,BJP,,Cabinet Minister; also Chemicals & Fertilizers,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-11,Shivraj Singh Chouhan,Shri,male,BJP,,Cabinet Minister; also Rural Development,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-12,Subrahmanyam Jaishankar,Dr,male,BJP,,"Cabinet Minister, External Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-13,Manohar Lal Khattar,Shri,male,BJP,,Cabinet Minister; also Housing & Urban Affairs,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-14,H. D. Kumaraswamy,Shri,male,JD(S),,Cabinet Minister; also Steel,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-15,Piyush Goyal,Shri,male,BJP,,"Cabinet Minister, Commerce & Industry",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-16,Jitan Ram Manjhi,Shri,male,HAM(S),,"Cabinet Minister, MSME",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-17,Lalan Singh,Shri,male,JD(U),,"Cabinet Minister; also Fisheries, Animal Husbandry & Dairying",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-18,Sarbananda Sonowal,Shri,male,BJP,,"Cabinet Minister, Ports/Shipping/Waterways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-19,Virendra Kumar,Shri,male,BJP,,"Cabinet Minister, Social Justice & Empowerment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-20,Kinjarapu Ram Mohan Naidu,Shri,male,TDP,,"Cabinet Minister, Civil Aviation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-21,Pralhad Joshi,Shri,male,Bharatiya Janata Party,,"Union Cabinet Minister — Education (additional charge); Consumer Affairs, Food and Public Distribution; New and Renewable Energy",,1962-11-27,https://en.wikipedia.org/wiki/Pralhad_Joshi,https://www.thehindu.com/news/national/pralhad-joshi-appointed-union-education-minister/article71266932.ece,0.90,verified,2026-07-25
-22,Jual Oram,Shri,male,BJP,,"Cabinet Minister, Tribal Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-23,Giriraj Singh,Shri,male,BJP,,"Cabinet Minister, Textiles",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-24,Jyotiraditya Scindia,Shri,male,BJP,,Cabinet Minister; also Development of North Eastern Region,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-25,Bhupender Yadav,Shri,male,BJP,,"Cabinet Minister, Environment/Forest/Climate",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-26,Gajendra Singh Shekhawat,Shri,male,BJP,,Cabinet Minister; also Tourism,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-27,Annpurna Devi,Smt,female,BJP,,"Cabinet Minister, Women & Child Development",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-28,Kiren Rijiju,Shri,male,BJP,,Cabinet Minister; also Minority Affairs,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-29,Hardeep Singh Puri,Shri,male,BJP,,"Cabinet Minister, Petroleum & Natural Gas",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-30,Mansukh Mandaviya,Shri,male,BJP,,Cabinet Minister; also Youth Affairs & Sports,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-31,G. Kishan Reddy,Shri,male,BJP,,Cabinet Minister; also Mines,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-32,Chirag Paswan,Shri,male,LJP(RV),,"Cabinet Minister, Food Processing Industries",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-33,C. R. Patil,Shri,male,BJP,,"Cabinet Minister, Jal Shakti",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-34,Rao Inderjit Singh,Shri,male,BJP,,MoS (IC); also Planning,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-35,Jitendra Singh,Dr,male,BJP,,"MoS (IC); also Earth Sciences, PMO, DoPT, Space, Atomic Energy",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-36,Arjun Ram Meghwal,Shri,male,BJP,,"MoS (IC), Law & Justice; also Parliamentary Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-37,Prataprao Ganpatrao Jadhav,Shri,male,SHS,,"MoS (IC), AYUSH; also Health & Family Welfare",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-38,Jayant Chaudhary,Shri,male,RLD,,MoS (IC); also Education,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-39,L. Murugan,Shri,male,BJP,,"MoS, Information & Broadcasting; also Fisheries, Animal Husbandry & Dairying",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-40,Anupriya Patel,Smt,female,AD(S),,"MoS, Health & Family Welfare; also Chemicals & Fertilizers",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-41,Sukanta Majumdar,Shri,male,BJP,,"MoS, Education; also Development of North Eastern Region",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-42,Jitin Prasada,Shri,male,BJP,,"MoS, Commerce & Industry; also Electronics & IT",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-43,Shripad Yesso Naik,Shri,male,BJP,,"MoS, Power; also New & Renewable Energy",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-44,Pankaj Chaudhary,Shri,male,BJP,,"MoS, Finance",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-45,Krishan Pal Gurjar,Shri,male,BJP,,"MoS, Co-operation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-46,Ramdas Athawale,Shri,male,RPI(A),,"MoS, Social Justice & Empowerment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-47,Ram Nath Thakur,Shri,male,JD(U),,"MoS, Agriculture & Farmers Welfare",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-48,Nityanand Rai,Shri,male,BJP,,"MoS, Home Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-49,V. Somanna,Shri,male,BJP,,"MoS, Jal Shakti; also Railways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-50,Pemmasani Chandra Sekhar,Shri,male,TDP,,"MoS, Rural Development; also Communications",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-51,S. P. Singh Baghel,Shri,male,BJP,,"MoS, Fisheries, Animal Husbandry & Dairying; also Panchayati Raj",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-52,Shobha Karandlaje,Smt,female,BJP,,"MoS, MSME; also Labour & Employment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-53,Kirti Vardhan Singh,Shri,male,BJP,,"MoS, Environment, Forest & Climate Change; also External Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-54,B. L. Verma,Shri,male,BJP,,"MoS, Consumer Affairs, Food & PD; also Social Justice",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-55,Shantanu Thakur,Shri,male,BJP,,"MoS, Ports, Shipping & Waterways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-56,Suresh Gopi,Shri,male,BJP,,"MoS, Petroleum & Natural Gas; also Tourism",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-57,Ajay Tamta,Shri,male,BJP,,"MoS, Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-58,Bandi Sanjay Kumar,Shri,male,BJP,,"MoS, Home Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-59,Kamlesh Paswan,Shri,male,BJP,,"MoS, Rural Development",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-60,Bhagirath Choudhary,Shri,male,BJP,,"MoS, Agriculture & Farmers Welfare",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-61,Satish Chandra Dubey,Shri,male,BJP,,"MoS, Coal; also Mines",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-62,Sanjay Seth,Shri,male,BJP,,"MoS, Defence",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-63,Ravneet Singh Bittu,Shri,male,BJP,,"MoS, Food Processing Industries; also Railways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-64,Durga Das Uikey,Shri,male,BJP,,"MoS, Tribal Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-65,Raksha Khadse,Smt,female,BJP,,"MoS, Youth Affairs & Sports",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-66,Savitri Thakur,Smt,female,BJP,,"MoS, Women & Child Development",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-67,Tokhan Sahu,Shri,male,BJP,,"MoS, Housing & Urban Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-68,Bhupathi Raju Srinivasa Varma,Shri,male,BJP,,"MoS, Heavy Industries; also Steel",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-69,Harsh Malhotra,Shri,male,BJP,,"MoS, Corporate Affairs; also Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-70,Murlidhar Mohol,Shri,male,BJP,,"MoS, Civil Aviation; also Co-operation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-71,George Kurian,Shri,male,BJP,,"MoS, Minority Affairs; also Fisheries, Animal Husbandry & Dairying",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-72,Pabitra Margherita,Shri,male,BJP,,"MoS, External Affairs; also Textiles",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-73,Nimuben Bambhaniya,Smt,female,BJP,,"MoS, Consumer Affairs, Food & Public Distribution",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-74,Raj Bhushan Choudhary,Shri,male,BJP,,"MoS, Jal Shakti",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.80,collected,2026-06-26
-75,Syed Abdul Nazeer,Shri,male,,,Governor of Andhra Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-76,N. Chandrababu Naidu,Shri,male,TDP,,Chief Minister of Andhra Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-77,Kaiwalya Trivikram Parnaik,Shri,male,,,Governor of Arunachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-78,Pema Khandu,Shri,male,BJP,,Chief Minister of Arunachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-79,Lakshman Acharya,Shri,male,,,Governor of Assam,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-80,Himanta Biswa Sarma,Shri,male,BJP,,Chief Minister of Assam,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-81,Arif Mohammad Khan,Shri,male,,,Governor of Bihar,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
+9,Nitin Gadkari,Shri,male,BJP,,"Cabinet Minister, Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+10,Jagat Prakash Nadda,Shri,male,BJP,,Cabinet Minister; also Chemicals & Fertilizers,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+11,Shivraj Singh Chouhan,Shri,male,BJP,,Cabinet Minister; also Rural Development,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+12,Subrahmanyam Jaishankar,Dr,male,BJP,,"Cabinet Minister, External Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+13,Manohar Lal Khattar,Shri,male,BJP,,Cabinet Minister; also Housing & Urban Affairs,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+14,H. D. Kumaraswamy,Shri,male,JD(S),,Cabinet Minister; also Steel,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+15,Piyush Goyal,Shri,male,BJP,,"Cabinet Minister, Commerce & Industry",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+16,Jitan Ram Manjhi,Shri,male,HAM(S),,"Cabinet Minister, MSME",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+17,Lalan Singh,Shri,male,JD(U),,"Cabinet Minister; also Fisheries, Animal Husbandry & Dairying",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+18,Sarbananda Sonowal,Shri,male,BJP,,"Cabinet Minister, Ports/Shipping/Waterways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+19,Virendra Kumar,Shri,male,BJP,,"Cabinet Minister, Social Justice & Empowerment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+20,Kinjarapu Ram Mohan Naidu,Shri,male,TDP,,"Cabinet Minister, Civil Aviation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+21,Pralhad Joshi,Shri,male,Bharatiya Janata Party,,"Union Cabinet Minister — Education (additional charge); Consumer Affairs, Food and Public Distribution; New and Renewable Energy",,1962-11-27,https://en.wikipedia.org/wiki/Pralhad_Joshi,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+22,Jual Oram,Shri,male,BJP,,"Cabinet Minister, Tribal Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+23,Giriraj Singh,Shri,male,BJP,,"Cabinet Minister, Textiles",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+24,Jyotiraditya Scindia,Shri,male,BJP,,Cabinet Minister; also Development of North Eastern Region,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+25,Bhupender Yadav,Shri,male,BJP,,"Cabinet Minister, Environment/Forest/Climate",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+26,Gajendra Singh Shekhawat,Shri,male,BJP,,Cabinet Minister; also Tourism,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+27,Annpurna Devi,Smt,female,BJP,,"Cabinet Minister, Women & Child Development",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+28,Kiren Rijiju,Shri,male,BJP,,Cabinet Minister; also Minority Affairs,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+29,Hardeep Singh Puri,Shri,male,BJP,,"Cabinet Minister, Petroleum & Natural Gas",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+30,Mansukh Mandaviya,Shri,male,BJP,,Cabinet Minister; also Youth Affairs & Sports,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+31,G. Kishan Reddy,Shri,male,BJP,,Cabinet Minister; also Mines,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+32,Chirag Paswan,Shri,male,LJP(RV),,"Cabinet Minister, Food Processing Industries",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+33,C. R. Patil,Shri,male,BJP,,"Cabinet Minister, Jal Shakti",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+34,Rao Inderjit Singh,Shri,male,BJP,,MoS (IC); also Planning,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+35,Jitendra Singh,Dr,male,BJP,,"MoS (IC); also Earth Sciences, PMO, DoPT, Space, Atomic Energy",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+36,Arjun Ram Meghwal,Shri,male,BJP,,"MoS (IC), Law & Justice; also Parliamentary Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+37,Prataprao Ganpatrao Jadhav,Shri,male,SHS,,"MoS (IC), AYUSH; also Health & Family Welfare",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+38,Jayant Chaudhary,Shri,male,RLD,,MoS (IC); also Education,,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+39,L. Murugan,Shri,male,BJP,,"MoS, Information & Broadcasting; also Fisheries, Animal Husbandry & Dairying",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+40,Anupriya Patel,Smt,female,AD(S),,"MoS, Health & Family Welfare; also Chemicals & Fertilizers",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+41,Sukanta Majumdar,Shri,male,BJP,,"MoS, Education; also Development of North Eastern Region",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+42,Jitin Prasada,Shri,male,BJP,,"MoS, Commerce & Industry; also Electronics & IT",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+43,Shripad Yesso Naik,Shri,male,BJP,,"MoS, Power; also New & Renewable Energy",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+44,Pankaj Chaudhary,Shri,male,BJP,,"MoS, Finance",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+45,Krishan Pal Gurjar,Shri,male,BJP,,"MoS, Co-operation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+46,Ramdas Athawale,Shri,male,RPI(A),,"MoS, Social Justice & Empowerment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+47,Ram Nath Thakur,Shri,male,JD(U),,"MoS, Agriculture & Farmers Welfare",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+48,Nityanand Rai,Shri,male,BJP,,"MoS, Home Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+49,V. Somanna,Shri,male,BJP,,"MoS, Jal Shakti; also Railways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+50,Pemmasani Chandra Sekhar,Shri,male,TDP,,"MoS, Rural Development; also Communications",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+51,S. P. Singh Baghel,Shri,male,BJP,,"MoS, Fisheries, Animal Husbandry & Dairying; also Panchayati Raj",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+52,Shobha Karandlaje,Smt,female,BJP,,"MoS, MSME; also Labour & Employment",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+53,Kirti Vardhan Singh,Shri,male,BJP,,"MoS, Environment, Forest & Climate Change; also External Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+54,B. L. Verma,Shri,male,BJP,,"MoS, Consumer Affairs, Food & PD; also Social Justice",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+55,Shantanu Thakur,Shri,male,BJP,,"MoS, Ports, Shipping & Waterways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+56,Suresh Gopi,Shri,male,BJP,,"MoS, Petroleum & Natural Gas; also Tourism",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+57,Ajay Tamta,Shri,male,BJP,,"MoS, Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+58,Bandi Sanjay Kumar,Shri,male,BJP,,"MoS, Home Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+59,Kamlesh Paswan,Shri,male,BJP,,"MoS, Rural Development",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+60,Bhagirath Choudhary,Shri,male,BJP,,"MoS, Agriculture & Farmers Welfare",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+61,Satish Chandra Dubey,Shri,male,BJP,,"MoS, Coal; also Mines",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+62,Sanjay Seth,Shri,male,BJP,,"MoS, Defence",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+63,Ravneet Singh Bittu,Shri,male,BJP,,Former Union Minister of State for Railways and Food Processing Industries; resigned 2026-07-24,,,,https://www.thehindu.com/news/national/union-minister-ravneet-singh-bittu-resigns/article71263390.ece,0.90,verified,2026-08-13
+64,Durga Das Uikey,Shri,male,BJP,,"MoS, Tribal Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+65,Raksha Khadse,Smt,female,BJP,,"MoS, Youth Affairs & Sports",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+66,Savitri Thakur,Smt,female,BJP,,"MoS, Women & Child Development",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+67,Tokhan Sahu,Shri,male,BJP,,"MoS, Housing & Urban Affairs",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+68,Bhupathi Raju Srinivasa Varma,Shri,male,BJP,,"MoS, Heavy Industries; also Steel",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+69,Harsh Malhotra,Shri,male,BJP,,"MoS, Corporate Affairs; also Road Transport & Highways",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+70,Murlidhar Mohol,Shri,male,BJP,,"MoS, Civil Aviation; also Co-operation",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+71,George Kurian,Shri,male,BJP,,Former Union Minister of State for Minority Affairs; resigned 2026-06-23 after Rajya Sabha term ended,,,,https://www.thehindu.com/news/national/union-minister-george-kurian-resigns/article71136214.ece,0.90,verified,2026-08-13
+72,Pabitra Margherita,Shri,male,BJP,,"MoS, External Affairs; also Textiles",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+73,Nimuben Bambhaniya,Smt,female,BJP,,"MoS, Consumer Affairs, Food & Public Distribution",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+74,Raj Bhushan Choudhary,Shri,male,BJP,,"MoS, Jal Shakti",,,,https://en.wikipedia.org/wiki/Third_Modi_ministry,0.85,verified,2026-08-13
+75,Syed Abdul Nazeer,Shri,male,,,Governor of Andhra Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+76,N. Chandrababu Naidu,Shri,male,TDP,,Chief Minister of Andhra Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+77,Kaiwalya Trivikram Parnaik,Shri,male,,,Governor of Arunachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+78,Pema Khandu,Shri,male,BJP,,Chief Minister of Arunachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+79,Lakshman Acharya,Shri,male,,,Governor of Assam,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+80,Himanta Biswa Sarma,Shri,male,BJP,,Chief Minister of Assam,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+81,Arif Mohammad Khan,Shri,male,,,Former Governor of Bihar; succeeded 2026-03-14,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
 82,Nitish Kumar,Shri,male,JD(U),,Chief Minister of Bihar,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-83,Ramen Deka,Shri,male,,,Governor of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-84,Vishnu Deo Sai,Shri,male,BJP,,Chief Minister of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-85,Ashok Gajapathi Raju,Shri,male,,,Governor of Goa,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-86,Pramod Sawant,Shri,male,BJP,,Chief Minister of Goa,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-87,Acharya Dev Vrat,Shri,male,,,Governor of Gujarat,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-88,Bhupendrabhai Patel,Shri,male,BJP,,Chief Minister of Gujarat,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-89,Ashim Kumar Ghosh,Shri,male,,,Governor of Haryana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-90,Nayab Singh Saini,Shri,male,BJP,,Chief Minister of Haryana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-91,Shiv Pratap Shukla,Shri,male,,,Governor of Himachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-92,Sukhvinder Singh Sukhu,Shri,male,INC,,Chief Minister of Himachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-93,Santosh Kumar Gangwar,Shri,male,,,Governor of Jharkhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-94,Hemant Soren,Shri,male,JMM,,Chief Minister of Jharkhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-95,Thawar Chand Gehlot,Shri,male,,,Governor of Karnataka,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-96,Siddaramaiah,Shri,male,INC,,Chief Minister of Karnataka,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-97,Rajendra Arlekar,Shri,male,,,Governor of Kerala,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
+83,Ramen Deka,Shri,male,,,Governor of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+84,Vishnu Deo Sai,Shri,male,BJP,,Chief Minister of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+85,Ashok Gajapathi Raju,Shri,male,,,Governor of Goa,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+86,Pramod Sawant,Shri,male,BJP,,Chief Minister of Goa,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+87,Acharya Dev Vrat,Shri,male,,,Governor of Gujarat,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+88,Bhupendrabhai Patel,Shri,male,BJP,,Chief Minister of Gujarat,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+89,Ashim Kumar Ghosh,Shri,male,,,Governor of Haryana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+90,Nayab Singh Saini,Shri,male,BJP,,Chief Minister of Haryana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+91,Shiv Pratap Shukla,Shri,male,,,Governor of Telangana; previously Governor of Himachal Pradesh,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
+92,Sukhvinder Singh Sukhu,Shri,male,INC,,Chief Minister of Himachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+93,Santosh Kumar Gangwar,Shri,male,,,Governor of Jharkhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+94,Hemant Soren,Shri,male,JMM,,Chief Minister of Jharkhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+95,Thawar Chand Gehlot,Shri,male,,,Governor of Karnataka,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+96,Siddaramaiah,Shri,male,INC,,Former Chief Minister of Karnataka (2023–2026); resigned 2026-05-29,,,,https://www.thehindu.com/news/national/karnataka/dk-shivakumar-sworn-in-as-25th-chief-minister-of-karnataka/article71057097.ece,0.90,verified,2026-08-13
+97,Rajendra Arlekar,Shri,male,,,Governor of Kerala; additional charge of Tamil Nadu from 2026-03-05,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
 98,Pinarayi Vijayan,Shri,male,CPI(M),,Chief Minister of Kerala,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-99,Mangubhai Chhaganbhai Patel,Shri,male,,,Governor of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-100,Mohan Yadav,Shri,male,BJP,,Chief Minister of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-101,Devendra Fadnavis,Shri,male,BJP,,Chief Minister of Maharashtra,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-102,Ajay Kumar Bhalla,Shri,male,,,Governor of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-103,Yumnam Khemchand Singh,Shri,male,BJP,,Chief Minister of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-104,C. H. Vijayashankar,Shri,male,,,Governor of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-105,Conrad Sangma,Shri,male,NPP,,Chief Minister of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-106,V. K. Singh,Shri,male,,,Governor of Mizoram,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-107,Lalduhoma,Shri,male,ZPM,,Chief Minister of Mizoram,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-108,Neiphiu Rio,Shri,male,NPF,,Chief Minister of Nagaland,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-109,Kambhampati Hari Babu,Shri,male,,,Governor of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-110,Mohan Charan Majhi,Shri,male,BJP,,Chief Minister of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-111,Gulab Chand Kataria,Shri,male,,,Governor of Punjab,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-112,Bhagwant Mann,Shri,male,AAP,,Chief Minister of Punjab,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-113,Haribhau Bagade,Shri,male,,,Governor of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-114,Bhajan Lal Sharma,Shri,male,BJP,,Chief Minister of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-115,Om Prakash Mathur,Shri,male,,,Governor of Sikkim,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-116,Prem Singh Tamang,Shri,male,SKM,,Chief Minister of Sikkim,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-117,R. N. Ravi,Shri,male,,,Governor of Tamil Nadu,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
+99,Mangubhai Chhaganbhai Patel,Shri,male,,,Governor of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+100,Mohan Yadav,Shri,male,BJP,,Chief Minister of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+101,Devendra Fadnavis,Shri,male,BJP,,Chief Minister of Maharashtra,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+102,Ajay Kumar Bhalla,Shri,male,,,Governor of Manipur; previously also Governor of Nagaland until March 2026,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
+103,Yumnam Khemchand Singh,Shri,male,BJP,,Chief Minister of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+104,C. H. Vijayashankar,Shri,male,,,Governor of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+105,Conrad Sangma,Shri,male,NPP,,Chief Minister of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+106,V. K. Singh,Shri,male,,,Governor of Mizoram,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+107,Lalduhoma,Shri,male,ZPM,,Chief Minister of Mizoram,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+108,Neiphiu Rio,Shri,male,NPF,,Chief Minister of Nagaland,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+109,Kambhampati Hari Babu,Shri,male,,,Governor of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+110,Mohan Charan Majhi,Shri,male,BJP,,Chief Minister of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+111,Gulab Chand Kataria,Shri,male,,,Governor of Punjab,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+112,Bhagwant Mann,Shri,male,AAP,,Chief Minister of Punjab,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+113,Haribhau Bagade,Shri,male,,,Governor of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+114,Bhajan Lal Sharma,Shri,male,BJP,,Chief Minister of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+115,Om Prakash Mathur,Shri,male,,,Governor of Sikkim,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+116,Prem Singh Tamang,Shri,male,SKM,,Chief Minister of Sikkim,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+117,R. N. Ravi,Shri,male,,,Governor of West Bengal; previously Governor of Tamil Nadu,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
 118,M. K. Stalin,Shri,male,DMK,,Chief Minister of Tamil Nadu,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-119,Jishnu Dev Varma,Shri,male,,,Governor of Telangana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-120,Revanth Reddy,Shri,male,INC,,Chief Minister of Telangana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-121,N. Indrasena Reddy,Shri,male,,,Governor of Tripura,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-122,Manik Saha,Shri,male,BJP,,Chief Minister of Tripura,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-123,Gurmit Singh,Shri,male,,,Governor of Uttarakhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-124,Pushkar Singh Dhami,Shri,male,BJP,,Chief Minister of Uttarakhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-125,Anandiben Patel,Smt,female,,,Governor of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
-126,Yogi Adityanath,Shri,male,BJP,,Chief Minister of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-127,C. V. Ananda Bose,Shri,male,,,Governor of West Bengal,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,collected,2026-06-26
+119,Jishnu Dev Varma,Shri,male,,,Governor of Maharashtra; previously Governor of Telangana,,,https://en.wikipedia.org/wiki/Jishnu_Dev_Varma,https://rajbhavan-maharashtra.gov.in/en/governors-profile/,0.90,verified,2026-08-13
+120,Revanth Reddy,Shri,male,INC,,Chief Minister of Telangana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+121,N. Indrasena Reddy,Shri,male,,,Governor of Tripura,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+122,Manik Saha,Shri,male,BJP,,Chief Minister of Tripura,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+123,Gurmit Singh,Shri,male,,,Governor of Uttarakhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+124,Pushkar Singh Dhami,Shri,male,BJP,,Chief Minister of Uttarakhand,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+125,Anandiben Patel,Smt,female,,,Governor of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_governors,0.80,verified,2026-08-13
+126,Yogi Adityanath,Shri,male,BJP,,Chief Minister of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+127,C. V. Ananda Bose,Shri,male,,,Former Governor of West Bengal; resigned 2026-03-05,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
 128,Mamata Banerjee,Smt,female,TMC,,Chief Minister of West Bengal,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-129,Rekha Gupta,Smt,female,BJP,,Chief Minister of Delhi (NCT),,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-130,Omar Abdullah,Shri,male,JKNC,,Chief Minister of Jammu and Kashmir,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-131,N. Rangaswamy,Shri,male,AINRC,,Chief Minister of Puducherry,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,collected,2026-06-26
-132,Vinai Kumar Saxena,Shri,male,,,Lieutenant Governor of Delhi,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
-133,Manoj Sinha,Shri,male,,,Lieutenant Governor of Jammu and Kashmir,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
-134,Kuniyil Kailashnathan,Shri,male,,,Lieutenant Governor of Puducherry,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
-135,Kavinder Gupta,Shri,male,,,Lieutenant Governor of Ladakh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
-136,Praful Khoda Patel,Shri,male,,,Administrator of Dadra and Nagar Haveli and Daman and Diu,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,collected,2026-06-26
-137,K. Pawan Kalyan,Shri,male,Janasena Party,,Deputy Chief Minister of Andhra Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-138,Chowna Mein,Shri,male,BJP,,Deputy Chief Minister of Arunachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-139,Bijendra Prasad Yadav,Shri,male,JD(U),,Deputy Chief Minister of Bihar,,,,https://en.wikipedia.org/wiki/Samrat_Choudhary,0.85,collected,2026-06-26
-140,Vijay Kumar Chaudhary,Shri,male,,,Deputy Chief Minister of Bihar,,,,https://en.wikipedia.org/wiki/Samrat_Choudhary,0.85,collected,2026-06-26
-141,Arun Sao,Shri,male,BJP,,Deputy Chief Minister of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-142,Vijay Sharma,Shri,male,BJP,,Deputy Chief Minister of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-143,Harsh Sanghavi,Shri,male,BJP,,Deputy Chief Minister of Gujarat,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-144,Mukesh Agnihotri,Shri,male,INC,,Deputy Chief Minister of Himachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-145,Surinder Kumar Choudhary,Shri,male,JKNC,,Deputy Chief Minister of Jammu and Kashmir,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-146,D. K. Shivakumar,Shri,male,INC,,Deputy Chief Minister of Karnataka,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-147,Rajendra Shukla,Shri,male,BJP,,Deputy Chief Minister of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-148,Jagdish Devda,Shri,male,BJP,,Deputy Chief Minister of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-149,Eknath Shinde,Shri,male,Shiv Sena,,Deputy Chief Minister of Maharashtra,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-150,Sunetra Pawar,Smt,female,NCP,,Deputy Chief Minister of Maharashtra,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-151,Nemcha Kipgen,Smt,female,BJP,,Deputy Chief Minister of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-152,Losii Dikho,Shri,male,NPF,,Deputy Chief Minister of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-153,Prestone Tynsong,Shri,male,NPP,,Deputy Chief Minister of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-154,Sniawbhalang Dhar,Shri,male,NPP,,Deputy Chief Minister of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-155,Yanthungo Patton,Shri,male,BJP,,Deputy Chief Minister of Nagaland,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-156,T. R. Zeliang,Shri,male,NPF,,Deputy Chief Minister of Nagaland,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-157,Kanak Vardhan Singh Deo,Shri,male,BJP,,Deputy Chief Minister of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-158,Pravati Parida,Smt,female,BJP,,Deputy Chief Minister of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-159,Diya Kumari,Smt,female,BJP,,Deputy Chief Minister of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-160,Prem Chand Bairwa,Shri,male,BJP,,Deputy Chief Minister of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
+129,Rekha Gupta,Smt,female,BJP,,Chief Minister of Delhi (NCT),,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+130,Omar Abdullah,Shri,male,JKNC,,Chief Minister of Jammu and Kashmir,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+131,N. Rangaswamy,Shri,male,AINRC,,Chief Minister of Puducherry,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_chief_ministers,0.80,verified,2026-08-13
+132,Vinai Kumar Saxena,Shri,male,,,Lieutenant Governor of Ladakh; previously Lieutenant Governor of Delhi,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
+133,Manoj Sinha,Shri,male,,,Lieutenant Governor of Jammu and Kashmir,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,verified,2026-08-13
+134,Kuniyil Kailashnathan,Shri,male,,,Lieutenant Governor of Puducherry,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,verified,2026-08-13
+135,Kavinder Gupta,Shri,male,,,Governor of Himachal Pradesh; previously Lieutenant Governor of Ladakh,,,,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
+136,Praful Khoda Patel,Shri,male,,,Administrator of Dadra and Nagar Haveli and Daman and Diu,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_lieutenant_governors_and_administrators,0.80,verified,2026-08-13
+137,K. Pawan Kalyan,Shri,male,Janasena Party,,Deputy Chief Minister of Andhra Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+138,Chowna Mein,Shri,male,BJP,,Deputy Chief Minister of Arunachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+139,Bijendra Prasad Yadav,Shri,male,JD(U),,Deputy Chief Minister of Bihar,,,,https://en.wikipedia.org/wiki/Samrat_Choudhary,0.85,verified,2026-08-13
+140,Vijay Kumar Chaudhary,Shri,male,,,Deputy Chief Minister of Bihar,,,,https://en.wikipedia.org/wiki/Samrat_Choudhary,0.85,verified,2026-08-13
+141,Arun Sao,Shri,male,BJP,,Deputy Chief Minister of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+142,Vijay Sharma,Shri,male,BJP,,Deputy Chief Minister of Chhattisgarh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+143,Harsh Sanghavi,Shri,male,BJP,,Deputy Chief Minister of Gujarat,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+144,Mukesh Agnihotri,Shri,male,INC,,Deputy Chief Minister of Himachal Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+145,Surinder Kumar Choudhary,Shri,male,JKNC,,Deputy Chief Minister of Jammu and Kashmir,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+146,D. K. Shivakumar,Shri,male,INC,,Chief Minister of Karnataka; previously Deputy Chief Minister,,,https://en.wikipedia.org/wiki/D._K._Shivakumar,https://www.thehindu.com/news/national/karnataka/dk-shivakumar-sworn-in-as-25th-chief-minister-of-karnataka/article71057097.ece,0.90,verified,2026-08-13
+147,Rajendra Shukla,Shri,male,BJP,,Deputy Chief Minister of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+148,Jagdish Devda,Shri,male,BJP,,Deputy Chief Minister of Madhya Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+149,Eknath Shinde,Shri,male,Shiv Sena,,Deputy Chief Minister of Maharashtra,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+150,Sunetra Pawar,Smt,female,NCP,,Deputy Chief Minister of Maharashtra,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+151,Nemcha Kipgen,Smt,female,BJP,,Deputy Chief Minister of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+152,Losii Dikho,Shri,male,NPF,,Deputy Chief Minister of Manipur,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+153,Prestone Tynsong,Shri,male,NPP,,Deputy Chief Minister of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+154,Sniawbhalang Dhar,Shri,male,NPP,,Deputy Chief Minister of Meghalaya,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+155,Yanthungo Patton,Shri,male,BJP,,Deputy Chief Minister of Nagaland,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+156,T. R. Zeliang,Shri,male,NPF,,Deputy Chief Minister of Nagaland,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+157,Kanak Vardhan Singh Deo,Shri,male,BJP,,Deputy Chief Minister of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+158,Pravati Parida,Smt,female,BJP,,Deputy Chief Minister of Odisha,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+159,Diya Kumari,Smt,female,BJP,,Deputy Chief Minister of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+160,Prem Chand Bairwa,Shri,male,BJP,,Deputy Chief Minister of Rajasthan,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
 161,Udhayanidhi Stalin,Shri,male,DMK,,Deputy Chief Minister of Tamil Nadu,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-162,Mallu Bhatti Vikramarka,Shri,male,INC,,Deputy Chief Minister of Telangana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-163,Keshav Prasad Maurya,Shri,male,BJP,,Deputy Chief Minister of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-164,Brajesh Pathak,Shri,male,BJP,,Deputy Chief Minister of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.80,collected,2026-06-26
-165,Surya Kant,Shri,male,,,53rd Chief Justice of India,,,,https://www.sci.gov.in/chief-justice-judges/,0.85,collected,2026-06-26
-166,Gyanesh Kumar,Shri,male,,,Chief Election Commissioner,,,,https://en.wikipedia.org/wiki/Chief_Election_Commissioner_of_India,0.80,collected,2026-06-26
-167,K. Sanjay Murthy,Shri,male,,,Comptroller and Auditor General,,,,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.80,collected,2026-06-26
-168,R. Venkataramani,Shri,male,,,16th Attorney General for India,,,,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.80,collected,2026-06-26
-169,Om Birla,Shri,male,,,Speaker of the 18th Lok Sabha,,,,https://www.pmindia.gov.in/en/news_updates/pm-congratulates-shri-om-birla-on-being-elected-as-speaker-of-lok-sabha/,0.85,collected,2026-06-26
-170,T. V. Somanathan,Dr,male,,,Cabinet Secretary of India,,,,https://en.wikipedia.org/wiki/Cabinet_Secretary_(India),0.80,collected,2026-06-26
+162,Mallu Bhatti Vikramarka,Shri,male,INC,,Deputy Chief Minister of Telangana,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+163,Keshav Prasad Maurya,Shri,male,BJP,,Deputy Chief Minister of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+164,Brajesh Pathak,Shri,male,BJP,,Deputy Chief Minister of Uttar Pradesh,,,,https://en.wikipedia.org/wiki/List_of_current_Indian_deputy_chief_ministers,0.85,verified,2026-08-13
+165,Surya Kant,Shri,male,,,53rd Chief Justice of India,,,,https://www.sci.gov.in/chief-justice-judges/,0.85,verified,2026-08-13
+166,Gyanesh Kumar,Shri,male,,,Chief Election Commissioner,,,,https://en.wikipedia.org/wiki/Chief_Election_Commissioner_of_India,0.85,verified,2026-08-13
+167,K. Sanjay Murthy,Shri,male,,,Comptroller and Auditor General,,,,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.85,verified,2026-08-13
+168,R. Venkataramani,Shri,male,,,16th Attorney General for India,,,,https://en.wikipedia.org/wiki/List_of_office-holders_in_the_Government_of_India,0.85,verified,2026-08-13
+169,Om Birla,Shri,male,,,Speaker of the 18th Lok Sabha,,,,https://www.pmindia.gov.in/en/news_updates/pm-congratulates-shri-om-birla-on-being-elected-as-speaker-of-lok-sabha/,0.85,verified,2026-08-13
+170,T. V. Somanathan,Dr,male,,,Cabinet Secretary of India,,,,https://en.wikipedia.org/wiki/Cabinet_Secretary_(India),0.85,verified,2026-08-13
 171,Pramod Kumar Mishra,Dr,male,,,Principal Secretary to the PM,,,,https://www.pmindia.gov.in/en/list-of-officers-pmo/,0.80,collected,2026-06-26
 172,Shaktikanta Das,Shri,male,,,Principal Secretary-2 to the PM,,,,https://www.pmindia.gov.in/en/list-of-officers-pmo/,0.80,collected,2026-06-26
 173,Suresh Kumar Khanna,Shri,male,,,"Minister, Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
@@ -196,10 +196,10 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 195,Dharmveer Prajapati,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
 196,Asim Arun,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
 197,Jayendra Pratap Singh Rathore,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
-198,Daya Shankar Singh,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
-199,Narendra Kumar Kashyap,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
-200,Dinesh Pratap Singh,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
-201,Arun Saxena,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
+198,Daya Shankar Singh,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,verified,2026-08-13
+199,Narendra Kumar Kashyap,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,verified,2026-08-13
+200,Dinesh Pratap Singh,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,verified,2026-08-13
+201,Arun Saxena,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,verified,2026-08-13
 202,Daya Shankar Mishra,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
 203,Sunil Sharma,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
 204,Anil Kumar,Shri,male,,,"Minister of State (Independent Charge), Govt of Uttar Pradesh",,,,https://en.wikipedia.org/wiki/Second_Yogi_Adityanath_ministry,0.75,collected,2026-06-26
@@ -258,9 +258,9 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 257,Amit Singla,Shri,male,,,"Chief Secretary, Dadra and Nagar Haveli and Daman and Diu",,,,https://www.sarkaritel.com/chief-secretaries-of-states-union-territores/,0.80,collected,2026-06-26
 258,Ashish Kundra,Shri,male,,,"Chief Secretary, Ladakh",,,,https://www.sarkaritel.com/chief-secretaries-of-states-union-territores/,0.80,collected,2026-06-26
 259,S.B. Deepak Kumar,Shri,male,,,"Chief Secretary, Lakshadweep",,,,https://www.sarkaritel.com/chief-secretaries-of-states-union-territores/,0.80,collected,2026-06-26
-260,Samrat Choudhary,Shri,male,BJP,,24th Chief Minister of Bihar; first BJP CM of Bihar,,,,https://en.wikipedia.org/wiki/Samrat_Choudhary,0.85,verified,2026-06-26
+260,Samrat Choudhary,Shri,male,BJP,,24th Chief Minister of Bihar; first BJP CM of Bihar,,,,https://en.wikipedia.org/wiki/Samrat_Choudhary,0.85,verified,2026-08-13
 261,Govind Mohan,Shri,male,,,"Union Home Secretary (IAS, Sikkim cadre 1989)",,,,https://en.wikipedia.org/wiki/Govind_Mohan,0.80,collected,2026-06-26
-262,Devendra Kumar Joshi,Shri,male,,,"Lieutenant Governor of Andaman & Nicobar Islands (Admiral, Retd.)",,,,https://andamannicobar.gov.in/,0.75,collected,2026-06-26
+262,Devendra Kumar Joshi,Shri,male,,,"Lieutenant Governor of Andaman & Nicobar Islands (Admiral, Retd.)",,,,https://andamannicobar.gov.in/,0.75,verified,2026-08-13
 263,Radhakrishna Vikhe Patil,Shri,male,,,"Minister, Govt of Maharashtra",,,,https://en.wikipedia.org/wiki/Third_Fadnavis_ministry,0.75,collected,2026-06-26
 264,Chandrashekhar Bawankule,Shri,male,,,"Minister, Govt of Maharashtra",,,,https://en.wikipedia.org/wiki/Third_Fadnavis_ministry,0.75,collected,2026-06-26
 265,Hasan Mushrif,Shri,male,,,"Minister, Govt of Maharashtra",,,,https://en.wikipedia.org/wiki/Third_Fadnavis_ministry,0.75,collected,2026-06-26
@@ -368,34 +368,34 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 367,Punamchand Baranda,Shri,male,,,"Minister of State, Govt of Gujarat",,,,https://en.wikipedia.org/wiki/Second_Bhupendrabhai_Patel_ministry,0.75,collected,2026-06-26
 368,Kantilal Amrutiya,Shri,male,,,"Minister of State, Govt of Gujarat",,,,https://en.wikipedia.org/wiki/Second_Bhupendrabhai_Patel_ministry,0.75,collected,2026-06-26
 369,Darshna Vaghela,Smt,female,,,"Minister of State, Govt of Gujarat",,,,https://en.wikipedia.org/wiki/Second_Bhupendrabhai_Patel_ministry,0.75,collected,2026-06-26
-370,G. Parameshwara,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
+370,G. Parameshwara,Shri,male,,,Deputy Chief Minister of Karnataka,,,https://en.wikipedia.org/wiki/G._Parameshwara,https://www.thehindubusinessline.com/news/national/karnataka-cm-dk-shivakumar-allocates-portfolios-to-13-ministers/article71063855.ece,0.90,verified,2026-08-13
 371,H. K. Patil,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-372,K. H. Muniyappa,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-373,K. J. George,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-374,M. B. Patil,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-375,Ramalinga Reddy,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-376,Satish Jarkiholi,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-377,Priyank Kharge,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
+372,K. H. Muniyappa,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
+373,K. J. George,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
+374,M. B. Patil,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
+375,Ramalinga Reddy,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
+376,Satish Jarkiholi,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
+377,Priyank Kharge,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
 378,B. Z. Zameer Ahmed Khan,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-379,Krishna Byre Gowda,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
+379,Krishna Byre Gowda,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
 380,Dinesh Gundu Rao,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 381,N. Chaluvaraya Swamy,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 382,K. Venkatesh,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 383,H. C. Mahadevappa,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-384,Eshwara Khandre,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
+384,Eshwara Khandre,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
 385,Sharanabasappa Darshanapur,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 386,Shivanand Patil,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 387,R. B. Timmapur,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 388,S. S. Mallikarjun,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 389,Shivaraj Tangadagi,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-390,Sharan Prakash Patil,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
+390,Sharan Prakash Patil,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
 391,M. S. Vaidya,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 392,Lakshmi Hebbalkar,Smt,female,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 393,Rahim Khan,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 394,D. Sudhakar,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 395,Santosh Lad,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 396,N. S. Boseraju,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
-397,Byrathi Suresh,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
+397,Byrathi Suresh,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,verified,2026-08-13
 398,Madhu Bangarappa,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 399,M. C. Sudhakar,Shri,male,,,"Minister, Govt of Karnataka",,,,https://en.wikipedia.org/wiki/Second_Siddaramaiah_ministry,0.75,collected,2026-06-26
 400,Shrawan Kumar,Shri,male,,,"Minister, Govt of Bihar",,,,https://en.wikipedia.org/wiki/Choudhary_ministry,0.75,collected,2026-06-26
@@ -500,7 +500,7 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 499,Adluri Laxman Kumar,Shri,male,,,"Minister, Govt of Telangana",,,,https://en.wikipedia.org/wiki/Revanth_Reddy_ministry,0.75,collected,2026-06-26
 500,Vakiti Srihari,Shri,male,,,"Minister, Govt of Telangana",,,,https://en.wikipedia.org/wiki/Revanth_Reddy_ministry,0.75,collected,2026-06-26
 501,Mohammad Azharuddin,Shri,male,,,"Minister, Govt of Telangana",,,,https://en.wikipedia.org/wiki/Revanth_Reddy_ministry,0.75,collected,2026-06-26
-502,Suvendu Adhikari,Shri,male,BJP,,Chief Minister of West Bengal (first BJP CM); sworn in 9 May 2026,,,,https://en.wikipedia.org/wiki/Suvendu_Adhikari_ministry,0.85,verified,2026-06-26
+502,Suvendu Adhikari,Shri,male,BJP,,Chief Minister of West Bengal (first BJP CM); sworn in 9 May 2026,,,,https://en.wikipedia.org/wiki/Suvendu_Adhikari_ministry,0.85,verified,2026-08-13
 503,Dilip Ghosh,Shri,male,BJP,,"Minister, Govt of West Bengal",,,,https://en.wikipedia.org/wiki/Suvendu_Adhikari_ministry,0.80,collected,2026-06-26
 504,Agnimitra Paul,Smt,female,BJP,,"Minister, Govt of West Bengal",,,,https://en.wikipedia.org/wiki/Suvendu_Adhikari_ministry,0.80,collected,2026-06-26
 505,Ashok Kirtania,Shri,male,BJP,,"Minister, Govt of West Bengal",,,,https://en.wikipedia.org/wiki/Suvendu_Adhikari_ministry,0.80,collected,2026-06-26
@@ -621,8 +621,8 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 620,Krishnendu Paul,Shri,male,,,"Minister, Govt of Assam",,,,https://en.wikipedia.org/wiki/Himanta_Biswa_Sarma_ministry,0.75,collected,2026-06-26
 621,Rupesh Gowala,Shri,male,,,"Minister, Govt of Assam",,,,https://en.wikipedia.org/wiki/Himanta_Biswa_Sarma_ministry,0.75,collected,2026-06-26
 622,Charan Boro,Shri,male,,,"Minister, Govt of Assam",,,,https://en.wikipedia.org/wiki/Himanta_Biswa_Sarma_ministry,0.75,collected,2026-06-26
-623,Joseph Vijay,Shri,male,Tamilaga Vettri Kazhagam (TVK),,Chief Minister of Tamil Nadu after TVK win in 2026 election,,,,https://www.britannica.com/topic/2026-State-Elections-in-India,0.75,collected,2026-06-26
-624,V. D. Satheesan,Shri,male,Indian National Congress,,Chief Minister of Kerala after UDF win in 2026 election,,,,https://www.britannica.com/topic/2026-State-Elections-in-India,0.75,collected,2026-06-26
+623,Joseph Vijay,Shri,male,Tamilaga Vettri Kazhagam (TVK),,Chief Minister of Tamil Nadu after TVK win in 2026 election,,,,https://www.britannica.com/topic/2026-State-Elections-in-India,0.75,verified,2026-08-13
+624,V. D. Satheesan,Shri,male,Indian National Congress,,Chief Minister of Kerala after UDF win in 2026 election,,,,https://www.britannica.com/topic/2026-State-Elections-in-India,0.75,verified,2026-08-13
 625,Parvesh Verma,Shri,male,,,"Minister, Govt of Delhi (NCT)",,,,https://en.wikipedia.org/wiki/Rekha_Gupta_ministry,0.75,collected,2026-06-26
 626,Ashish Sood,Shri,male,,,"Minister, Govt of Delhi (NCT)",,,,https://en.wikipedia.org/wiki/Rekha_Gupta_ministry,0.75,collected,2026-06-26
 627,Manjinder Singh Sirsa,Shri,male,,,"Minister, Govt of Delhi (NCT)",,,,https://en.wikipedia.org/wiki/Rekha_Gupta_ministry,0.75,collected,2026-06-26
@@ -2693,3 +2693,8 @@ id,full_name,honorific,gender,party,photo_url,bio,education,date_of_birth,wikipe
 2692,Aijaz Malik,,,,,"Superintendent of Police, Sham (Ladakh)",,,,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-18
 2693,Stanzin Losal,,,,,"Superintendent of Police, Nubra (Ladakh)",,,,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-18
 2694,SZ Abbas Jaffari,,,,,"Superintendent of Police, Changthang (Ladakh)",,,,https://ladakh.gov.in/l-g-approved-the-appointment-of-dcs-and-sps-in-newly-created-districts-in-ladakh/,0.90,collected,2026-07-18
+2695,Syed Ata Hasnain,Lt Gen (Retd),male,,,Governor of Bihar (43rd); former Indian Army officer,,,https://en.wikipedia.org/wiki/Syed_Ata_Hasnain,https://www.thehindu.com/news/national/bihar/syed-ata-hasnain-bihar-governor-swear-in-on-march-14-2026/article70742457.ece,0.90,verified,2026-08-13
+2696,Nand Kishore Yadav,Shri,male,Bharatiya Janata Party,,Governor of Nagaland,,,https://en.wikipedia.org/wiki/Nand_Kishore_Yadav,https://www.presidentofindia.gov.in/press_releases/press-communique-32,0.90,verified,2026-08-13
+2697,Taranjit Singh Sandhu,Shri,male,,,Lieutenant Governor of Delhi; former Ambassador of India to the United States,,1963-01-23,https://en.wikipedia.org/wiki/Taranjit_Singh_Sandhu,https://en.wikipedia.org/wiki/Taranjit_Singh_Sandhu,0.90,verified,2026-08-13
+2698,U. T. Khader,Shri,male,Indian National Congress,,Minister of Karnataka (Health & Family Welfare); former Speaker of the Karnataka Legislative Assembly,,,https://en.wikipedia.org/wiki/U._T._Khader,https://www.thehindu.com/news/national/karnataka/dk-shivakumar-sworn-in-as-25th-chief-minister-of-karnataka/article71057097.ece,0.90,verified,2026-08-13
+2699,Yathindra Siddaramaiah,Dr,male,Indian National Congress,,Minister of Karnataka (Urban Development); MLC; son of former CM Siddaramaiah,,,https://en.wikipedia.org/wiki/Yathindra_Siddaramaiah,https://www.thehindu.com/news/national/karnataka/dk-shivakumar-sworn-in-as-25th-chief-minister-of-karnataka/article71057097.ece,0.90,verified,2026-08-13

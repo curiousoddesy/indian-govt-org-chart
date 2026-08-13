@@ -53,7 +53,7 @@ Add each state's current Council of Ministers as positions reporting to that
 state's Chief Minister (title format: "Minister of <State> (<portfolio>)").
 Source = the current "[CM] ministry" Wikipedia article (current incumbents only).
 - [x] Uttar Pradesh (51) - [x] Maharashtra (38) - [x] Madhya Pradesh (24)
-- [x] Rajasthan (21) - [x] Gujarat (24) - [x] Karnataka (30)
+- [x] Rajasthan (21) - [x] Gujarat (24) - [x] Karnataka (13-member Shivakumar ministry, Jun 2026)
 - [x] Bihar (32, new Choudhary govt) - [x] West Bengal (40, new Adhikari govt)
 - [x] Andhra Pradesh (23) - [x] Telangana (14)
 - [x] Odisha (13) - [x] Jharkhand (10) - [x] Punjab (15)
@@ -103,16 +103,18 @@ Tamil Nadu (TVK/Vijay, 34) and Kerala (UDF/Satheesan, 20) new-govt cabinets now 
 - [ ] Ward-level officers + contacts
 
 ## NEXT TARGET (read by next run)
-> PRIORITY: Phase 6 — fill Municipal Commissioner names for the remaining empty
-> commissioner seats (mirror the mayor fill approach: official corp sites + recent
-> IAS transfer news; mark Administrator-only corps carefully). Then add public
-> corporation contacts. Also re-verify Mizoram Lawngtlai/Saitual SP successors
-> after mid-July 2026 AGMUT transfer reports.
+> PRIORITY: Weekly verification of Union ministry Secretaries and state Chief
+> Secretaries (names change on IAS transfer). Then Phase 6 — fill Municipal
+> Commissioner names for remaining empty commissioner seats (official corp sites
+> + recent IAS transfer news; mark Administrator-only corps carefully). Then add
+> public corporation contacts. Also re-verify Mizoram Lawngtlai/Saitual SP
+> successors after mid-July 2026 AGMUT transfer reports.
 >
-> Official .gov.in sources only; public contacts only. NOTE: many official portals
-> are JavaScript-rendered — use the Claude-in-Chrome browser tools to read them
-> when a plain fetch returns an empty/JS shell.
+> Official .gov.in sources only; public contacts only. Never fabricate names.
+> NOTE: many official portals are JavaScript-rendered — use browser tools when a
+> plain fetch returns an empty/JS shell.
 
 ## Last updated
+2026-08-13 (Weekly high-office re-verification. Karnataka: Siddaramaiah resigned 2026-05-29; D.K. Shivakumar sworn CM 2026-06-03 with G. Parameshwara as DCM and a 13-member cabinet; leftover Siddaramaiah-ministry portfolios marked vacant. Union MoS: George Kurian resigned 2026-06-23; Ravneet Singh Bittu resigned 2026-07-24. March 2026 governor/LG reshuffle applied (Bihar Hasnain; Maharashtra Jishnu Dev Varma; Telangana Shiv Pratap Shukla; HP Kavinder Gupta; WB R.N. Ravi; TN additional charge Arlekar; Nagaland Nand Kishore Yadav; Delhi LG Taranjit Singh Sandhu; Ladakh LG V.K. Saxena). Remaining Union cabinet/MoS, CMs, DCMs, governors, and constitutional heads re-verified unchanged. Education Minister Pralhad Joshi already updated 2026-07-25. District DM/SP/mayor names not rewritten this run.)
 2026-07-25 (Union Education Minister updated: Dharmendra Pradhan resigned from the Union Council of Ministers; Pralhad Joshi assigned additional charge of Ministry of Education while retaining Consumer Affairs / Food & PD and New & Renewable Energy. Source: The Hindu / Rashtrapati Bhavan.)  
 2026-07-18 (DM+SP gap fill complete: all 785 DM and 785 SP seats resolved. Named Bengaluru North/South DM+SP, Keyi Panyor SP, Niwari/Panna SP, Mizoram 4 SPs, Meluri SP, Ladakh 5 new-district SPs. Vacant by design: Kolkata DM; Telangana commissionerate SP stubs. Earlier same day: all 250 mayor seats resolved.)
