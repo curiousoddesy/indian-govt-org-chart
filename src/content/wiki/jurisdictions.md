@@ -16,6 +16,6 @@ Union → State/UT → District → Local body → Ward (where applicable)
 
 ## In the app
 
-The **Geography** page lets you browse states/UTs, see DM coverage, and drill into positions within a state. The dashboard shows jurisdiction counts by level.
+The **Geography** page lets you browse states/UTs, see the current Governor/LG and Chief Minister, then drill into cabinet vs vacant portfolios and district offices. The dashboard shows jurisdiction counts by level plus a state leadership table.
 
 Back to [[index]] · See also [[data-model]]

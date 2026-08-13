@@ -53,6 +53,18 @@ adds them to the AI agent's evidence-first system prompt. This grounds answers
 without sending the entire dataset on every request. See [[ai-agent]] for the
 request flow, response formatting, and safety rules.
 
+## High-office snapshot
+
+The Dashboard also renders a **leadership snapshot** compiled at build time:
+
+- Union leadership (President, VP, PM, Home, Defence, Finance, Education, External Affairs)
+- Constitutional offices (CJI, CEC, CAG, Attorney General, Lok Sabha Speaker, Cabinet Secretary)
+- Full Union cabinet, with vacant MoS seats called out
+- Governor/LG and Chief Minister for every state/UT with a CM
+- Recent high-office changes from the latest weekly verification (started or ended since March 2026)
+
+Geography uses the same snapshot fields (`cm_name`, `governor_name`, cabinet filled/vacant) on each state card.
+
 ## Related
 
 - [[Data Model]] — where these numbers come from

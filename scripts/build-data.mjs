@@ -7,6 +7,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readCsvDocument } from "./csv-utils.mjs";
+import {
+  attachStateLeadership,
+  buildLeadership,
+  buildRecentChanges,
+  leadershipSummaryLine,
+} from "./leadership-metrics.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -209,6 +215,17 @@ function main() {
     };
   });
 
+  const latestCollection = collectionLog[collectionLog.length - 1] ?? null;
+  const leadership = buildLeadership(enrichedPositions);
+  const recentChanges = buildRecentChanges(
+    enrichedAppointments,
+    latestCollection?.run_date ?? null
+  );
+  const stateStatsWithLeadership = attachStateLeadership(
+    stateStats,
+    enrichedPositions
+  );
+
   const searchRecords = [
     ...enrichedPositions.map((p) => ({
       ...p,
@@ -304,8 +321,10 @@ function main() {
         [...jurisdictionsByLevel.entries()].map(([k, v]) => [k, v.length])
       ),
     },
-    stateStats,
-    latestCollection: collectionLog[collectionLog.length - 1] ?? null,
+    stateStats: stateStatsWithLeadership,
+    latestCollection,
+    leadership,
+    recentChanges,
   };
 
   const dataset = {
@@ -413,9 +432,11 @@ Total jurisdictions: ${metrics.counts.jurisdictions} (${metrics.counts.states} s
 Total positions (offices): ${metrics.counts.positions}, with ${metrics.coverage.positionsFilled} currently filled (${metrics.coverage.fillRate}% fill rate).
 Total persons tracked: ${metrics.counts.persons}. Current appointments: ${metrics.counts.currentAppointments}.
 Official contacts: ${metrics.counts.contacts}. Citizen problem topics: ${metrics.counts.topics}.
-Data verification: ${metrics.coverage.verificationRate}% of positions verified.`,
+Data verification: ${metrics.coverage.verificationRate}% of positions verified.
+${leadershipSummaryLine(leadership)}`,
     metrics,
-    topStatesByDistricts: stateStats
+    leadershipSummary: leadershipSummaryLine(leadership),
+    topStatesByDistricts: [...stateStatsWithLeadership]
       .sort((a, b) => b.districts - a.districts)
       .slice(0, 10)
       .map((s) => `${s.name}: ${s.districts} districts, ${s.dms_filled}/${s.dms_total} DMs named`),

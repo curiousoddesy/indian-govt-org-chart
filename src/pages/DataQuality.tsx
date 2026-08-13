@@ -50,6 +50,8 @@ export default function DataQuality() {
   const staleRecords = data.positions.filter((p) => p.data_status === "stale");
   const pendingRecords = data.positions.filter((p) => p.data_status === "pending");
   const latestRun = data.metrics.latestCollection;
+  const collectionHistory = (data.collectionLog ?? []).slice().reverse().slice(0, 8);
+  const vacantMos = data.metrics.leadership?.vacantMos ?? [];
 
   return (
     <div className="space-y-8">
@@ -87,6 +89,15 @@ export default function DataQuality() {
           sub="Automated job executions"
         />
       </div>
+
+      {vacantMos.length > 0 && (
+        <div className="rounded-xl border border-amber-200 bg-amber-50 px-5 py-4">
+          <h2 className="font-medium text-amber-900">Union MoS vacancies</h2>
+          <p className="text-sm text-amber-800 mt-1">
+            {vacantMos.map((office) => office.title).join(" · ")}
+          </p>
+        </div>
+      )}
 
       <div className="grid lg:grid-cols-2 gap-6">
         <ChartCard title="Verification Status Distribution">
@@ -142,13 +153,48 @@ export default function DataQuality() {
               <dd className="font-medium">{latestRun.records_added}</dd>
             </div>
             <div>
-              <dt className="text-ink-400">Status</dt>
-              <dd className="font-medium">{latestRun.status}</dd>
+              <dt className="text-ink-400">Records Updated</dt>
+              <dd className="font-medium">{latestRun.records_updated}</dd>
             </div>
           </dl>
           {latestRun.notes && (
             <p className="text-sm text-ink-600 mt-3">{latestRun.notes}</p>
           )}
+        </div>
+      )}
+
+      {collectionHistory.length > 0 && (
+        <div className="card overflow-hidden">
+          <div className="px-5 py-3 border-b border-ink-100">
+            <h3 className="font-display text-lg font-semibold">Collection history</h3>
+            <p className="text-sm text-ink-500">Most recent verification and collection runs</p>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full text-sm">
+              <thead className="bg-ink-50 text-left text-ink-500">
+                <tr>
+                  <th className="px-5 py-2 font-medium">Date</th>
+                  <th className="px-5 py-2 font-medium">Type</th>
+                  <th className="px-5 py-2 font-medium">Scope</th>
+                  <th className="px-5 py-2 font-medium">Added</th>
+                  <th className="px-5 py-2 font-medium">Updated</th>
+                  <th className="px-5 py-2 font-medium">Status</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-ink-100">
+                {collectionHistory.map((run) => (
+                  <tr key={run.id}>
+                    <td className="px-5 py-2 whitespace-nowrap">{run.run_date}</td>
+                    <td className="px-5 py-2 whitespace-nowrap">{run.run_type}</td>
+                    <td className="px-5 py-2 text-ink-600">{run.scope}</td>
+                    <td className="px-5 py-2">{run.records_added}</td>
+                    <td className="px-5 py-2">{run.records_updated}</td>
+                    <td className="px-5 py-2">{run.status}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       )}
 

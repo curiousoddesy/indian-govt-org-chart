@@ -13,10 +13,10 @@ Open-source dashboards, search, geography views, data-quality metrics, wiki docs
 
 | Section | Description |
 |---------|-------------|
-| **Dashboard** | Coverage metrics, charts, quick navigation |
+| **Dashboard** | Coverage metrics, Union/state leadership, recent office changes, charts |
 | **Explore** | Full-text search across 6,600+ records |
-| **Geography** | State/district breakdowns, DM coverage |
-| **Data Quality** | Verification status, confidence scores, audit trail |
+| **Geography** | State/district breakdowns, CM/Governor, DM coverage |
+| **Data Quality** | Verification status, collection history, vacant high offices |
 | **AI Agent** | Dataset-grounded Q&A with safe, readable Markdown responses (DeepSeek via Netlify function) |
 | **Wiki** | In-app documentation for the data model |
 
@@ -24,11 +24,11 @@ Open-source dashboards, search, geography views, data-quality metrics, wiki docs
 
 A connected org chart of government offices at Union, State/UT, District, and Local levels — 10 linked CSV tables with PostgreSQL schema.
 
-| Level | Coverage (July 2026) |
+| Level | Coverage (August 2026) |
 |-------|----------------------|
-| Union Council of Ministers | 73 ministers + President/VP |
+| Union Council of Ministers | Cabinet + MoS (Independent Charge) + MoS; 2 MoS seats vacant after Jun/Jul 2026 resignations; Education additional charge with Pralhad Joshi |
 | Union bureaucracy (Secretaries) | 35/36 ministries |
-| State Governors + Chief Ministers | All 31 states/UTs |
+| State Governors + Chief Ministers | All 31 states/UTs (Karnataka CM: D. K. Shivakumar from 3 Jun 2026) |
 | Chief Secretaries | All 36 states/UTs |
 | District Collectors/DMs | **782/785 (99.6%)** |
 | Superintendents of Police | **766/785 (97.6%)** |

@@ -10,6 +10,8 @@ import {
 import { loadDataset, formatNumber, statusColor } from "../lib/data";
 import type { Dataset } from "../lib/types";
 import { MetricCard, ChartCard, LoadingState, ErrorState } from "../components/MetricCard";
+import { HolderName } from "../components/OfficeList";
+import { partitionStatePositions } from "../lib/statePositions";
 
 export default function Geography() {
   const [data, setData] = useState<Dataset | null>(null);
@@ -46,6 +48,7 @@ export default function Geography() {
         return parent?.id === selectedState || j.parent_id === selectedState;
       })
     : [];
+  const grouped = partitionStatePositions(statePositions);
 
   const dmCoverage = stateStats.map((s) => ({
     name: s.name.length > 12 ? s.name.slice(0, 10) + "…" : s.name,
@@ -128,6 +131,7 @@ export default function Geography() {
               >
                 <span className="font-medium">{s.name}</span>
                 <span className="block text-xs opacity-70">
+                  {s.cm_name ? `${s.cm_name} · ` : ""}
                   {s.districts} districts · {s.dms_filled}/{s.dms_total} DMs
                 </span>
               </button>
@@ -162,6 +166,47 @@ export default function Geography() {
                   <p className="text-xs text-ink-500">DM Positions</p>
                 </div>
               </div>
+              <dl className="grid sm:grid-cols-2 gap-3 mt-5 text-sm">
+                <div className="rounded-lg bg-ink-50 px-3 py-2">
+                  <dt className="text-xs font-medium text-ink-400 uppercase tracking-wide">
+                    Governor / LG
+                  </dt>
+                  <dd className="mt-0.5">
+                    <HolderName person={state.governor_name} vacant={!state.governor_name} />
+                  </dd>
+                </div>
+                <div className="rounded-lg bg-ink-50 px-3 py-2">
+                  <dt className="text-xs font-medium text-ink-400 uppercase tracking-wide">
+                    Chief Minister
+                  </dt>
+                  <dd className="mt-0.5">
+                    <HolderName person={state.cm_name} vacant={!state.cm_name} />
+                  </dd>
+                </div>
+                {state.dcm_names && state.dcm_names.length > 0 && (
+                  <div className="rounded-lg bg-ink-50 px-3 py-2 sm:col-span-2">
+                    <dt className="text-xs font-medium text-ink-400 uppercase tracking-wide">
+                      Deputy Chief Minister{state.dcm_names.length > 1 ? "s" : ""}
+                    </dt>
+                    <dd className="mt-0.5 font-medium text-ink-900">
+                      {state.dcm_names.join(" · ")}
+                    </dd>
+                  </div>
+                )}
+                {typeof state.cabinet_filled === "number" && (
+                  <div className="rounded-lg bg-ink-50 px-3 py-2 sm:col-span-2">
+                    <dt className="text-xs font-medium text-ink-400 uppercase tracking-wide">
+                      Political executive
+                    </dt>
+                    <dd className="mt-0.5 text-ink-800">
+                      {state.cabinet_filled} named
+                      {state.cabinet_vacant
+                        ? ` · ${state.cabinet_vacant} vacant portfolios`
+                        : ""}
+                    </dd>
+                  </div>
+                )}
+              </dl>
             </div>
           )}
 
@@ -171,25 +216,43 @@ export default function Geography() {
                 Positions in {state?.name ?? "…"} ({statePositions.length})
               </h4>
             </div>
-            <div className="max-h-[350px] overflow-y-auto divide-y divide-ink-100">
-              {statePositions.slice(0, 50).map((p) => (
-                <div key={p.id} className="px-5 py-3 flex items-center justify-between gap-4">
-                  <div className="min-w-0">
-                    <p className="font-medium text-ink-900 truncate">{p.title}</p>
-                    <p className="text-sm text-ink-500 truncate">
-                      {p.person_name ?? "Vacant"} · {p.jurisdiction_name}
+            <div className="max-h-[420px] overflow-y-auto divide-y divide-ink-100">
+              {(["leadership", "cabinet", "vacantPolitical", "other"] as const).map((group) => {
+                const items = grouped[group];
+                if (!items.length) return null;
+                const labels = {
+                  leadership: "Leadership",
+                  cabinet: "Current cabinet",
+                  vacantPolitical: "Vacant political portfolios",
+                  other: "Other offices",
+                };
+                const shown = group === "other" ? items.slice(0, 40) : items;
+                return (
+                  <div key={group}>
+                    <p className="px-5 py-2 text-xs font-semibold uppercase tracking-wide text-ink-400 bg-white sticky top-0">
+                      {labels[group]} ({items.length})
                     </p>
+                    {shown.map((p) => (
+                      <div key={p.id} className="px-5 py-3 flex items-center justify-between gap-4">
+                        <div className="min-w-0">
+                          <p className="font-medium text-ink-900 truncate">{p.title}</p>
+                          <p className="text-sm text-ink-500 truncate">
+                            {p.person_name ?? "Vacant"} · {p.jurisdiction_name}
+                          </p>
+                        </div>
+                        <span className={`badge shrink-0 ${statusColor(p.data_status)}`}>
+                          {p.data_status}
+                        </span>
+                      </div>
+                    ))}
+                    {group === "other" && items.length > 40 && (
+                      <p className="px-5 py-3 text-sm text-ink-400 text-center">
+                        + {items.length - 40} more — use Explore to search
+                      </p>
+                    )}
                   </div>
-                  <span className={`badge shrink-0 ${statusColor(p.data_status)}`}>
-                    {p.data_status}
-                  </span>
-                </div>
-              ))}
-              {statePositions.length > 50 && (
-                <p className="px-5 py-3 text-sm text-ink-400 text-center">
-                  + {statePositions.length - 50} more — use Explore to search
-                </p>
-              )}
+                );
+              })}
             </div>
           </div>
         </div>

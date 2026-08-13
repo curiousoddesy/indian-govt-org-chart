@@ -16,6 +16,7 @@ import { loadDataset, CHART_COLORS, formatNumber } from "../lib/data";
 import type { Dataset } from "../lib/types";
 import { MetricCard, ChartCard, LoadingState, ErrorState } from "../components/MetricCard";
 import SearchBar from "../components/SearchBar";
+import { HolderName, OfficeRow } from "../components/OfficeList";
 
 export default function Dashboard() {
   const [data, setData] = useState<Dataset | null>(null);
@@ -54,6 +55,23 @@ export default function Dashboard() {
       filled: s.dms_filled,
       total: s.dms_total,
     }));
+
+  const leadership = metrics.leadership;
+  const latestRun = metrics.latestCollection;
+  const recentChanges = metrics.recentChanges ?? [];
+  const stateLeadershipRows = (leadership?.chiefMinisters ?? []).map((cm) => {
+    const state =
+      cm.jurisdiction_name ||
+      (cm.title.startsWith("Chief Minister of ")
+        ? cm.title.slice("Chief Minister of ".length)
+        : cm.title);
+    const governor = (leadership?.governors ?? []).find(
+      (g) =>
+        g.jurisdiction_name === state ||
+        g.title.endsWith(` of ${state}`)
+    );
+    return { state, cm, governor };
+  }).sort((a, b) => a.state.localeCompare(b.state));
 
   return (
     <div className="space-y-8">
@@ -104,6 +122,169 @@ export default function Dashboard() {
           />
         </div>
       </section>
+
+      {leadership && (
+        <section className="space-y-6">
+          {latestRun && (
+            <div className="card p-5 sm:p-6 border-l-4 border-saffron-500">
+              <p className="text-xs font-medium uppercase tracking-wide text-saffron-700">
+                Latest verification · {latestRun.run_date} · {latestRun.run_type}
+              </p>
+              <h2 className="font-display text-lg font-semibold text-ink-950 mt-1">
+                {latestRun.scope}
+              </h2>
+              {latestRun.notes && (
+                <p className="text-sm text-ink-600 mt-2 max-w-4xl">{latestRun.notes}</p>
+              )}
+              <p className="text-xs text-ink-400 mt-3">
+                {formatNumber(latestRun.records_added)} records added ·{" "}
+                {formatNumber(latestRun.records_updated)} updated
+                {leadership.vacantMos.length
+                  ? ` · ${leadership.vacantMos.length} Union MoS seats vacant`
+                  : ""}
+              </p>
+            </div>
+          )}
+
+          <div className="grid lg:grid-cols-2 gap-6">
+            <div className="card p-5 sm:p-6">
+              <h2 className="font-display text-lg font-semibold text-ink-900">
+                Union leadership
+              </h2>
+              <p className="text-sm text-ink-500 mb-3">
+                Current constitutional and cabinet heads after the August 2026 verification
+              </p>
+              <div className="divide-y divide-ink-100">
+                {leadership.union.map((office) => (
+                  <OfficeRow key={office.id} office={office} />
+                ))}
+              </div>
+            </div>
+
+            <div className="card p-5 sm:p-6">
+              <h2 className="font-display text-lg font-semibold text-ink-900">
+                Constitutional offices
+              </h2>
+              <p className="text-sm text-ink-500 mb-3">
+                Judiciary, legislature, and statutory heads
+              </p>
+              <div className="divide-y divide-ink-100">
+                {leadership.constitutional.map((office) => (
+                  <OfficeRow key={office.id} office={office} />
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="card p-5 sm:p-6">
+            <div className="mb-4">
+              <h2 className="font-display text-lg font-semibold text-ink-900">
+                Union Council of Ministers
+              </h2>
+              <p className="text-sm text-ink-500">
+                {leadership.cabinetHolderCount} cabinet ministers ·{" "}
+                {leadership.mosIndependent.length} MoS (Independent Charge) ·{" "}
+                {leadership.mos.filter((row) => row.person_name).length} MoS
+                {leadership.vacantMos.length
+                  ? ` · ${leadership.vacantMos.length} vacant`
+                  : ""}
+              </p>
+            </div>
+            {leadership.vacantMos.length > 0 && (
+              <div className="rounded-lg bg-amber-50 border border-amber-200 px-4 py-3 mb-4 text-sm">
+                <p className="font-medium text-amber-900">Vacant MoS seats</p>
+                <ul className="mt-1 text-amber-800 space-y-0.5">
+                  {leadership.vacantMos.map((office) => (
+                    <li key={office.id}>{office.title}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <div className="grid md:grid-cols-2 gap-x-8">
+              {leadership.cabinet.map((office) => (
+                <OfficeRow key={office.id} office={office} />
+              ))}
+            </div>
+          </div>
+
+          <div className="card overflow-hidden">
+            <div className="px-5 py-4 border-b border-ink-100">
+              <h2 className="font-display text-lg font-semibold text-ink-900">
+                States and UTs — Governor / LG and Chief Minister
+              </h2>
+              <p className="text-sm text-ink-500">
+                {leadership.chiefMinisters.length} chief ministers ·{" "}
+                {leadership.governors.length} governors and lieutenant governors
+              </p>
+            </div>
+            <div className="overflow-x-auto max-h-[420px] overflow-y-auto">
+              <table className="min-w-full text-sm">
+                <thead className="bg-ink-50 sticky top-0">
+                  <tr className="text-left text-ink-500">
+                    <th className="px-5 py-2 font-medium">State / UT</th>
+                    <th className="px-5 py-2 font-medium">Governor / LG</th>
+                    <th className="px-5 py-2 font-medium">Chief Minister</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-ink-100">
+                  {stateLeadershipRows.map((row) => (
+                    <tr key={row.state}>
+                      <td className="px-5 py-2 font-medium text-ink-900">{row.state}</td>
+                      <td className="px-5 py-2">
+                        <HolderName
+                          person={row.governor?.person_name}
+                          vacant={row.governor?.is_vacant}
+                        />
+                      </td>
+                      <td className="px-5 py-2">
+                        <HolderName person={row.cm?.person_name} vacant={row.cm?.is_vacant} />
+                        {row.cm?.person_party ? (
+                          <span className="text-ink-400 ml-2 text-xs">{row.cm.person_party}</span>
+                        ) : null}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {recentChanges.length > 0 && (
+            <div className="card p-5 sm:p-6">
+              <h2 className="font-display text-lg font-semibold text-ink-900">
+                Recent high-office changes
+              </h2>
+              <p className="text-sm text-ink-500 mb-4">
+                Union, CM, DCM, and governor/LG appointments verified in the latest run
+                that started or ended since March 2026
+              </p>
+              <ul className="divide-y divide-ink-100 max-h-[420px] overflow-y-auto">
+                {recentChanges.map((change) => (
+                  <li
+                    key={change.id}
+                    className="py-3 flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1"
+                  >
+                    <div>
+                      <p className="font-medium text-ink-900">{change.person_name}</p>
+                      <p className="text-sm text-ink-500">
+                        {change.position_title}
+                        {change.jurisdiction_name ? ` · ${change.jurisdiction_name}` : ""}
+                      </p>
+                    </div>
+                    <p className="text-xs font-medium shrink-0">
+                      {change.is_current ? (
+                        <span className="text-green-700">In office from {change.start_date}</span>
+                      ) : (
+                        <span className="text-ink-500">Left {change.end_date}</span>
+                      )}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      )}
 
       <section className="grid lg:grid-cols-2 gap-6">
         <ChartCard
